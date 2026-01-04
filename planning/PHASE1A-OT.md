@@ -113,9 +113,9 @@ for name, start, end in BOOKS:
 
 ## Validation Checklist
 
-- [ ] All 39 books extracted
-- [ ] Spot check Genesis 1:1
-- [ ] Spot check Psalms 23
-- [ ] Spot check Isaiah 53
-- [ ] Verify chapter/verse numbers visible
-- [ ] Check for two-column artifacts
+- [x] All 39 books extracted
+- [x] Spot check Genesis 1:1
+- [x] Spot check Psalms 23
+- [x] Spot check Isaiah 53
+- [x] Verify chapter/verse numbers visible
+- [x] Check for two-column artifacts (present as table format, acceptable for Phase 2 parsing)

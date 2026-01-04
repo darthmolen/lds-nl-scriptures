@@ -1,0 +1,91 @@
+THE BOOK OF
+RUTH
+
+
+
+
+
+
+
+
+
+
+
+
+|CHAPTER 1<br>Elimelech and his family go to Moab<br>because of famine—His sons marry—<br>The father and sons die—Ruth, the<br>Moabitess, her husband having died,<br>remains constant to Naomi—They<br>come to Bethlehem.<br>N<br>OW it came to pass in the<br>days when the a judges ruled,<br>that there was a famine in the<br>land. And a certain man of Beth-<br>lehem-judah went to sojourn in the<br>country of Moab, he, and his wife,<br>and his two sons.<br>2 And the name of the man was<br>a Elimelech, and the name of his<br>wife Naomi, and the name of his two<br>sons Mahlon and Chilion, b Ephrath-<br>ites of Beth-lehem-judah. And they<br>came into the country of Moab, and<br>continued there.<br>3 And Elimelech Naomi’s hus-<br>band died; and she was left, and<br>her two sons.<br>4 And they took them wives of<br>the women of Moab; the name of the<br>one was Orpah, and the name of<br>the other Ruth: and they dwelled<br>there about ten years.<br>5 And Mahlon and Chilion died<br>also both of them; and the woman<br>was left of her two sons and her<br>husband.<br>6 ¶ Then she arose with her daugh-<br>ters in law, that she might return<br>from the country of Moab: for she<br>had heard in the country of Moab<br>how that the LORD had visited his<br>people in giving them bread.<br>7 Wherefore she went forth out of<br>the place where she was, and her<br>two daughters in law with her; and|Col2|they went on the way to return unto<br>the land of Judah.<br>8 And Naomi said unto her two<br>daughters in law, Go, return each to<br>her mother’s house: the LORD deal<br>kindly with you, as ye have dealt<br>with the dead, and with me.<br>9 The LORD grant you that ye may<br>find rest, each of you in the house<br>of her husband. Then she kissed<br>them; and they lifted up their voice,<br>and wept.<br>10 And they said unto her, Surely<br>we will return with thee unto thy<br>people.<br>11 And Naomi said, Turn again,<br>my daughters: why will ye go with<br>me? are there yet any more a sons in<br>my womb, that they may be your<br>husbands?<br>12 Turn again, my daughters, go<br>your way; for I am too old to have an<br>husband. If I should say, I have hope,<br>if I should have an husband also to<br>night, and should also bear sons;<br>13 Would ye tarry for them till<br>they were grown? would ye stay for<br>them from having husbands? nay,<br>my daughters; for it grieveth me<br>much for your sakes that the hand<br>of the LORD is gone out against me.<br>14 And they lifted up their voice,<br>and wept again: and Orpah kissed<br>her mother in law; but Ruth a clave<br>unto her.<br>15 And she said, Behold, thy sister<br>in law is gone back unto her peo-<br>ple, and unto her gods: return thou<br>after thy sister in law.<br>16 And Ruth said, Entreat me not<br>to leave thee, or to return from a fol-<br>lowing after thee: for whither thou<br>goest, I will b go; and where thou|Col4|
+|---|---|---|---|
+|**1** 1_ a_Judg. 2:16;<br>Mosiah 29:44 (11–44).<br> 2_ a_HEB My God is king.|<br>_ b_Gen. 35:19.<br> 11_ a_Deut. 25:5.<br> 14_ a_IE held fast to.|<br>_ b_Gen. 35:19.<br> 11_ a_Deut. 25:5.<br> 14_ a_IE held fast to.|TG Example.<br> 16_ a_TG Family, Love within.<br> <br>_ b_TG Loyalty.|
+
+
+RUTH 1:17–2:11 378
+
+
+
+
+
+
+
+
+
+
+
+
+|lodgest, I will lodge: thy c people shall<br>be my people, and thy God my d God:<br>17 Where thou diest, will I die, and<br>there will I be buried: the LORD do<br>so to me, and more also, if ought but<br>death part thee and me.<br>18 When she saw that she was<br>a steadfastly minded to go with her,<br>then she left speaking unto her.<br>19 ¶ So they two went until they<br>came to Beth-lehem. And it came<br>to pass, when they were come to<br>Beth-lehem, that all the city was<br>moved about them, and they said,<br>Is this Naomi?<br>20 And she said unto them, Call<br>me not a Naomi, call me b Mara: for<br>the Almighty hath dealt very bit-<br>terly with me.<br>21 I went out full, and the LORD<br>hath brought me home again empty:<br>why then call ye me Naomi, seeing<br>the LORD hath a testified against me,<br>and the Almighty hath afflicted me?<br>22 So Naomi returned, and Ruth<br>the Moabitess, her daughter in law,<br>with her, which returned out of the<br>country of Moab: and they came<br>to Beth-lehem in the beginning of<br>barley harvest.<br>CHAPTER 2<br>Ruth gleans in the fields of Boaz, a<br>near relative of Naomi—He treats<br>Ruth kindly.<br>AND Naomi had a kinsman of her<br>husband’s, a mighty man of wealth,<br>of the family of Elimelech; and his<br>name was a Boaz.<br>2 And Ruth the Moabitess said unto<br>Naomi, Let me now go to the field,<br>and a glean ears of b corn after him in<br>whose sight I shall find grace. And<br>she said unto her, Go, my daughter.<br>3 And she went, and came, and<br>gleaned in the field after the reapers:<br>and her a hap was to light on a part|Col2|of the field belonging unto Boaz,<br>who was of the kindred of Elimelech.<br>4 ¶ And, behold, Boaz came from<br>Beth-lehem, and said unto the reap-<br>ers, The LORD be with you. And<br>they answered him, The LORD bless<br>thee.<br>5 Then said Boaz unto his servant<br>that was set over the reapers, Whose<br>damsel is this?<br>6 And the servant that was set over<br>the reapers answered and said, It<br>is the Moabitish damsel that came<br>back with Naomi out of the coun-<br>try of Moab:<br>7 And she said, I pray you, let me<br>glean and gather after the reapers<br>among the sheaves: so she came,<br>and hath continued even from the<br>morning until now, that she tarried<br>a little in the house.<br>8 Then said Boaz unto Ruth, Hear-<br>est thou not, my daughter? Go not<br>to a glean in another field, neither<br>go from hence, but abide here b fast<br>by my maidens:<br>9 Let thine eyes be on the field<br>that they do reap, and go thou after<br>them: have I not charged the young<br>men that they shall not touch thee?<br>and when thou art athirst, go unto<br>the vessels, and drink of that which<br>the young men have drawn.<br>10 Then she fell on her face, and<br>bowed herself to the ground, and<br>said unto him, Why have I found<br>grace in thine eyes, that thou<br>shouldest take a knowledge of me,<br>seeing I am a stranger?<br>11 And Boaz answered and said<br>unto her, It hath fully been shewed<br>me, all that thou hast done unto<br>thy mother in law since the death<br>of thine husband: and how thou<br>hast left thy father and thy mother,<br>and the land of thy nativity, and<br>art come unto a people which thou<br>knewest not heretofore.|Col4|
+|---|---|---|---|
+|16_ c_TG Brotherhood and<br>Sisterhood.<br> <br>_ d_TG Conversion.<br> 18_ a_TG Commitment;<br>Courage; Perseverance;<br>Steadfastness.<br> 20_ a_IE Pleasant.<br> <br>_ b_IE a name given to|Naomi by herself,<br>which means “bitter,” or<br>“very sad.”<br> 21_ a_OR humbled me (so also<br>in the Septuagint and<br>the Latin Vulgate).<br>**2** 1_ a_HEB In him is strength,<br>swiftness, quickness.|Naomi by herself,<br>which means “bitter,” or<br>“very sad.”<br> 21_ a_OR humbled me (so also<br>in the Septuagint and<br>the Latin Vulgate).<br>**2** 1_ a_HEB In him is strength,<br>swiftness, quickness.|2_ a_Lev. 19:9;<br>Deut. 24:19.<br> <br>_ b_OR grain.<br> 3_ a_OR chance, good<br>fortune.<br> 8_ a_Lev. 19:9.<br> <br>_ b_OR close.<br> 10_ a_OR notice.|
+
+
+379 RUTH 2:12–3:7
+
+
+
+
+
+
+
+
+
+
+
+
+|12 The LORD recompense thy work,<br>and a full a reward be given thee of<br>the LORD God of Israel, under whose<br>b wings thou art come to trust.<br>13 Then she said, Let me find fa-<br>vour in thy sight, my lord; for that<br>thou hast comforted me, and for<br>that thou hast spoken a friendly unto<br>thine handmaid, though I be not<br>like unto one of thine handmaidens.<br>14 And Boaz said unto her, At<br>mealtime come thou hither, and<br>eat of the bread, and dip thy mor-<br>sel in the vinegar. And she sat be-<br>side the reapers: and he reached<br>her parched a corn, and she did eat,<br>and was sufficed, and b left.<br>15 And when she was risen up to<br>glean, Boaz commanded his young<br>men, saying, Let her glean even<br>among the sheaves, and reproach<br>her not:<br>16 And let fall also some of the<br>handfuls of purpose for her, and<br>leave them, that she may glean them,<br>and rebuke her not.<br>17 So she gleaned in the field un-<br>til even, and beat out that she had<br>gleaned: and it was about an ephah<br>of barley.<br>18 ¶ And she took it up, and went<br>into the city: and her mother in<br>law saw what she had gleaned: and<br>she brought forth, and gave to her<br>that she had reserved after she was<br>sufficed.<br>19 And her mother in law said<br>unto her, Where hast thou gleaned<br>to day ? and where wroughtest thou?<br>blessed be he that did take knowl-<br>edge of thee. And she a shewed her<br>mother in law with whom she had<br>b wrought, and said, The man’s name<br>with whom I wrought to day is<br>Boaz.<br>20 And Naomi said unto her daugh-<br>ter in law, Blessed be he of the LORD,<br>who hath not a left off his kindness<br>to the living and to the dead. And|Col2|Naomi said unto her, The man is<br>near of kin unto us, one of our b next<br>c kinsmen.<br>21 And Ruth the Moabitess said,<br>He said unto me also, Thou shalt<br>keep a fast by my young men, until<br>they have ended all my harvest.<br>22 And Naomi said unto Ruth<br>her daughter in law, It is good, my<br>daughter, that thou go out with his<br>maidens, that they a meet thee not<br>in any other field.<br>23 So she kept fast by the maidens<br>of Boaz to glean unto the end of bar-<br>ley harvest and of wheat harvest;<br>and dwelt with her mother in law.<br>CHAPTER 3<br>By Naomi’s instruction, Ruth lies at the<br>feet of Boaz—He promises as a relative<br>to take her as his wife.<br>THEN Naomi her mother in law said<br>unto her, My daughter, shall I not<br>seek a rest for thee, that it may be<br>well with thee?<br>2 And now is not Boaz of our kin-<br>dred, with whose maidens thou<br>wast? Behold, he winnoweth bar-<br>ley to night in the threshingfloor.<br>3 Wash thyself therefore, and<br>anoint thee, and put thy raiment<br>upon thee, and get thee down to the<br>a floor: but make not thyself known<br>unto the man, until he shall have<br>done eating and drinking.<br>4 And it shall be, when he lieth<br>down, that thou shalt mark the<br>place where he shall lie, and thou<br>shalt go in, and uncover his feet,<br>and lay thee down; and he will tell<br>thee what thou shalt do.<br>5 And she said unto her, All that<br>thou sayest unto me I will do.<br>6 ¶ And she went down unto the<br>floor, and did according to all that<br>her mother in law bade her.<br>7 And when Boaz had eaten and<br>drunk, and his heart was merry,|Col4|
+|---|---|---|---|
+|12_ a_D&C 70:15.<br> <br>_ b_Ps. 57:1.<br> 13_ a_TG Friendship.<br> 14_ a_OR grain.<br> <br>_ b_IE left some food.<br> 19_ a_OR told.|<br>_ b_OR worked.<br> 20_ a_OR ceased.<br> <br>_ b_OR redeemers; one of<br>those having the right<br>to redeem.<br> <br>_ c_Ruth 3:9 (9, 12–13);|<br>_ b_OR worked.<br> 20_ a_OR ceased.<br> <br>_ b_OR redeemers; one of<br>those having the right<br>to redeem.<br> <br>_ c_Ruth 3:9 (9, 12–13);|4:1 (1, 3, 6, 8).<br>TG Redemption.<br> 21_ a_OR close.<br> 22_ a_OR find.<br>**3** 1_ a_Implying marriage.<br> 3_ a_IE threshing floor.|
+
+
+RUTH 3:8–4:6 380
+
+
+
+
+
+
+
+
+
+
+
+
+|he went to lie down at the end of<br>the heap of a corn: and she came<br>softly, and uncovered his feet, and<br>laid her down.<br>8 ¶ And it came to pass at mid-<br>night, that the man was afraid,<br>and turned himself: and, behold,<br>a woman lay at his feet.<br>9 And he said, Who art thou? And<br>she answered, I am Ruth thine hand-<br>maid: spread therefore thy skirt<br>over thine handmaid; for thou art<br>a near a kinsman.<br>10 And he said, Blessed be thou<br>of the LORD, my daughter: for thou<br>hast shewed more kindness in the<br>latter end than at the beginning,<br>inasmuch as thou followedst not<br>young men, whether poor or rich.<br>11 And now, my daughter, fear<br>not; I will do to thee all that thou<br>requirest: for all the city of my<br>people doth know that thou art a<br>a virtuous woman.<br>12 And now it is true that I am thy<br>a near kinsman: howbeit there is a<br>kinsman nearer than I.<br>13 Tarry this night, and it shall<br>be in the morning, that if he will<br>perform unto thee the a part of a<br>kinsman, well; let him do the kins-<br>man’s part: but if he will not do the<br>part of a kinsman to thee, then will<br>I do the part of a kinsman to thee,<br>as the LORD liveth: lie down until<br>the morning.<br>14 ¶ And she lay at his feet until<br>the morning: and she rose up be-<br>fore one could know another. And<br>he said, Let it not be known that a<br>woman came into the floor.<br>15 Also he said, Bring the a veil that<br>thou hast upon thee, and hold it.<br>And when she held it, he measured<br>six measures of barley, and laid it<br>on her: and she went into the city.<br>16 And when she came to her<br>mother in law, she said, Who art|Col2|thou, my daughter? And she told<br>her all that the man had done to her.<br>17 And she said, These six mea-<br>sures of barley gave he me; for he<br>said to me, Go not empty unto thy<br>mother in law.<br>18 Then said she, Sit still, my<br>daughter, until thou know how the<br>matter will fall: for the man will<br>not be in rest, until he have finished<br>the thing this day.<br>CHAPTER 4<br>The nearest relative declines, and Boaz<br>takes Ruth to wife—Ruth bears Obed,<br>through whom came David the king.<br>THEN went Boaz up to the a gate,<br>and sat him down there: and, be-<br>hold, the b kinsman of whom Boaz<br>spake came by; unto whom he said,<br>c Ho, such a one! turn aside, sit down<br>here. And he turned aside, and sat<br>down.<br>2 And he took ten men of the a el-<br>ders of the city, and said, Sit ye down<br>here. And they sat down.<br>3 And he said unto the kinsman,<br>Naomi, that is come again out of<br>the country of Moab, selleth a par-<br>cel of land, which was our brother<br>Elimelech’s:<br>4 And I thought to advertise thee,<br>saying, a Buy it before the inhabi-<br>tants, and before the elders of my<br>people. If thou wilt b redeem it, re-<br>deem it: but if thou wilt not redeem<br>it, then tell me, that I may know: for<br>there is none to redeem it beside<br>thee; and I am after thee. And he<br>said, I will redeem it.<br>5 Then said Boaz, What day thou<br>buyest the field of the hand of<br>Naomi, thou must buy it also of<br>Ruth the Moabitess, the a wife of the<br>dead, to raise up the b name of<br>the dead upon his inheritance.<br>6 ¶ And the kinsman said, I cannot|Col4|
+|---|---|---|---|
+|7_ a_OR grain.<br> 9_ a_Ruth 2:20.<br> 11_ a_Prov. 12:4;<br>Moro. 9:9.<br> 12_ a_Deut. 25:5.<br> 13_ a_Matt. 22:24.<br> 15_ a_OR cloak, mantle;|a square piece of cloth<br>used as an outer robe.<br>**4** 1_ a_Gen. 23:10; Josh. 20:4.<br> <br>_ b_Ruth 2:20.<br> <br>_ c_In Hebrew a manner<br>of address to a certain<br>unnamed person as|a square piece of cloth<br>used as an outer robe.<br>**4** 1_ a_Gen. 23:10; Josh. 20:4.<br> <br>_ b_Ruth 2:20.<br> <br>_ c_In Hebrew a manner<br>of address to a certain<br>unnamed person as|“Mr. So & So.”<br> 2_ a_Josh. 20:4.<br> 4_ a_Lev. 25:25.<br> <br>_ b_TG Redemption.<br> 5_ a_TG Widows.<br> <br>_ b_Deut. 25:5 (5–6).<br>TG Name.|
+
+
+381 RUTH 4:7–22
+
+
+
+
+
+
+
+
+
+
+
+
+|a redeem it for myself, lest I b mar<br>mine own inheritance: redeem<br>thou my right to thyself; for I can-<br>not redeem it.<br>7 Now this was the manner in for-<br>mer time in Israel concerning re-<br>deeming and concerning a changing,<br>for to confirm all things; a man<br>plucked off his b shoe, and gave it<br>to his neighbour: and this was a<br>testimony in Israel.<br>8 Therefore the kinsman said unto<br>Boaz, Buy it for thee. So he drew<br>off his shoe.<br>9 ¶ And Boaz said unto the elders,<br>and unto all the people, Ye are wit-<br>nesses this day, that I have bought<br>all that was Elimelech’s, and all that<br>was Chilion’s and Mahlon’s, of the<br>hand of Naomi.<br>10 Moreover Ruth the Moabitess,<br>the wife of Mahlon, have I purchased<br>to be my wife, to raise up the name<br>of the dead upon his inheritance,<br>that the a name of the dead be not<br>cut off from among his brethren,<br>and from the gate of his place: ye<br>are witnesses this day.<br>11 And all the people that were in<br>the gate, and the elders, said, We<br>are witnesses. The LORD make the<br>woman that is come into thine house<br>like Rachel and like Leah, which<br>two did build the house of Israel:<br>and a do thou worthily in Ephratah,<br>and be famous in Beth-lehem:<br>12 And let thy house be like the|Col2|house of Pharez, whom Tamar bare<br>unto Judah, of the seed which the<br>LORD shall give thee of this young<br>woman.<br>13 ¶ So Boaz took Ruth, and she<br>was his wife: and when he went in<br>unto her, the LORD gave her concep-<br>tion, and she bare a son.<br>14 And the women said unto<br>Naomi, Blessed be the LORD, which<br>hath not left thee this day without<br>a kinsman, that his name may be<br>famous in Israel.<br>15 And he shall be unto thee a re-<br>storer of thy life, and a nourisher<br>of thine a old age: for thy daughter<br>in law, which loveth thee, which<br>is better to thee than seven sons,<br>hath born him.<br>16 And Naomi took the child, and<br>laid it in her bosom, and became<br>nurse unto it.<br>17 And the women her neighbours<br>gave it a name, saying, There is a<br>son born to Naomi; and they called<br>his name Obed: he is the father of<br>Jesse, the father of David.<br>18 ¶ Now these are the generations<br>of a Pharez: Pharez begat Hezron,<br>19 And Hezron begat Ram, and<br>Ram begat Amminadab,<br>20 And Amminadab begat Nah-<br>shon, and Nahshon begat Salmon,<br>21 And Salmon begat a Boaz, and<br>Boaz begat Obed,<br>22 And Obed begat Jesse, and Jesse<br>begat David.|Col4|
+|---|---|---|---|
+|6_ a_TG Selfishness.<br> <br>_ b_Deut. 25:6 (5–6).<br> 7_ a_OR exchanging, doing<br>business.<br> <br>_ b_Deut. 25:9 (5–10).|10_ a_Deut. 25:6.<br> 11_ a_OR may you do well.<br> 15_ a_TG Old Age.<br> 18_ a_Gen. 38:29 (1–30);<br>1 Chr. 2:4 (4–15);|10_ a_Deut. 25:6.<br> 11_ a_OR may you do well.<br> 15_ a_TG Old Age.<br> 18_ a_Gen. 38:29 (1–30);<br>1 Chr. 2:4 (4–15);|Matt. 1:3 (3–6);<br>Luke 3:33 (23–38).<br> 21_ a_Matt. 1:5.|
+
+

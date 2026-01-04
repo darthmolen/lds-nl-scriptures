@@ -8,8 +8,8 @@ Building a semantic scripture search system with RAG capabilities for English an
 
 | Phase | Name | Description | Status |
 |-------|------|-------------|--------|
-| 1 | Content Preparation | Convert PDFs to structured markdown | Planning |
-| 1A | → Old Testament | 39 books (Genesis–Malachi) | Not Started |
+| 1 | Content Preparation | Convert PDFs to structured markdown | In Progress |
+| 1A | → Old Testament | 39 books (Genesis–Malachi) | Complete |
 | 1B | → New Testament | 27 books (Matthew–Revelation) | Not Started |
 | 1C | → Book of Mormon | 15 books (1 Nephi–Moroni) | Not Started |
 | 1D | → Doctrine & Covenants | 138 sections + 2 ODs | Not Started |
