@@ -7,6 +7,17 @@
 - Scriptures: verse-level chunks with ±2 verse context
 - Topical Guide: relational, not vector
 - Come Follow Me: separate table, yearly refresh
+- **Languages**: English and Spanish (multi-lingual)
+- **Auth**: Azure Entra ID (private, may go public later)
+- **API**: Python FastAPI
+
+## Data Sources
+- Scripture quads: PDF → Markdown (via Marker MCP server)
+- Come Follow Me manuals: PDF → Markdown
+- Raw PDFs in `content/raw/`, processed markdown in `content/processed/`
+
+## Project Roadmap
+See `planning/roadmap.md` for detailed phases.
 
 ## Schema
 
@@ -19,6 +30,7 @@ CREATE TABLE scriptures (
     chapter INT,
     verse INT,
     text TEXT,
+    lang VARCHAR(5),  -- 'en', 'es'
     embedding vector(1536),
     -- context window: surrounding verses for richer retrieval
     context_text TEXT
