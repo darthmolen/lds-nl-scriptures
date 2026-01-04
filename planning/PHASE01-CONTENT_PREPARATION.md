@@ -7,95 +7,188 @@ Convert raw PDF scripture content to structured markdown format suitable for par
 ## Input Files
 
 ### Scriptures (Priority 1)
-| File | Language | Location |
-|------|----------|----------|
-| lds_scriptures_quad_en.pdf | English | `content/raw/scriptures/` |
-| lds_scriptures_quad_es.pdf | Spanish | `content/raw/escrituras/` |
+| File | Language | Pages | Location |
+|------|----------|-------|----------|
+| lds_scriptures_quad_en.pdf | English | 3,839 | `content/raw/scriptures/` |
+| lds_scriptures_quad_es.pdf | Spanish | TBD | `content/raw/escrituras/` |
 
-### Come Follow Me (Priority 2 - Phase 7)
-| File | Language | Location |
-|------|----------|----------|
-| 2024_come_follow_me_book_of_mormon_consolidated_manual_en.pdf | English | `content/raw/come-follow-me/` |
-| 2025_come_follow_me_doctrine_and_covenants_en.pdf | English | `content/raw/come-follow-me/` |
-| 2026_come_follow_me_old_testament_en.pdf | English | `content/raw/come-follow-me/` |
-| sunday_school_manual_new_testament_2023_en.pdf | English | `content/raw/come-follow-me/` |
-| (Spanish equivalents) | Spanish | `content/raw/ven-sigue-me/` |
+### Come Follow Me (Phase 7)
+Deferred to Phase 7 - see PHASE07-COME_FOLLOW_ME.md
+
+## Conversion Tool
+
+Using **pymupdf4llm** for CPU-friendly incremental extraction:
+
+- **Library**: [pymupdf4llm](https://github.com/pymupdf/pymupdf4llm) - lightweight, no GPU required
+- **Approach**: TOC-based incremental extraction by book
+- **Advantage**: Works in Claude Code web environment
+
+```python
+import pymupdf4llm
+
+# Extract specific page range (0-indexed)
+md = pymupdf4llm.to_markdown("quad.pdf", pages=list(range(11, 89)))
+```
+
+## PDF Structure (English Quad)
+
+The PDF contains embedded Table of Contents with 213 entries:
+
+| Section | Start Page | End Page | Notes |
+|---------|------------|----------|-------|
+| Old Testament | 12 | 1195 | 39 books |
+| New Testament | 1196 | 1605 | 27 books |
+| **Topical Guide** | 1606 | 2187 | Bonus! Already in PDF |
+| Bible Dictionary | 2188 | 2353 | Reference material |
+| Book of Mormon | 2472 | 3021 | 15 books |
+| Doctrine & Covenants | 3022 | 3329 | 138 sections |
+| Pearl of Great Price | 3330 | 3405 | 5 books |
+
+### Book-Level TOC (Sample)
+```
+Old Testament -> p.12
+  Genesis -> p.12
+  Exodus -> p.90
+  Leviticus -> p.157
+  ...
+Book of Mormon -> p.2472
+  1 Nephi -> p.2472
+  2 Nephi -> p.2510
+  ...
+```
 
 ## Output Structure
 
 ```
 content/
-├── raw/                    # Source PDFs (existing)
+├── raw/                           # Source PDFs (existing)
 │   ├── scriptures/
-│   ├── escrituras/
-│   ├── come-follow-me/
-│   └── ven-sigue-me/
-└── processed/              # Converted markdown (new)
-    ├── scriptures/
-    │   ├── en/
-    │   │   └── lds_scriptures_quad_en.md
-    │   └── es/
-    │       └── lds_scriptures_quad_es.md
-    └── come-follow-me/
+│   └── escrituras/
+└── processed/                     # Converted markdown (new)
+    └── scriptures/
         ├── en/
+        │   ├── old-testament/
+        │   │   ├── genesis.md
+        │   │   ├── exodus.md
+        │   │   └── ...
+        │   ├── new-testament/
+        │   │   ├── matthew.md
+        │   │   └── ...
+        │   ├── book-of-mormon/
+        │   │   ├── 1-nephi.md
+        │   │   └── ...
+        │   ├── doctrine-and-covenants/
+        │   │   └── dc.md
+        │   ├── pearl-of-great-price/
+        │   │   └── pgp.md
+        │   └── topical-guide/
+        │       └── topical-guide.md
         └── es/
+            └── (same structure)
 ```
-
-## Conversion Tool
-
-Using the existing Marker MCP server at `src/tools/marker_mcp/server.py`:
-
-- **Library**: [Marker](https://github.com/VikParuchuri/marker) - high-quality PDF to markdown
-- **Interface**: MCP server with `convert_pdf` and `batch_convert` tools
-- **Output**: Markdown + extracted images
 
 ## Tasks
 
 ### 1.1 Environment Setup
-- [ ] Install marker MCP server dependencies
-- [ ] Verify GPU availability (marker benefits from CUDA)
-- [ ] Test conversion on a small PDF first
+- [ ] Verify pymupdf4llm is installed (`pip install pymupdf4llm`)
+- [ ] Test extraction on a single chapter
 
-### 1.2 Scripture Conversion
-- [ ] Convert English quad PDF to markdown
-- [ ] Convert Spanish quad PDF to markdown
-- [ ] Review output quality and structure
+### 1.2 Build Extraction Script
+- [ ] Create `scripts/extract_scriptures.py`
+- [ ] Parse TOC to build book → page range mapping
+- [ ] Extract each book to separate markdown file
+- [ ] Handle both EN and ES quads
 
-### 1.3 Post-Processing Assessment
+### 1.3 Scripture Extraction (English)
+Extract in order, committing after each standard work:
+
+- [ ] Old Testament (39 books)
+- [ ] New Testament (27 books)
+- [ ] Book of Mormon (15 books)
+- [ ] Doctrine & Covenants
+- [ ] Pearl of Great Price
+- [ ] Topical Guide (bonus)
+
+### 1.4 Scripture Extraction (Spanish)
+- [ ] Verify Spanish PDF has similar TOC structure
+- [ ] Run same extraction process
+- [ ] Validate output
+
+### 1.5 Post-Processing Assessment
 - [ ] Analyze markdown structure (headers, verses, chapters)
 - [ ] Identify parsing patterns for verse extraction
 - [ ] Document any conversion artifacts or issues
-- [ ] Determine if additional cleanup scripts are needed
+- [ ] Determine if cleanup scripts are needed
 
-### 1.4 Quality Validation
+### 1.6 Quality Validation
 - [ ] Spot-check verses across all standard works
 - [ ] Verify chapter/verse numbering integrity
-- [ ] Check for missing or corrupted content
 - [ ] Compare sample verses against official text
+
+## Extraction Script Outline
+
+```python
+#!/usr/bin/env python3
+"""Extract scriptures from PDF using TOC-based page ranges."""
+
+import pymupdf
+import pymupdf4llm
+from pathlib import Path
+
+def get_toc_mapping(pdf_path: str) -> dict:
+    """Build book -> (start_page, end_page) mapping from TOC."""
+    doc = pymupdf.open(pdf_path)
+    toc = doc.get_toc()
+
+    # Parse TOC entries to find book boundaries
+    books = {}
+    # ... implementation
+    return books
+
+def extract_book(pdf_path: str, book_name: str, start_page: int, end_page: int, output_dir: Path):
+    """Extract a single book to markdown."""
+    pages = list(range(start_page - 1, end_page))  # 0-indexed
+    md = pymupdf4llm.to_markdown(pdf_path, pages=pages)
+
+    output_file = output_dir / f"{book_name.lower().replace(' ', '-')}.md"
+    output_file.write_text(md, encoding="utf-8")
+    print(f"Extracted {book_name} -> {output_file}")
+
+def main():
+    pdf_path = "content/raw/scriptures/lds_scriptures_quad_en.pdf"
+    output_dir = Path("content/processed/scriptures/en")
+
+    books = get_toc_mapping(pdf_path)
+    for book_name, (start, end) in books.items():
+        extract_book(pdf_path, book_name, start, end, output_dir)
+
+if __name__ == "__main__":
+    main()
+```
 
 ## Expected Challenges
 
-1. **Large file sizes**: Quad PDFs are 30-50MB each; conversion may take significant time
-2. **Complex layouts**: Footnotes, cross-references, chapter headings
-3. **Two-column format**: Scripture pages often use two columns
-4. **Verse numbering**: Need to preserve verse numbers for citation
+1. **Two-column layout**: Scripture pages use two columns; pymupdf4llm handles this reasonably well
+2. **Verse numbering**: Need to verify verse numbers are preserved
+3. **Footnotes/cross-references**: May appear inline or at page bottom
+4. **Chapter headings**: Various formatting across standard works
 
 ## Success Criteria
 
-- [ ] Both quad PDFs successfully converted to markdown
-- [ ] Markdown preserves book/chapter/verse structure identifiably
-- [ ] Content is readable and parseable for Phase 2 ingestion
-- [ ] Images extracted (if any) and referenced correctly
+- [ ] All books extracted to individual markdown files
+- [ ] Both EN and ES quads processed
+- [ ] Markdown preserves book/chapter/verse structure
+- [ ] Content readable and parseable for Phase 2
 
 ## Dependencies
 
 - Python 3.10+
-- marker library (`pip install marker-pdf`)
-- PyTorch (for marker's ML models)
-- Optional: CUDA for GPU acceleration
+- pymupdf (`pip install pymupdf`)
+- pymupdf4llm (`pip install pymupdf4llm`)
 
 ## Notes
 
-- Marker uses ML models for layout detection; first run downloads ~2GB of models
-- Consider running conversion on a machine with GPU for faster processing
-- Come Follow Me PDFs will be converted in Phase 7, not Phase 1
+- No GPU required - runs on CPU
+- Incremental extraction allows progress commits
+- Topical Guide found in PDF - no separate source needed!
+- Bible Dictionary also available if needed later

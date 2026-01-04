@@ -12,7 +12,8 @@
 - **API**: Python FastAPI
 
 ## Data Sources
-- Scripture quads: PDF → Markdown (via Marker MCP server)
+- Scripture quads: PDF → Markdown (via pymupdf4llm, incremental by book)
+- Topical Guide: Embedded in quad PDF (pages 1606-2187)
 - Come Follow Me manuals: PDF → Markdown
 - Raw PDFs in `content/raw/`, processed markdown in `content/processed/`
 
