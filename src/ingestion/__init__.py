@@ -4,6 +4,7 @@ Provides utilities and scripts for loading scripture and CFM data into PostgreSQ
 
 Submodules:
 - base: Shared ingestion utilities (CLI parsers, data checks, truncation)
+- verify: Data verification and spot-check utilities
 
 Exports:
 - create_scripture_parser: CLI parser factory for scripture ingestion
@@ -17,6 +18,10 @@ Exports:
 - VALID_VOLUMES: Tuple of valid scripture volume names
 - VALID_LANGUAGES: Tuple of valid language codes
 - VALID_TESTAMENTS: Tuple of valid CFM testament codes
+- verify_scripture_counts: Print scripture counts by volume and language
+- verify_cfm_counts: Print CFM lesson counts by year and language
+- random_verse_check: Select random verses for spot-checking
+- footnotes_check: Check footnotes integrity
 """
 
 from src.ingestion.base import (
@@ -35,6 +40,12 @@ from src.ingestion.base import (
     create_scripture_parser,
     truncate_scriptures,
 )
+from src.ingestion.verify import (
+    footnotes_check,
+    random_verse_check,
+    verify_cfm_counts,
+    verify_scripture_counts,
+)
 
 __all__ = [
     # Constants
@@ -51,4 +62,9 @@ __all__ = [
     "check_existing_cfm",
     "truncate_cfm",
     "check_or_skip_cfm",
+    # Verification utilities
+    "verify_scripture_counts",
+    "verify_cfm_counts",
+    "random_verse_check",
+    "footnotes_check",
 ]
