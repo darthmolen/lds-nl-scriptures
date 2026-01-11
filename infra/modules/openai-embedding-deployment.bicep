@@ -25,7 +25,7 @@ resource embeddingDeployment 'Microsoft.CognitiveServices/accounts/deployments@2
     }
   }
   sku: {
-    name: 'Standard'
+    name: 'GlobalStandard'
     capacity: capacity
   }
 }
