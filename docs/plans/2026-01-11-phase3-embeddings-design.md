@@ -162,6 +162,8 @@ def main():
 
 ## Vector Index
 
+**IMPORTANT**: IVFFlat indexes require training data to be effective. Run migration 002 **AFTER** embedding generation completes, not before. The index uses the existing embeddings to build its internal clusters.
+
 ### Migration 002_add_vector_index.py
 
 ```python
@@ -211,12 +213,14 @@ echo "AZURE_OPENAI_EMBEDDING_DEPLOYMENT=text-embedding-3-small" >> .env
 # 3. Generate embeddings (~15-30 min for EN)
 python -m src.embeddings.generate --lang en
 
-# 4. Add vector index
+# 4. Add vector index (MUST run AFTER step 3 - IVFFlat needs training data)
 cd src/db && alembic upgrade head
 
 # 5. Verify
 python -m src.embeddings.verify
 ```
+
+**Note**: CFM lesson embeddings are planned but not yet implemented. The current generator handles scripture verses only.
 
 ## Cost Estimate
 
