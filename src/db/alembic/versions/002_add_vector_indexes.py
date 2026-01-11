@@ -19,6 +19,9 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
+    # Increase maintenance_work_mem for index creation (requires ~65MB for 42K vectors)
+    op.execute("SET maintenance_work_mem = '128MB'")
+
     # IVFFlat index for scriptures embeddings
     # lists=100 is appropriate for ~42K vectors (sqrt(n) rule of thumb)
     op.execute("""

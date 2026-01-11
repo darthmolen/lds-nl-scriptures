@@ -56,13 +56,14 @@ def test_semantic_search(session, query: str, limit: int = 5):
     query_embedding = get_single_embedding(query)
 
     # Search for similar verses
+    # Use CAST instead of :: to avoid SQLAlchemy parameter parsing issues
     result = session.execute(sql_text("""
         SELECT book, chapter, verse, lang,
                LEFT(text, 80) as text_preview,
-               1 - (embedding <=> :query_embedding::vector) as similarity
+               1 - (embedding <=> CAST(:query_embedding AS vector)) as similarity
         FROM scriptures
         WHERE embedding IS NOT NULL
-        ORDER BY embedding <=> :query_embedding::vector
+        ORDER BY embedding <=> CAST(:query_embedding AS vector)
         LIMIT :limit
     """), {"query_embedding": str(query_embedding), "limit": limit})
 
