@@ -12,7 +12,7 @@ from sqlalchemy import (
     Integer,
     String,
     Text,
-    text,
+    text as sql_text,
 )
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import declarative_base
@@ -53,7 +53,7 @@ class Scripture(Base):
     footnotes = Column(JSONB)
     context_text = Column(Text)  # NULL until Phase 3 embedding generation
     embedding = Column(Vector(1536))  # NULL until Phase 3 embedding generation
-    created_at = Column(TIMESTAMP, server_default=text("NOW()"))
+    created_at = Column(TIMESTAMP, server_default=sql_text("NOW()"))
 
     def __repr__(self) -> str:
         return (
@@ -92,7 +92,7 @@ class CFMLesson(Base):
     content = Column(Text)
     lang = Column(String(5), nullable=False, index=True)
     embedding = Column(Vector(1536))  # NULL until Phase 3 embedding generation
-    created_at = Column(TIMESTAMP, server_default=text("NOW()"))
+    created_at = Column(TIMESTAMP, server_default=sql_text("NOW()"))
 
     def __repr__(self) -> str:
         return (
