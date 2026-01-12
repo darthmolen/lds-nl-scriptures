@@ -1,0 +1,173 @@
+{
+  "version": "1.0",
+  "description": "Golden test set for Scripture RAG evaluation",
+  "created": "2026-01-12",
+  "test_cases": [
+    {
+      "id": "simple_01",
+      "question": "What did Jesus say about loving enemies?",
+      "complexity": "simple",
+      "expected_citations": ["Matthew 5:44", "Luke 6:27", "Luke 6:35"],
+      "expected_themes": ["love enemies", "pray for persecutors", "bless those who curse"],
+      "description": "Direct lookup of a famous teaching",
+      "filters": {"volume": "NT"}
+    },
+    {
+      "id": "simple_02",
+      "question": "What is the greatest commandment?",
+      "complexity": "simple",
+      "expected_citations": ["Matthew 22:37-39", "Mark 12:30-31", "Deuteronomy 6:5"],
+      "expected_themes": ["love God", "love neighbor", "heart soul mind"],
+      "description": "Famous teaching with OT connection"
+    },
+    {
+      "id": "simple_03",
+      "question": "What does John 3:16 say?",
+      "complexity": "simple",
+      "expected_citations": ["John 3:16"],
+      "expected_themes": ["God so loved", "only begotten Son", "everlasting life"],
+      "description": "Direct verse lookup"
+    },
+    {
+      "id": "simple_04",
+      "question": "Who was the first prophet in the Book of Mormon?",
+      "complexity": "simple",
+      "expected_citations": ["1 Nephi 1:4", "1 Nephi 1:18-20"],
+      "expected_themes": ["Lehi", "Jerusalem", "prophesy"],
+      "description": "Simple factual question about BOM",
+      "filters": {"volume": "BOM"}
+    },
+    {
+      "id": "simple_05",
+      "question": "What are the fruits of the Spirit?",
+      "complexity": "simple",
+      "expected_citations": ["Galatians 5:22-23"],
+      "expected_themes": ["love", "joy", "peace", "longsuffering", "gentleness", "goodness", "faith", "meekness", "temperance"],
+      "description": "List-based answer from single passage"
+    },
+    {
+      "id": "simple_06",
+      "question": "What happened on the road to Damascus?",
+      "complexity": "simple",
+      "expected_citations": ["Acts 9:3-6", "Acts 22:6-10", "Acts 26:13-18"],
+      "expected_themes": ["Saul", "light from heaven", "voice", "conversion"],
+      "description": "Narrative event with multiple accounts"
+    },
+    {
+      "id": "simple_07",
+      "question": "What is the Word of Wisdom?",
+      "complexity": "simple",
+      "expected_citations": ["D&C 89:5-9", "D&C 89:10-17"],
+      "expected_themes": ["health", "wine", "strong drinks", "tobacco", "herbs", "grain"],
+      "description": "D&C specific doctrine",
+      "filters": {"volume": "D&C"}
+    },
+    {
+      "id": "medium_01",
+      "question": "Compare what James and Paul say about faith and works",
+      "complexity": "medium",
+      "expected_citations": ["James 2:17", "James 2:20", "James 2:26", "Romans 3:28", "Ephesians 2:8-9", "Galatians 2:16"],
+      "expected_themes": ["faith without works is dead", "justified by faith", "not of works", "show me thy faith"],
+      "description": "Comparative analysis across books"
+    },
+    {
+      "id": "medium_02",
+      "question": "What do the scriptures teach about baptism?",
+      "complexity": "medium",
+      "expected_citations": ["Matthew 3:13-17", "Mark 16:16", "Acts 2:38", "Romans 6:3-4", "3 Nephi 11:23-26", "D&C 20:72-74"],
+      "expected_themes": ["remission of sins", "immersion", "Holy Ghost", "born again"],
+      "description": "Cross-volume doctrinal topic"
+    },
+    {
+      "id": "medium_03",
+      "question": "What does the Bible say about the resurrection?",
+      "complexity": "medium",
+      "expected_citations": ["1 Corinthians 15:20-22", "1 Corinthians 15:42-44", "John 11:25-26", "Romans 6:5"],
+      "expected_themes": ["Christ firstfruits", "all made alive", "spiritual body", "resurrection of the dead"],
+      "description": "Major doctrine with multiple aspects",
+      "filters": {"volume": "NT"}
+    },
+    {
+      "id": "medium_04",
+      "question": "How is the Atonement described in the Book of Mormon?",
+      "complexity": "medium",
+      "expected_citations": ["2 Nephi 9:21-22", "Mosiah 3:7", "Alma 7:11-13", "Alma 34:10-14"],
+      "expected_themes": ["infinite atonement", "suffer pains", "sins sicknesses", "mercy satisfy justice"],
+      "description": "BOM-specific theological exploration",
+      "filters": {"volume": "BOM"}
+    },
+    {
+      "id": "medium_05",
+      "question": "What did Jesus teach about prayer?",
+      "complexity": "medium",
+      "expected_citations": ["Matthew 6:5-13", "Luke 11:1-4", "Matthew 7:7-11", "3 Nephi 18:19-20"],
+      "expected_themes": ["Father in heaven", "thy will be done", "ask seek knock", "in my name"],
+      "description": "Teaching topic with examples"
+    },
+    {
+      "id": "medium_06",
+      "question": "What are the signs of the Second Coming?",
+      "complexity": "medium",
+      "expected_citations": ["Matthew 24:6-14", "Mark 13:7-13", "D&C 45:26-33", "Joseph Smith—Matthew 1:22-37"],
+      "expected_themes": ["wars rumors", "famines earthquakes", "gospel preached", "abomination of desolation"],
+      "description": "Prophetic topic across volumes"
+    },
+    {
+      "id": "medium_07",
+      "question": "What is the role of the Holy Ghost?",
+      "complexity": "medium",
+      "expected_citations": ["John 14:26", "John 16:13", "2 Nephi 32:5", "Moroni 10:5", "D&C 8:2-3"],
+      "expected_themes": ["Comforter", "teach all things", "guide into truth", "testify of Christ"],
+      "description": "Doctrinal topic with cross-volume perspectives"
+    },
+    {
+      "id": "complex_01",
+      "question": "Trace the covenant theme from Abraham through Christ",
+      "complexity": "complex",
+      "expected_citations": ["Genesis 12:1-3", "Genesis 17:1-8", "Exodus 19:5-6", "Jeremiah 31:31-34", "Luke 22:20", "Hebrews 8:6-13", "3 Nephi 20:25-27"],
+      "expected_themes": ["Abrahamic covenant", "promised land", "great nation", "new covenant", "everlasting covenant", "all nations blessed"],
+      "description": "Multi-dispensation theological thread"
+    },
+    {
+      "id": "complex_02",
+      "question": "How do the four Gospels differ in their accounts of the crucifixion?",
+      "complexity": "complex",
+      "expected_citations": ["Matthew 27:45-50", "Mark 15:33-37", "Luke 23:44-46", "John 19:28-30"],
+      "expected_themes": ["darkness", "last words", "temple veil", "it is finished", "Father into thy hands"],
+      "description": "Comparative Gospel analysis",
+      "notes": "Look for unique details in each Gospel account"
+    },
+    {
+      "id": "complex_03",
+      "question": "What does scripture teach about the nature of God and Christ?",
+      "complexity": "complex",
+      "expected_citations": ["John 1:1-14", "John 10:30", "Colossians 1:15-17", "D&C 130:22", "3 Nephi 11:7-8", "Moses 1:6"],
+      "expected_themes": ["Word was God", "one with Father", "image of God", "separate beings", "body of flesh and bones"],
+      "description": "Complex doctrinal topic with volume-specific perspectives"
+    },
+    {
+      "id": "complex_04",
+      "question": "Explain the symbolism and teachings about the temple in scripture",
+      "complexity": "complex",
+      "expected_citations": ["Exodus 25:8-9", "1 Kings 8:10-11", "Ezekiel 43:1-5", "John 2:19-21", "1 Corinthians 3:16", "D&C 124:25-28"],
+      "expected_themes": ["dwell among them", "glory of the Lord", "body as temple", "house of the Lord", "ordinances"],
+      "description": "Symbolic and literal temple teachings"
+    },
+    {
+      "id": "complex_05",
+      "question": "What is the relationship between grace and works in the plan of salvation?",
+      "complexity": "complex",
+      "expected_citations": ["Ephesians 2:8-10", "James 2:17-24", "2 Nephi 25:23", "Moroni 10:32-33", "D&C 20:29-31"],
+      "expected_themes": ["saved by grace", "grace after all we can do", "faith without works dead", "come unto Christ"],
+      "description": "Nuanced doctrinal synthesis across volumes"
+    },
+    {
+      "id": "complex_06",
+      "question": "How do the scriptures describe the process of becoming like God?",
+      "complexity": "complex",
+      "expected_citations": ["Matthew 5:48", "Romans 8:16-17", "2 Peter 1:4", "Moroni 7:48", "D&C 76:58", "D&C 132:20"],
+      "expected_themes": ["be ye perfect", "heirs of God", "divine nature", "joint-heirs with Christ", "exaltation"],
+      "description": "Deep doctrinal concept across all volumes"
+    }
+  ]
+}

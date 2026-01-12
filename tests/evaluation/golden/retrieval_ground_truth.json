@@ -1,0 +1,155 @@
+{
+  "version": "1.0",
+  "description": "Ground truth test set for measuring retrieval recall@k in scripture vector search",
+  "created": "2026-01-12",
+  "metrics": {
+    "primary": "recall@k",
+    "definition": "Proportion of expected verses found within top-k results"
+  },
+  "test_cases": [
+    {
+      "id": "recall_01",
+      "query": "faith hope charity",
+      "expected_verses": ["1 Corinthians 13:13", "Moroni 7:1"],
+      "top_k": 5,
+      "description": "Famous triad of virtues - direct phrase match expected",
+      "category": "simple"
+    },
+    {
+      "id": "recall_02",
+      "query": "be still and know that I am God",
+      "expected_verses": ["Psalm 46:10", "D&C 101:16"],
+      "top_k": 5,
+      "description": "Iconic phrase with exact wording in multiple volumes",
+      "category": "simple"
+    },
+    {
+      "id": "recall_03",
+      "query": "I am the way the truth and the life",
+      "expected_verses": ["John 14:6"],
+      "top_k": 5,
+      "description": "Single famous verse with distinctive phrasing",
+      "category": "simple"
+    },
+    {
+      "id": "recall_04",
+      "query": "for God so loved the world",
+      "expected_verses": ["John 3:16"],
+      "top_k": 5,
+      "description": "Most memorized verse in Christianity",
+      "category": "simple"
+    },
+    {
+      "id": "recall_05",
+      "query": "ask and ye shall receive seek and ye shall find",
+      "expected_verses": ["Matthew 7:7", "3 Nephi 14:7", "D&C 4:7"],
+      "top_k": 5,
+      "description": "Teaching repeated across volumes - tests multi-volume retrieval",
+      "category": "simple"
+    },
+    {
+      "id": "recall_06",
+      "query": "armor of God",
+      "expected_verses": ["Ephesians 6:11", "Ephesians 6:13", "D&C 27:15"],
+      "top_k": 5,
+      "description": "Metaphor with multiple relevant verses",
+      "category": "simple"
+    },
+    {
+      "id": "recall_07",
+      "query": "remember the sabbath day to keep it holy",
+      "expected_verses": ["Exodus 20:8", "Mosiah 13:16"],
+      "top_k": 5,
+      "description": "Ten Commandments phrase appearing in multiple scriptures",
+      "category": "simple"
+    },
+    {
+      "id": "recall_08",
+      "query": "born of water and of the Spirit",
+      "expected_verses": ["John 3:5", "Moses 6:59"],
+      "top_k": 5,
+      "description": "Baptism doctrine with specific terminology",
+      "category": "medium"
+    },
+    {
+      "id": "recall_09",
+      "query": "infinite atonement suffering for sins",
+      "expected_verses": ["2 Nephi 9:7", "Alma 34:10", "Alma 7:11"],
+      "top_k": 10,
+      "description": "Book of Mormon atonement theology - needs broader search",
+      "category": "medium"
+    },
+    {
+      "id": "recall_10",
+      "query": "vision of tree of life",
+      "expected_verses": ["1 Nephi 8:10", "1 Nephi 11:8", "1 Nephi 11:25"],
+      "top_k": 10,
+      "description": "Lehi's vision narrative across chapters",
+      "category": "medium"
+    },
+    {
+      "id": "recall_11",
+      "query": "priesthood restoration Aaronic Melchizedek",
+      "expected_verses": ["D&C 13:1", "D&C 84:19", "D&C 107:1"],
+      "top_k": 10,
+      "description": "Priesthood doctrine spanning multiple D&C sections",
+      "category": "medium"
+    },
+    {
+      "id": "recall_12",
+      "query": "celestial terrestrial telestial glory kingdoms",
+      "expected_verses": ["D&C 76:70", "D&C 76:81", "D&C 76:98", "1 Corinthians 15:40"],
+      "top_k": 10,
+      "description": "Degrees of glory doctrine - D&C specific with NT parallel",
+      "category": "medium"
+    },
+    {
+      "id": "recall_13",
+      "query": "tithing fire tenth",
+      "expected_verses": ["Malachi 3:8", "Malachi 3:10", "D&C 119:4"],
+      "top_k": 10,
+      "description": "Tithing principle across OT and D&C",
+      "category": "medium"
+    },
+    {
+      "id": "recall_14",
+      "query": "stripling warriors two thousand sons Helaman",
+      "expected_verses": ["Alma 53:22", "Alma 56:10", "Alma 57:25"],
+      "top_k": 10,
+      "description": "Specific narrative - tests semantic understanding of proper nouns",
+      "category": "edge"
+    },
+    {
+      "id": "recall_15",
+      "query": "liahona compass ball curious workmanship",
+      "expected_verses": ["1 Nephi 16:10", "Alma 37:38", "Alma 37:44"],
+      "top_k": 10,
+      "description": "Unique BOM object - tests handling of unusual vocabulary",
+      "category": "edge"
+    },
+    {
+      "id": "recall_16",
+      "query": "brother of Jared stones shining light",
+      "expected_verses": ["Ether 3:4", "Ether 6:3"],
+      "top_k": 10,
+      "description": "Obscure narrative from Book of Ether",
+      "category": "edge"
+    },
+    {
+      "id": "recall_17",
+      "query": "Urim and Thummim seer stones translation",
+      "expected_verses": ["Exodus 28:30", "D&C 17:1", "JS-H 1:35"],
+      "top_k": 10,
+      "description": "Cross-volume concept with technical terminology",
+      "category": "edge"
+    },
+    {
+      "id": "recall_18",
+      "query": "olive tree allegory Jacob grafting",
+      "expected_verses": ["Jacob 5:3", "Jacob 5:17", "Jacob 5:74"],
+      "top_k": 10,
+      "description": "Long allegory chapter - tests retrieval of narrative content",
+      "category": "edge"
+    }
+  ]
+}
