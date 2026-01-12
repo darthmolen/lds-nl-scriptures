@@ -51,11 +51,32 @@ fi
 export PATH=/usr/local/cuda-12.8/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-12.8/lib64:$LD_LIBRARY_PATH
 
-# Activate venv if exists
-if [ -d ".venv" ]; then
-    source .venv/bin/activate
-elif [ -d "$SCRIPT_DIR/../../../.venv" ]; then
-    source "$SCRIPT_DIR/../../../.venv/bin/activate"
+# Find vLLM - check common locations
+VLLM_PYTHON=""
+
+# 1. Check for local .venv in llm_local directory (preferred)
+if [ -d "$SCRIPT_DIR/.venv" ]; then
+    source "$SCRIPT_DIR/.venv/bin/activate"
+    VLLM_PYTHON="python"
+    log_info "Using local .venv: $SCRIPT_DIR/.venv"
+# 2. Check for dedicated vLLM venv in home
+elif [ -d "$HOME/.venvs/vllm" ]; then
+    source "$HOME/.venvs/vllm/bin/activate"
+    VLLM_PYTHON="python"
+    log_info "Using vLLM venv: $HOME/.venvs/vllm"
+# 3. Check if vllm is in system path
+elif command -v vllm &> /dev/null; then
+    VLLM_PYTHON="python3"
+    log_info "Using system vLLM"
+fi
+
+if [ -z "$VLLM_PYTHON" ]; then
+    log_warn "vLLM not found! Install it with:"
+    log_warn "  cd $SCRIPT_DIR"
+    log_warn "  python3 -m venv .venv"
+    log_warn "  source .venv/bin/activate"
+    log_warn "  pip install -r requirements.txt"
+    exit 1
 fi
 
 log_info "Starting vLLM server for Scripture RAG evaluation..."
@@ -68,7 +89,7 @@ log_info "  GPU memory utilization: $GPU_MEMORY_UTILIZATION"
 # Uncomment if you see Flash Attention errors:
 # export VLLM_FLASH_ATTN_VERSION=2
 
-exec python -m vllm.entrypoints.openai.api_server \
+exec $VLLM_PYTHON -m vllm.entrypoints.openai.api_server \
     --model "$MODEL" \
     --host 0.0.0.0 \
     --port "$PORT" \
