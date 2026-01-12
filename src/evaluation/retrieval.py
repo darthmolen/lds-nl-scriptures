@@ -1,11 +1,11 @@
-"""Retrieval recall measurement for Scripture Search.
+"""Retrieval precision measurement for Scripture Search using LLM-as-judge.
 
 This module provides functionality to evaluate the retrieval quality
-of the scripture vector search by measuring Recall@k metrics against
-a ground truth test set.
+of the scripture vector search by measuring Precision@k metrics using
+an LLM judge to assess verse relevance against a rubric.
 
-Recall@k measures the proportion of expected relevant documents
-that appear within the top-k search results.
+Precision@k measures the proportion of retrieved documents that are
+judged relevant by the LLM evaluator.
 """
 
 import json
@@ -15,8 +15,40 @@ from pathlib import Path
 from typing import Any, Callable, Optional, Protocol
 
 from .config import get_settings
+from .judge import JudgeLLM
 
 logger = logging.getLogger(__name__)
+
+
+# =============================================================================
+# RETRIEVAL RELEVANCE RUBRIC PROMPT
+# =============================================================================
+
+RETRIEVAL_RELEVANCE_PROMPT = """You are evaluating whether a scripture verse is relevant to a search query.
+
+## Task
+Determine how relevant the retrieved verse is to the user's search query based on the relevance criteria.
+
+## User Query
+{query}
+
+## Relevance Criteria
+{relevance_rubric}
+
+## Retrieved Verse
+Reference: {reference}
+Text: {text}
+
+## Scoring
+Rate the relevance on a scale of 1-3:
+- Score 3 (Highly Relevant): Verse directly addresses the query topic or matches the relevance criteria strongly
+- Score 2 (Partially Relevant): Verse is related to the topic but not a primary match, or partially meets the criteria
+- Score 1 (Not Relevant): Verse is unrelated or only superficially connected to the query/criteria
+
+## Response Format
+Respond with EXACTLY this format (JSON):
+{{"score": <1|2|3>, "reasoning": "<brief explanation>", "confidence": "<high|medium|low>"}}
+"""
 
 
 class SearchClient(Protocol):
@@ -42,7 +74,7 @@ class SearchClient(Protocol):
             **filters: Optional filters (volume, book, etc.)
 
         Returns:
-            List of result dictionaries with 'reference' key
+            List of result dictionaries with 'reference' and 'text' keys
         """
         ...
 
@@ -53,156 +85,153 @@ class RetrievalTestCase:
 
     id: str
     query: str
-    expected_verses: list[str]
+    relevance_rubric: str
     top_k: int = 10
     description: str = ""
-    category: str = "simple"
+    category: str = "doctrinal_concept"
     lang: str = "en"
     filters: dict = field(default_factory=dict)
 
 
 @dataclass
-class RecallResult:
-    """Result of evaluating recall for a single test case."""
+class JudgmentResult:
+    """Result of judging a single verse's relevance."""
 
-    query: str
-    expected: list[str]
-    retrieved: list[str]
-    recall_score: float
-    k: int
-    test_case_id: str = ""
-    hits: list[str] = field(default_factory=list)
-    misses: list[str] = field(default_factory=list)
-
-    @property
-    def hit_count(self) -> int:
-        """Number of expected verses found in retrieved results."""
-        return len(self.hits)
-
-    @property
-    def expected_count(self) -> int:
-        """Total number of expected verses."""
-        return len(self.expected)
+    reference: str
+    text: str
+    score: int  # 1-3
+    reasoning: str
+    confidence: str
+    normalized_score: float  # 3->1.0, 2->0.5, 1->0.0
 
 
 @dataclass
-class RecallReport:
-    """Aggregated recall evaluation report."""
+class PrecisionResult:
+    """Result of evaluating precision for a single test case."""
+
+    query: str
+    relevance_rubric: str
+    retrieved: list[dict]  # Full verse info
+    judgments: list[JudgmentResult]
+    precision_score: float  # sum of normalized scores / k
+    k: int
+    test_case_id: str = ""
+
+    @property
+    def highly_relevant_count(self) -> int:
+        """Number of verses judged highly relevant (score 3)."""
+        return sum(1 for j in self.judgments if j.score == 3)
+
+    @property
+    def partially_relevant_count(self) -> int:
+        """Number of verses judged partially relevant (score 2)."""
+        return sum(1 for j in self.judgments if j.score == 2)
+
+    @property
+    def not_relevant_count(self) -> int:
+        """Number of verses judged not relevant (score 1)."""
+        return sum(1 for j in self.judgments if j.score == 1)
+
+
+@dataclass
+class PrecisionReport:
+    """Aggregated precision evaluation report."""
 
     total_cases: int
-    recall_at_5: float
-    recall_at_10: float
-    recall_at_5_pass: bool
-    recall_at_10_pass: bool
-    by_category: dict[str, dict[str, float]]
-    results: list[RecallResult]
+    precision_at_5: float
+    precision_at_10: float
+    precision_at_5_pass: bool
+    precision_at_10_pass: bool
+    by_category: dict[str, dict[str, Any]]
+    results: list[PrecisionResult]
     timestamp: str = ""
 
     @property
     def overall_pass(self) -> bool:
-        """Check if both recall thresholds are met."""
-        return self.recall_at_5_pass and self.recall_at_10_pass
+        """Check if both precision thresholds are met."""
+        return self.precision_at_5_pass and self.precision_at_10_pass
 
 
-def normalize_reference(reference: str) -> str:
-    """Normalize a scripture reference for comparison.
-
-    Handles variations in formatting:
-    - Removes extra whitespace
-    - Standardizes book names (e.g., '1 Nephi' vs '1Nephi')
-    - Handles chapter:verse vs chapter.verse
+def normalize_score(score: int) -> float:
+    """Normalize judgment score to 0-1 range.
 
     Args:
-        reference: Raw scripture reference string
+        score: Raw score (1, 2, or 3)
 
     Returns:
-        Normalized reference for comparison
+        Normalized score: 3->1.0, 2->0.5, 1->0.0
     """
-    # Remove extra whitespace and lowercase
-    ref = " ".join(reference.strip().split()).lower()
-
-    # Replace common variations
-    ref = ref.replace(".", ":")
-    ref = ref.replace("  ", " ")
-
-    # Standardize book abbreviations
-    replacements = {
-        "1ne": "1 nephi",
-        "2ne": "2 nephi",
-        "1 ne": "1 nephi",
-        "2 ne": "2 nephi",
-        "d&c": "doctrine and covenants",
-        "dc": "doctrine and covenants",
-        "js-h": "joseph smith-history",
-        "js-m": "joseph smith-matthew",
-        "a of f": "articles of faith",
-    }
-
-    for abbrev, full in replacements.items():
-        if ref.startswith(abbrev + " "):
-            ref = full + ref[len(abbrev):]
-
-    return ref
+    if score == 3:
+        return 1.0
+    elif score == 2:
+        return 0.5
+    else:
+        return 0.0
 
 
-def calculate_recall(
-    expected: list[str],
-    retrieved: list[str],
-    k: int,
-) -> tuple[float, list[str], list[str]]:
-    """Calculate Recall@k for a single query.
-
-    Recall@k = |relevant retrieved| / |total relevant|
+def judge_verse_relevance(
+    judge: JudgeLLM,
+    query: str,
+    relevance_rubric: str,
+    reference: str,
+    text: str,
+) -> dict:
+    """Judge the relevance of a single verse to a query.
 
     Args:
-        expected: List of expected/relevant scripture references
-        retrieved: List of retrieved scripture references (in rank order)
-        k: Number of top results to consider
+        judge: JudgeLLM instance
+        query: The search query
+        relevance_rubric: Criteria for relevance
+        reference: Scripture reference (e.g., "1 Nephi 3:7")
+        text: Full verse text
 
     Returns:
-        Tuple of (recall_score, hits, misses) where:
-        - recall_score: Proportion of expected items found in top-k
-        - hits: Expected items that were found
-        - misses: Expected items that were not found
+        Dict with score (1-3), reasoning, and confidence
     """
-    if not expected:
-        return 1.0, [], []
+    prompt = RETRIEVAL_RELEVANCE_PROMPT.format(
+        query=query,
+        relevance_rubric=relevance_rubric,
+        reference=reference,
+        text=text,
+    )
 
-    # Normalize all references for comparison
-    expected_normalized = {normalize_reference(ref) for ref in expected}
-    retrieved_normalized = [normalize_reference(ref) for ref in retrieved[:k]]
+    try:
+        response = judge.judge(prompt, max_tokens=200)
 
-    # Find hits and misses
-    hits = []
-    misses = []
+        # Parse JSON response
+        # Handle potential markdown code blocks
+        response_clean = response.strip()
+        if response_clean.startswith("```"):
+            lines = response_clean.split("\n")
+            response_clean = "\n".join(lines[1:-1])
 
-    for exp_ref, exp_norm in zip(expected, expected_normalized):
-        # Check if any retrieved reference matches (partial matching for verses)
-        found = False
-        for ret_norm in retrieved_normalized:
-            # Allow partial match for verse ranges
-            if exp_norm in ret_norm or ret_norm in exp_norm:
-                found = True
-                break
-            # Also check if chapter:verse matches (ignoring book variations)
-            exp_parts = exp_norm.split()
-            ret_parts = ret_norm.split()
-            if len(exp_parts) >= 2 and len(ret_parts) >= 2:
-                if exp_parts[-1] == ret_parts[-1]:  # Same chapter:verse
-                    # Check if book names are similar enough
-                    exp_book = " ".join(exp_parts[:-1])
-                    ret_book = " ".join(ret_parts[:-1])
-                    if exp_book in ret_book or ret_book in exp_book:
-                        found = True
-                        break
+        result = json.loads(response_clean)
 
-        if found:
-            hits.append(exp_ref)
+        # Validate score
+        score = int(result.get("score", 1))
+        if score not in [1, 2, 3]:
+            score = 1
+
+        return {
+            "score": score,
+            "reasoning": result.get("reasoning", "No reasoning provided"),
+            "confidence": result.get("confidence", "medium"),
+        }
+
+    except json.JSONDecodeError as e:
+        logger.warning(f"Failed to parse judge response as JSON: {e}")
+        logger.debug(f"Raw response: {response}")
+        # Try to extract score from text
+        if "score" in response.lower() and "3" in response:
+            return {"score": 3, "reasoning": response, "confidence": "low"}
+        elif "score" in response.lower() and "2" in response:
+            return {"score": 2, "reasoning": response, "confidence": "low"}
         else:
-            misses.append(exp_ref)
+            return {"score": 1, "reasoning": f"Parse error: {response}", "confidence": "low"}
 
-    recall = len(hits) / len(expected)
-    return recall, hits, misses
+    except Exception as e:
+        logger.error(f"Judge error: {e}")
+        return {"score": 1, "reasoning": f"Error: {str(e)}", "confidence": "low"}
 
 
 def load_retrieval_ground_truth(path: Optional[str] = None) -> list[RetrievalTestCase]:
@@ -226,10 +255,10 @@ def load_retrieval_ground_truth(path: Optional[str] = None) -> list[RetrievalTes
             RetrievalTestCase(
                 id=tc["id"],
                 query=tc["query"],
-                expected_verses=tc.get("expected_verses", []),
+                relevance_rubric=tc.get("relevance_rubric", ""),
                 top_k=tc.get("top_k", 10),
                 description=tc.get("description", ""),
-                category=tc.get("category", "simple"),
+                category=tc.get("category", "doctrinal_concept"),
                 lang=tc.get("lang", "en"),
                 filters=tc.get("filters", {}),
             )
@@ -239,28 +268,34 @@ def load_retrieval_ground_truth(path: Optional[str] = None) -> list[RetrievalTes
     return test_cases
 
 
-def run_recall_evaluation(
+def run_precision_evaluation(
     search_client: SearchClient,
+    judge: Optional[JudgeLLM] = None,
     test_cases: Optional[list[RetrievalTestCase]] = None,
     k_values: tuple[int, int] = (5, 10),
-) -> RecallReport:
-    """Run retrieval recall evaluation against ground truth.
+) -> PrecisionReport:
+    """Run retrieval precision evaluation using LLM-as-judge.
 
     Args:
         search_client: Search client implementing SearchClient protocol
+        judge: JudgeLLM instance. If None, creates new instance.
         test_cases: Test cases to evaluate. If None, loads from ground truth file.
         k_values: Tuple of k values to evaluate (default: (5, 10))
 
     Returns:
-        RecallReport with aggregated metrics and individual results
+        PrecisionReport with aggregated metrics and individual results
     """
     import time
 
     test_cases = test_cases or load_retrieval_ground_truth()
     settings = get_settings()
 
-    results_at_5: list[RecallResult] = []
-    results_at_10: list[RecallResult] = []
+    # Initialize judge if not provided
+    if judge is None:
+        judge = JudgeLLM()
+
+    results_at_5: list[PrecisionResult] = []
+    results_at_10: list[PrecisionResult] = []
 
     # Track by category
     category_scores: dict[str, dict[str, list[float]]] = {}
@@ -278,28 +313,49 @@ def run_recall_evaluation(
                 **tc.filters,
             )
 
-            # Extract references from results
-            retrieved_refs = [
-                r.get("reference", "") for r in search_results if r.get("reference")
-            ]
+            # Judge each result
+            all_judgments: list[JudgmentResult] = []
+            for result in search_results[:max_k]:
+                reference = result.get("reference", "Unknown")
+                text = result.get("text", "")
 
-            # Calculate recall at each k
-            for k in k_values:
-                recall, hits, misses = calculate_recall(
-                    expected=tc.expected_verses,
-                    retrieved=retrieved_refs,
-                    k=k,
+                judgment = judge_verse_relevance(
+                    judge=judge,
+                    query=tc.query,
+                    relevance_rubric=tc.relevance_rubric,
+                    reference=reference,
+                    text=text,
                 )
 
-                result = RecallResult(
+                all_judgments.append(
+                    JudgmentResult(
+                        reference=reference,
+                        text=text,
+                        score=judgment["score"],
+                        reasoning=judgment["reasoning"],
+                        confidence=judgment["confidence"],
+                        normalized_score=normalize_score(judgment["score"]),
+                    )
+                )
+
+            # Calculate precision at each k
+            for k in k_values:
+                judgments_at_k = all_judgments[:k]
+
+                # Precision = sum of normalized scores / k
+                if judgments_at_k:
+                    precision = sum(j.normalized_score for j in judgments_at_k) / k
+                else:
+                    precision = 0.0
+
+                result = PrecisionResult(
                     query=tc.query,
-                    expected=tc.expected_verses,
-                    retrieved=retrieved_refs[:k],
-                    recall_score=recall,
+                    relevance_rubric=tc.relevance_rubric,
+                    retrieved=search_results[:k],
+                    judgments=judgments_at_k,
+                    precision_score=precision,
                     k=k,
                     test_case_id=tc.id,
-                    hits=hits,
-                    misses=misses,
                 )
 
                 if k == 5:
@@ -312,25 +368,24 @@ def run_recall_evaluation(
                     category_scores[tc.category] = {"at_5": [], "at_10": []}
 
                 if k == 5:
-                    category_scores[tc.category]["at_5"].append(recall)
+                    category_scores[tc.category]["at_5"].append(precision)
                 elif k == 10:
-                    category_scores[tc.category]["at_10"].append(recall)
+                    category_scores[tc.category]["at_10"].append(precision)
 
-                logger.debug(f"  Recall@{k}: {recall:.2%} ({len(hits)}/{len(tc.expected_verses)} hits)")
+                logger.debug(f"  Precision@{k}: {precision:.2%}")
 
         except Exception as e:
             logger.error(f"Error evaluating {tc.id}: {e}")
             # Add zero-score results for failed cases
             for k in k_values:
-                result = RecallResult(
+                result = PrecisionResult(
                     query=tc.query,
-                    expected=tc.expected_verses,
+                    relevance_rubric=tc.relevance_rubric,
                     retrieved=[],
-                    recall_score=0.0,
+                    judgments=[],
+                    precision_score=0.0,
                     k=k,
                     test_case_id=tc.id,
-                    hits=[],
-                    misses=tc.expected_verses,
                 )
                 if k == 5:
                     results_at_5.append(result)
@@ -338,13 +393,13 @@ def run_recall_evaluation(
                     results_at_10.append(result)
 
     # Calculate aggregate metrics
-    avg_recall_at_5 = (
-        sum(r.recall_score for r in results_at_5) / len(results_at_5)
+    avg_precision_at_5 = (
+        sum(r.precision_score for r in results_at_5) / len(results_at_5)
         if results_at_5
         else 0.0
     )
-    avg_recall_at_10 = (
-        sum(r.recall_score for r in results_at_10) / len(results_at_10)
+    avg_precision_at_10 = (
+        sum(r.precision_score for r in results_at_10) / len(results_at_10)
         if results_at_10
         else 0.0
     )
@@ -353,73 +408,87 @@ def run_recall_evaluation(
     by_category = {}
     for category, scores in category_scores.items():
         by_category[category] = {
-            "recall_at_5": sum(scores["at_5"]) / len(scores["at_5"]) if scores["at_5"] else 0.0,
-            "recall_at_10": sum(scores["at_10"]) / len(scores["at_10"]) if scores["at_10"] else 0.0,
+            "precision_at_5": sum(scores["at_5"]) / len(scores["at_5"]) if scores["at_5"] else 0.0,
+            "precision_at_10": sum(scores["at_10"]) / len(scores["at_10"]) if scores["at_10"] else 0.0,
             "count": len(scores["at_5"]),
         }
 
-    # Combine results (use recall@10 results as primary)
+    # Combine results (use precision@10 results as primary)
     all_results = results_at_10
 
-    return RecallReport(
+    # Get thresholds from settings, default to 0.75 and 0.70
+    precision_at_5_threshold = getattr(settings, "precision_at_5_threshold", 0.75)
+    precision_at_10_threshold = getattr(settings, "precision_at_10_threshold", 0.70)
+
+    return PrecisionReport(
         total_cases=len(test_cases),
-        recall_at_5=avg_recall_at_5,
-        recall_at_10=avg_recall_at_10,
-        recall_at_5_pass=avg_recall_at_5 >= settings.recall_at_5_threshold,
-        recall_at_10_pass=avg_recall_at_10 >= settings.recall_at_10_threshold,
+        precision_at_5=avg_precision_at_5,
+        precision_at_10=avg_precision_at_10,
+        precision_at_5_pass=avg_precision_at_5 >= precision_at_5_threshold,
+        precision_at_10_pass=avg_precision_at_10 >= precision_at_10_threshold,
         by_category=by_category,
         results=all_results,
         timestamp=time.strftime("%Y-%m-%d %H:%M:%S"),
     )
 
 
-def print_recall_report(report: RecallReport) -> None:
-    """Print a formatted recall evaluation report to console.
+def print_precision_report(report: PrecisionReport, verbose: bool = False) -> None:
+    """Print a formatted precision evaluation report to console.
 
     Args:
-        report: RecallReport to display
+        report: PrecisionReport to display
+        verbose: If True, show detailed judgments for each test case
     """
     settings = get_settings()
 
-    print("\n" + "=" * 60)
-    print("RETRIEVAL RECALL EVALUATION REPORT")
-    print("=" * 60)
+    # Get thresholds
+    p5_threshold = getattr(settings, "precision_at_5_threshold", 0.75)
+    p10_threshold = getattr(settings, "precision_at_10_threshold", 0.70)
+
+    print("\n" + "=" * 70)
+    print("RETRIEVAL PRECISION EVALUATION REPORT (LLM-as-Judge)")
+    print("=" * 70)
     print(f"Timestamp: {report.timestamp}")
     print(f"Total test cases: {report.total_cases}")
 
     # Overall metrics
     print("\n--- Overall Metrics ---")
-    r5_status = "PASS" if report.recall_at_5_pass else "FAIL"
-    r10_status = "PASS" if report.recall_at_10_pass else "FAIL"
-    r5_threshold = settings.recall_at_5_threshold
-    r10_threshold = settings.recall_at_10_threshold
+    p5_status = "PASS" if report.precision_at_5_pass else "FAIL"
+    p10_status = "PASS" if report.precision_at_10_pass else "FAIL"
 
-    print(f"  Recall@5:  {report.recall_at_5:.1%} (threshold: {r5_threshold:.0%}) [{r5_status}]")
-    print(f"  Recall@10: {report.recall_at_10:.1%} (threshold: {r10_threshold:.0%}) [{r10_status}]")
+    print(f"  Precision@5:  {report.precision_at_5:.1%} (threshold: {p5_threshold:.0%}) [{p5_status}]")
+    print(f"  Precision@10: {report.precision_at_10:.1%} (threshold: {p10_threshold:.0%}) [{p10_status}]")
 
     # By category
     print("\n--- By Category ---")
     for category, metrics in sorted(report.by_category.items()):
         print(f"  {category} (n={metrics['count']}):")
-        print(f"    Recall@5:  {metrics['recall_at_5']:.1%}")
-        print(f"    Recall@10: {metrics['recall_at_10']:.1%}")
+        print(f"    Precision@5:  {metrics['precision_at_5']:.1%}")
+        print(f"    Precision@10: {metrics['precision_at_10']:.1%}")
 
-    # Failed cases (recall < 1.0)
-    failed_cases = [r for r in report.results if r.recall_score < 1.0]
-    if failed_cases:
-        print(f"\n--- Cases with Missing Results ({len(failed_cases)}) ---")
-        for result in sorted(failed_cases, key=lambda x: x.recall_score):
-            print(f"\n  [{result.test_case_id}] {result.query[:50]}...")
-            print(f"    Recall@{result.k}: {result.recall_score:.1%}")
-            print(f"    Hits ({len(result.hits)}): {', '.join(result.hits[:5])}")
-            if result.misses:
-                print(f"    Misses ({len(result.misses)}): {', '.join(result.misses[:5])}")
+    # Individual results
+    print("\n--- Test Case Results ---")
+    for result in sorted(report.results, key=lambda x: x.precision_score):
+        highly_rel = result.highly_relevant_count
+        partial_rel = result.partially_relevant_count
+        not_rel = result.not_relevant_count
+
+        print(f"\n  [{result.test_case_id}] {result.query[:50]}...")
+        print(f"    Precision@{result.k}: {result.precision_score:.1%}")
+        print(f"    Relevance: {highly_rel} high, {partial_rel} partial, {not_rel} not relevant")
+
+        if verbose:
+            print(f"    Rubric: {result.relevance_rubric[:80]}...")
+            print("    Judgments:")
+            for j in result.judgments:
+                score_label = {3: "HIGH", 2: "PARTIAL", 1: "NOT REL"}[j.score]
+                print(f"      - [{score_label}] {j.reference}: {j.reasoning[:60]}...")
 
     # Summary
-    print("\n" + "-" * 60)
+    print("\n" + "-" * 70)
     overall = "PASS" if report.overall_pass else "FAIL"
     print(f"Overall Status: [{overall}]")
-    print("=" * 60)
+    print("=" * 70)
 
 
 def create_api_search_client(

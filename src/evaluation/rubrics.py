@@ -9,6 +9,7 @@ Dimensions:
 3. completeness - Covers question fully
 4. source_relevance - Uses relevant vs tangential scripture
 5. theological_appropriateness - Doctrinally sound interpretation
+6. retrieval_relevance - Retrieved verse relevance to search query (1-3 scale)
 """
 
 from dataclasses import dataclass
@@ -23,6 +24,7 @@ class Dimension(Enum):
     COMPLETENESS = "completeness"
     SOURCE_RELEVANCE = "source_relevance"
     THEOLOGICAL_APPROPRIATENESS = "theological_appropriateness"
+    RETRIEVAL_RELEVANCE = "retrieval_relevance"
 
 
 @dataclass
@@ -72,6 +74,31 @@ class Rubric:
             text = c.get("text", "")
             lines.append(f"- {ref}: \"{text}\"")
         return "\n".join(lines)
+
+    def build_relevance_prompt(
+        self,
+        query: str,
+        relevance_rubric: str,
+        reference: str,
+        text: str,
+    ) -> str:
+        """Build the judge prompt for retrieval relevance evaluation.
+
+        Args:
+            query: The search query
+            relevance_rubric: Test case specific relevance criteria
+            reference: Scripture reference (e.g., "John 3:16")
+            text: The verse content
+
+        Returns:
+            Formatted prompt for the judge LLM
+        """
+        return self.prompt_template.format(
+            query=query,
+            relevance_rubric=relevance_rubric,
+            reference=reference,
+            text=text,
+        )
 
 
 # =============================================================================
@@ -260,6 +287,41 @@ PASS conditions:
 Respond with EXACTLY one of these formats:
 PASS: Answer stays grounded in scripture text without overreaching
 FAIL: [Identify specific speculation or unsupported theological claims]
+""",
+    ),
+    Dimension.RETRIEVAL_RELEVANCE: Rubric(
+        dimension=Dimension.RETRIEVAL_RELEVANCE,
+        description="Evaluates whether a retrieved scripture verse is relevant to a search query",
+        weight=1.0,
+        prompt_template="""You are evaluating whether a scripture verse is relevant to a search query.
+
+## Query
+{query}
+
+## Relevance Rubric
+{relevance_rubric}
+
+## Verse to Evaluate
+Reference: {reference}
+Text: "{text}"
+
+## Scoring Scale
+3 - Highly Relevant: Directly addresses the query topic
+2 - Somewhat Relevant: Related but tangential or partial match
+1 - Not Relevant: No meaningful connection to the query
+
+## Instructions
+1. Identify specific connections between the verse and query
+2. Consider the rubric criteria
+3. Provide your reasoning FIRST
+4. Then give your score
+
+## Output Format (JSON)
+{{
+  "reasoning": "...",
+  "score": 1-3,
+  "confidence": 0.0-1.0
+}}
 """,
     ),
 }

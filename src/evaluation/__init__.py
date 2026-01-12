@@ -1,7 +1,7 @@
 """Evaluation framework for Scripture Search RAG.
 
 Uses local Qwen2 via vLLM as LLM-as-judge for quality assessment.
-Includes retrieval recall measurement for search quality evaluation.
+Includes retrieval precision measurement for search quality evaluation.
 """
 
 from .judge import JudgeLLM, get_judge
@@ -14,15 +14,18 @@ from .rubrics import (
 )
 from .config import EvaluationSettings, get_settings
 from .retrieval import (
-    RecallResult,
-    RecallReport,
+    PrecisionResult,
+    PrecisionReport,
+    JudgmentResult,
     RetrievalTestCase,
-    calculate_recall,
-    run_recall_evaluation,
-    print_recall_report,
+    normalize_score,
+    judge_verse_relevance,
+    run_precision_evaluation,
+    print_precision_report,
     load_retrieval_ground_truth,
     create_api_search_client,
     create_direct_search_client,
+    RETRIEVAL_RELEVANCE_PROMPT,
 )
 
 __all__ = [
@@ -39,13 +42,16 @@ __all__ = [
     "EvaluationSettings",
     "get_settings",
     # Retrieval evaluation
-    "RecallResult",
-    "RecallReport",
+    "PrecisionResult",
+    "PrecisionReport",
+    "JudgmentResult",
     "RetrievalTestCase",
-    "calculate_recall",
-    "run_recall_evaluation",
-    "print_recall_report",
+    "normalize_score",
+    "judge_verse_relevance",
+    "run_precision_evaluation",
+    "print_precision_report",
     "load_retrieval_ground_truth",
     "create_api_search_client",
     "create_direct_search_client",
+    "RETRIEVAL_RELEVANCE_PROMPT",
 ]

@@ -1,155 +1,138 @@
 {
-  "version": "1.0",
-  "description": "Ground truth test set for measuring retrieval recall@k in scripture vector search",
+  "version": "2.0",
+  "description": "Ground truth test set for measuring retrieval Precision@k using LLM-as-judge",
   "created": "2026-01-12",
+  "updated": "2026-01-12",
   "metrics": {
-    "primary": "recall@k",
-    "definition": "Proportion of expected verses found within top-k results"
+    "primary": "precision@k",
+    "definition": "Proportion of retrieved verses judged relevant by LLM evaluator"
   },
   "test_cases": [
     {
-      "id": "recall_01",
+      "id": "doctrinal_01",
       "query": "faith hope charity",
-      "expected_verses": ["1 Corinthians 13:13", "Moroni 7:1"],
-      "top_k": 5,
-      "description": "Famous triad of virtues - direct phrase match expected",
-      "category": "simple"
-    },
-    {
-      "id": "recall_02",
-      "query": "be still and know that I am God",
-      "expected_verses": ["Psalm 46:10", "D&C 101:16"],
-      "top_k": 5,
-      "description": "Iconic phrase with exact wording in multiple volumes",
-      "category": "simple"
-    },
-    {
-      "id": "recall_03",
-      "query": "I am the way the truth and the life",
-      "expected_verses": ["John 14:6"],
-      "top_k": 5,
-      "description": "Single famous verse with distinctive phrasing",
-      "category": "simple"
-    },
-    {
-      "id": "recall_04",
-      "query": "for God so loved the world",
-      "expected_verses": ["John 3:16"],
-      "top_k": 5,
-      "description": "Most memorized verse in Christianity",
-      "category": "simple"
-    },
-    {
-      "id": "recall_05",
-      "query": "ask and ye shall receive seek and ye shall find",
-      "expected_verses": ["Matthew 7:7", "3 Nephi 14:7", "D&C 4:7"],
-      "top_k": 5,
-      "description": "Teaching repeated across volumes - tests multi-volume retrieval",
-      "category": "simple"
-    },
-    {
-      "id": "recall_06",
-      "query": "armor of God",
-      "expected_verses": ["Ephesians 6:11", "Ephesians 6:13", "D&C 27:15"],
-      "top_k": 5,
-      "description": "Metaphor with multiple relevant verses",
-      "category": "simple"
-    },
-    {
-      "id": "recall_07",
-      "query": "remember the sabbath day to keep it holy",
-      "expected_verses": ["Exodus 20:8", "Mosiah 13:16"],
-      "top_k": 5,
-      "description": "Ten Commandments phrase appearing in multiple scriptures",
-      "category": "simple"
-    },
-    {
-      "id": "recall_08",
-      "query": "born of water and of the Spirit",
-      "expected_verses": ["John 3:5", "Moses 6:59"],
-      "top_k": 5,
-      "description": "Baptism doctrine with specific terminology",
-      "category": "medium"
-    },
-    {
-      "id": "recall_09",
-      "query": "infinite atonement suffering for sins",
-      "expected_verses": ["2 Nephi 9:7", "Alma 34:10", "Alma 7:11"],
+      "relevance_rubric": "Verse discusses faith, hope, and/or charity as Christian virtues or principles of discipleship",
       "top_k": 10,
-      "description": "Book of Mormon atonement theology - needs broader search",
-      "category": "medium"
+      "category": "doctrinal_concept"
     },
     {
-      "id": "recall_10",
-      "query": "vision of tree of life",
-      "expected_verses": ["1 Nephi 8:10", "1 Nephi 11:8", "1 Nephi 11:25"],
+      "id": "doctrinal_02",
+      "query": "repentance and forgiveness of sins",
+      "relevance_rubric": "Verse addresses repentance, forgiveness of sins, or the process of returning to God after transgression",
       "top_k": 10,
-      "description": "Lehi's vision narrative across chapters",
-      "category": "medium"
+      "category": "doctrinal_concept"
     },
     {
-      "id": "recall_11",
-      "query": "priesthood restoration Aaronic Melchizedek",
-      "expected_verses": ["D&C 13:1", "D&C 84:19", "D&C 107:1"],
+      "id": "doctrinal_03",
+      "query": "the atonement of Jesus Christ suffering for sins",
+      "relevance_rubric": "Verse discusses Christ's atonement, his suffering, or the redemption of mankind through his sacrifice",
       "top_k": 10,
-      "description": "Priesthood doctrine spanning multiple D&C sections",
-      "category": "medium"
+      "category": "doctrinal_concept"
     },
     {
-      "id": "recall_12",
-      "query": "celestial terrestrial telestial glory kingdoms",
-      "expected_verses": ["D&C 76:70", "D&C 76:81", "D&C 76:98", "1 Corinthians 15:40"],
+      "id": "doctrinal_04",
+      "query": "baptism by water and the Spirit",
+      "relevance_rubric": "Verse discusses baptism, being born of water and Spirit, or the ordinance of entering the covenant",
       "top_k": 10,
-      "description": "Degrees of glory doctrine - D&C specific with NT parallel",
-      "category": "medium"
+      "category": "doctrinal_concept"
     },
     {
-      "id": "recall_13",
-      "query": "tithing fire tenth",
-      "expected_verses": ["Malachi 3:8", "Malachi 3:10", "D&C 119:4"],
+      "id": "doctrinal_05",
+      "query": "prayer and communion with God",
+      "relevance_rubric": "Verse discusses prayer, speaking with God, or instructions on how to approach the Lord",
       "top_k": 10,
-      "description": "Tithing principle across OT and D&C",
-      "category": "medium"
+      "category": "doctrinal_concept"
     },
     {
-      "id": "recall_14",
-      "query": "stripling warriors two thousand sons Helaman",
-      "expected_verses": ["Alma 53:22", "Alma 56:10", "Alma 57:25"],
+      "id": "narrative_01",
+      "query": "Lehi's vision of the tree of life",
+      "relevance_rubric": "Verse is from or describes Lehi's dream, the tree of life, the rod of iron, the great and spacious building, or the mists of darkness",
       "top_k": 10,
-      "description": "Specific narrative - tests semantic understanding of proper nouns",
-      "category": "edge"
+      "category": "narrative"
     },
     {
-      "id": "recall_15",
-      "query": "liahona compass ball curious workmanship",
-      "expected_verses": ["1 Nephi 16:10", "Alma 37:38", "Alma 37:44"],
+      "id": "narrative_02",
+      "query": "Nephi building a ship to cross the ocean",
+      "relevance_rubric": "Verse describes Nephi's construction of the ship, the journey to the promised land, or the challenges faced during the voyage",
       "top_k": 10,
-      "description": "Unique BOM object - tests handling of unusual vocabulary",
-      "category": "edge"
+      "category": "narrative"
     },
     {
-      "id": "recall_16",
-      "query": "brother of Jared stones shining light",
-      "expected_verses": ["Ether 3:4", "Ether 6:3"],
+      "id": "narrative_03",
+      "query": "Alma the Younger's conversion and repentance",
+      "relevance_rubric": "Verse describes Alma the Younger's rebellion, the angel's visitation, his suffering and repentance, or his subsequent testimony",
       "top_k": 10,
-      "description": "Obscure narrative from Book of Ether",
-      "category": "edge"
+      "category": "narrative"
     },
     {
-      "id": "recall_17",
-      "query": "Urim and Thummim seer stones translation",
-      "expected_verses": ["Exodus 28:30", "D&C 17:1", "JS-H 1:35"],
+      "id": "narrative_04",
+      "query": "Jesus Christ visiting the Nephites after his resurrection",
+      "relevance_rubric": "Verse describes Christ's appearance to the Nephites in 3 Nephi, his teachings there, or the people's reactions to his coming",
       "top_k": 10,
-      "description": "Cross-volume concept with technical terminology",
-      "category": "edge"
+      "category": "narrative"
     },
     {
-      "id": "recall_18",
-      "query": "olive tree allegory Jacob grafting",
-      "expected_verses": ["Jacob 5:3", "Jacob 5:17", "Jacob 5:74"],
+      "id": "term_01",
+      "query": "liahona compass director ball of curious workmanship",
+      "relevance_rubric": "Verse mentions or describes the Liahona, the ball or compass that guided Lehi's family, or its symbolic meaning",
       "top_k": 10,
-      "description": "Long allegory chapter - tests retrieval of narrative content",
-      "category": "edge"
+      "category": "specific_term"
+    },
+    {
+      "id": "term_02",
+      "query": "Urim and Thummim seer stones interpreters",
+      "relevance_rubric": "Verse mentions the Urim and Thummim, seer stones, interpreters, or instruments of translation and revelation",
+      "top_k": 10,
+      "category": "specific_term"
+    },
+    {
+      "id": "term_03",
+      "query": "priesthood Aaronic Melchizedek ordination",
+      "relevance_rubric": "Verse discusses priesthood authority, the Aaronic or Melchizedek priesthood, ordination, or priesthood keys",
+      "top_k": 10,
+      "category": "specific_term"
+    },
+    {
+      "id": "term_04",
+      "query": "celestial terrestrial telestial kingdoms of glory",
+      "relevance_rubric": "Verse discusses degrees of glory, the celestial, terrestrial, or telestial kingdoms, or the judgment and reward of souls",
+      "top_k": 10,
+      "category": "specific_term"
+    },
+    {
+      "id": "cross_01",
+      "query": "armor of God spiritual protection",
+      "relevance_rubric": "Verse uses armor or military metaphor for spiritual protection, mentions shield of faith, sword of the Spirit, or spiritual warfare imagery",
+      "top_k": 10,
+      "category": "cross_volume"
+    },
+    {
+      "id": "cross_02",
+      "query": "loving your enemies and blessing those who curse you",
+      "relevance_rubric": "Verse teaches about loving enemies, blessing persecutors, returning good for evil, or overcoming hate with love",
+      "top_k": 10,
+      "category": "cross_volume"
+    },
+    {
+      "id": "cross_03",
+      "query": "tithing offerings giving a tenth to the Lord",
+      "relevance_rubric": "Verse discusses tithing, giving a tenth, offerings to the Lord, or the blessings promised for faithful giving",
+      "top_k": 10,
+      "category": "cross_volume"
+    },
+    {
+      "id": "inference_01",
+      "query": "How 'I Am' relates to 'The Word'",
+      "relevance_rubric": "Verse discusses Christ's divine identity, uses 'I Am' as a divine name, describes Christ as the Word/Logos, or connects Jehovah with Jesus",
+      "top_k": 10,
+      "category": "theological_inference"
+    },
+    {
+      "id": "inference_02",
+      "query": "lamb, sacrificial lamb, Jesus as the Lamb of God",
+      "relevance_rubric": "Verse references lambs in sacrificial context, prophetic lamb imagery pointing to Christ, or explicitly identifies Jesus/Messiah as the Lamb of God",
+      "top_k": 10,
+      "category": "theological_inference"
     }
   ]
 }
