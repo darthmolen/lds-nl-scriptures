@@ -7,7 +7,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from src.api.config import get_settings
-from src.api.routers import health
+from src.api.routers import health, scriptures
 
 
 def create_app() -> FastAPI:
@@ -37,7 +37,7 @@ def create_app() -> FastAPI:
 
     # Register routers
     app.include_router(health.router)
-    # app.include_router(scriptures.router, prefix="/api/v1")
+    app.include_router(scriptures.router, prefix="/api/v1")
     # app.include_router(cfm.router, prefix="/api/v1")
     # app.include_router(conference.router, prefix="/api/v1")
 
