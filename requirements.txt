@@ -10,3 +10,10 @@ python-dotenv>=1.0
 # Azure OpenAI
 openai>=1.0
 tenacity>=8.0
+
+# HTTP and HTML parsing
+requests>=2.31
+beautifulsoup4>=4.12
+
+# TOON format (token-efficient serialization)
+toons>=0.1

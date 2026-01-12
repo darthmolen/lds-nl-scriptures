@@ -1,0 +1,830 @@
+[
+  {
+    "year": 2014,
+    "month": "04",
+    "talk_count": 46,
+    "talk_uris": [
+      "saturday-morning-session",
+      "welcome-to-conference",
+      "the-cost-and-blessings-of-discipleship",
+      "the-joyful-burden-of-discipleship",
+      "christ-the-redeemer"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2014,
+      "month": "04",
+      "talk_uri": "/general-conference/2014/04/the-cost-and-blessings-of-discipleship",
+      "success": true,
+      "paragraph_count": 53,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "p1",
+        "p2",
+        "kicker1",
+        "p3",
+        "p4"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Elder Jeffrey\u00a0R. Holland",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2014,
+    "month": "10",
+    "talk_count": 45,
+    "talk_uris": [
+      "saturday-morning-session",
+      "welcome-to-conference",
+      "the-reason-for-our-hope",
+      "which-way-do-you-face",
+      "the-sacrament-a-renewal-for-the-soul"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2014,
+      "month": "10",
+      "talk_uri": "/general-conference/2014/10/the-reason-for-our-hope",
+      "success": true,
+      "paragraph_count": 34,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "p1",
+        "p2",
+        "kicker1",
+        "p3",
+        "p4"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By President Boyd\u00a0K. Packer",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2015,
+    "month": "04",
+    "talk_count": 45,
+    "talk_uris": [
+      "womens-session",
+      "filling-our-homes-with-light-and-truth",
+      "the-family-is-of-god",
+      "defenders-of-the-family-proclamation",
+      "the-comforter"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2015,
+      "month": "04",
+      "talk_uri": "/general-conference/2015/04/the-family-is-of-god",
+      "success": true,
+      "paragraph_count": 44,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "p1",
+        "p2",
+        "kicker1",
+        "p3",
+        "p4"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Carole\u00a0M. Stephens",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2015,
+    "month": "10",
+    "talk_count": 46,
+    "talk_uris": [
+      "womens-session",
+      "discovering-the-divinity-within",
+      "worthy-of-our-promised-blessings",
+      "here-to-serve-a-righteous-cause",
+      "a-summer-with-great-aunt-rose"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2015,
+      "month": "10",
+      "talk_uri": "/general-conference/2015/10/worthy-of-our-promised-blessings",
+      "success": true,
+      "paragraph_count": 37,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "p1",
+        "p2",
+        "kicker1",
+        "p3",
+        "p4"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Linda\u00a0S. Reeves",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2016,
+    "month": "04",
+    "talk_count": 44,
+    "talk_uris": [
+      "womens-session",
+      "he-asks-us-to-be-his-hands",
+      "what-shall-we-do",
+      "i-was-a-stranger",
+      "trust-in-that-spirit-which-leadeth-to-do-good"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2016,
+      "month": "04",
+      "talk_uri": "/general-conference/2016/04/what-shall-we-do",
+      "success": true,
+      "paragraph_count": 42,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "p1",
+        "p2",
+        "kicker1",
+        "p3",
+        "p4"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Neill\u00a0F. Marriott",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2016,
+    "month": "10",
+    "talk_count": 44,
+    "talk_uris": [
+      "womens-session",
+      "i-will-bring-the-light-of-the-gospel-into-my-home",
+      "the-master-healer",
+      "rise-up-in-strength-sisters-in-zion",
+      "fourth-floor-last-door"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2016,
+      "month": "10",
+      "talk_uri": "/general-conference/2016/10/the-master-healer",
+      "success": true,
+      "paragraph_count": 63,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "p1",
+        "p2",
+        "kicker1",
+        "p3",
+        "p4"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Carole\u00a0M. Stephens",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2017,
+    "month": "04",
+    "talk_count": 45,
+    "talk_uris": [
+      "womens-session",
+      "trust-in-the-lord-and-lean-not",
+      "the-beauty-of-holiness",
+      "certain-women",
+      "my-peace-i-leave-with-you"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2017,
+      "month": "04",
+      "talk_uri": "/general-conference/2017/04/the-beauty-of-holiness",
+      "success": true,
+      "paragraph_count": 54,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "p1",
+        "p2",
+        "kicker1",
+        "p3",
+        "p4"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Carol\u00a0F. McConkie",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2017,
+    "month": "10",
+    "talk_count": 42,
+    "talk_uris": [
+      "womens-session",
+      "turn-on-your-light",
+      "abiding-in-god-and-repairing-the-breach",
+      "value-beyond-measure",
+      "three-sisters"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2017,
+      "month": "10",
+      "talk_uri": "/general-conference/2017/10/abiding-in-god-and-repairing-the-breach",
+      "success": true,
+      "paragraph_count": 39,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "p1",
+        "p2",
+        "kicker1",
+        "p3",
+        "p4"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Neill\u00a0F. Marriott",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2018,
+    "month": "04",
+    "talk_count": 43,
+    "talk_uris": [
+      "saturday-morning-session",
+      "solemn-assembly",
+      "precious-gifts-from-god",
+      "am-i-a-child-of-god",
+      "even-as-christ-forgives-you-so-also-do-ye"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2018,
+      "month": "04",
+      "talk_uri": "/general-conference/2018/04/precious-gifts-from-god",
+      "success": true,
+      "paragraph_count": 55,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "p1",
+        "p2",
+        "kicker1",
+        "p3",
+        "p4"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By President M.\u00a0Russell Ballard",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2018,
+    "month": "10",
+    "talk_count": 39,
+    "talk_uris": [
+      "saturday-morning-session",
+      "opening-remarks",
+      "deep-and-lasting-conversion-to-heavenly-father-and-the-lord-jesus-christ",
+      "lift-up-your-head-and-rejoice",
+      "laying-the-foundation-of-a-great-work"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2018,
+      "month": "10",
+      "talk_uri": "/general-conference/2018/10/deep-and-lasting-conversion-to-heavenly-father-and-the-lord-jesus-christ",
+      "success": true,
+      "paragraph_count": 59,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "p1",
+        "p2",
+        "kicker1",
+        "p3",
+        "p4"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Elder Quentin\u00a0L. Cook",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2019,
+    "month": "04",
+    "talk_count": 38,
+    "talk_uris": [
+      "saturday-morning-session",
+      "11soares",
+      "12craven",
+      "13hales",
+      "14uchtdorf"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2019,
+      "month": "04",
+      "talk_uri": "/general-conference/2019/04/12craven",
+      "success": true,
+      "paragraph_count": 30,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "author1",
+        "author2",
+        "kicker1",
+        "p1",
+        "p2"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Becky Craven",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2019,
+    "month": "10",
+    "talk_count": 40,
+    "talk_uris": [
+      "saturday-morning-session",
+      "11holland",
+      "12vinson",
+      "13owen",
+      "14christofferson"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2019,
+      "month": "10",
+      "talk_uri": "/general-conference/2019/10/12vinson",
+      "success": true,
+      "paragraph_count": 47,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "author1",
+        "author2",
+        "kicker1",
+        "p1",
+        "p2"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Elder Terence\u00a0M. Vinson",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2020,
+    "month": "04",
+    "talk_count": 40,
+    "talk_uris": [
+      "saturday-morning-session",
+      "11nelson",
+      "12ballard",
+      "13rasband",
+      "14jones"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2020,
+      "month": "04",
+      "talk_uri": "/general-conference/2020/04/12ballard",
+      "success": true,
+      "paragraph_count": 77,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "author1",
+        "author2",
+        "kicker1",
+        "p1",
+        "p2"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By President M.\u00a0Russell Ballard",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2020,
+    "month": "10",
+    "talk_count": 41,
+    "talk_uris": [
+      "saturday-morning-session",
+      "11nelson",
+      "12bednar",
+      "13whiting",
+      "14craig"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2020,
+      "month": "10",
+      "talk_uri": "/general-conference/2020/10/12bednar",
+      "success": true,
+      "paragraph_count": 67,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "subtitle1",
+        "author1",
+        "author2",
+        "kicker1",
+        "p1"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Elder David\u00a0A. Bednar",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2021,
+    "month": "04",
+    "talk_count": 42,
+    "talk_uris": [
+      "saturday-morning-session",
+      "11nelson",
+      "12uchtdorf",
+      "13jones",
+      "14newman"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2021,
+      "month": "04",
+      "talk_uri": "/general-conference/2021/04/12uchtdorf",
+      "success": true,
+      "paragraph_count": 97,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "author1",
+        "author2",
+        "kicker1",
+        "p1",
+        "p2"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Elder Dieter\u00a0F. Uchtdorf",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2021,
+    "month": "10",
+    "talk_count": 45,
+    "talk_uris": [
+      "saturday-morning-session",
+      "11nelson",
+      "12holland",
+      "13cordon",
+      "14soares"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2021,
+      "month": "10",
+      "talk_uri": "/general-conference/2021/10/12holland",
+      "success": true,
+      "paragraph_count": 43,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "author1",
+        "author2",
+        "kicker1",
+        "p1",
+        "p2"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Elder Jeffrey\u00a0R. Holland",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2022,
+    "month": "04",
+    "talk_count": 43,
+    "talk_uris": [
+      "saturday-morning-session",
+      "11nelson",
+      "12ballard",
+      "13aburto",
+      "14bednar"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2022,
+      "month": "04",
+      "talk_uri": "/general-conference/2022/04/12ballard",
+      "success": true,
+      "paragraph_count": 32,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "author1",
+        "author2",
+        "kicker1",
+        "p1",
+        "p2"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By President M.\u00a0Russell Ballard",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2022,
+    "month": "10",
+    "talk_count": 41,
+    "talk_uris": [
+      "saturday-morning-session",
+      "18oaks",
+      "12uchtdorf",
+      "13browning",
+      "14renlund"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2022,
+      "month": "10",
+      "talk_uri": "/general-conference/2022/10/12uchtdorf",
+      "success": true,
+      "paragraph_count": 83,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "author1",
+        "author2",
+        "kicker1",
+        "p1",
+        "p2"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Elder Dieter\u00a0F. Uchtdorf",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2023,
+    "month": "04",
+    "talk_count": 40,
+    "talk_uris": [
+      "saturday-morning-session",
+      "11stevenson",
+      "12cordon",
+      "13cook",
+      "14gong"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2023,
+      "month": "04",
+      "talk_uri": "/general-conference/2023/04/12cordon",
+      "success": true,
+      "paragraph_count": 39,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "author1",
+        "author2",
+        "kicker1",
+        "p2",
+        "p3"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By President Bonnie\u00a0H. Cordon",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2023,
+    "month": "10",
+    "talk_count": 38,
+    "talk_uris": [
+      "saturday-morning-session",
+      "11bednar",
+      "12wright",
+      "13daines",
+      "14godoy"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2023,
+      "month": "10",
+      "talk_uri": "/general-conference/2023/10/12wright",
+      "success": true,
+      "paragraph_count": 85,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "author1",
+        "author2",
+        "kicker1",
+        "p1",
+        "p2"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Sister Amy\u00a0A. Wright",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2024,
+    "month": "04",
+    "talk_count": 39,
+    "talk_uris": [
+      "saturday-morning-session",
+      "11oaks",
+      "12larson",
+      "13holland",
+      "14dennis"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2024,
+      "month": "04",
+      "talk_uri": "/general-conference/2024/04/12larson",
+      "success": true,
+      "paragraph_count": 10,
+      "paragraph_id_format": "sequential",
+      "sample_paragraph_ids": [
+        "author1",
+        "author2",
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "Presented by Jared\u00a0B. Larson",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2024,
+    "month": "10",
+    "talk_count": 40,
+    "talk_uris": [
+      "saturday-morning-session",
+      "11eyring",
+      "12andersen",
+      "13freeman",
+      "14hirst"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2024,
+      "month": "10",
+      "talk_uri": "/general-conference/2024/10/12andersen",
+      "success": true,
+      "paragraph_count": 76,
+      "paragraph_id_format": "hash",
+      "sample_paragraph_ids": [
+        "p_ks9eS",
+        "p_qFFZG",
+        "p_ggZII",
+        "p_iJBUv",
+        "p_yV1hm"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "By Elder Neil\u00a0L. Andersen",
+      "error": "",
+      "http_status": 200
+    }
+  },
+  {
+    "year": 2025,
+    "month": "04",
+    "talk_count": 39,
+    "talk_uris": [
+      "saturday-morning-session",
+      "11oaks",
+      "12larson",
+      "13holland",
+      "14johnson"
+    ],
+    "error": "",
+    "sample_talk": {
+      "year": 2025,
+      "month": "04",
+      "talk_uri": "/general-conference/2025/04/12larson",
+      "success": true,
+      "paragraph_count": 10,
+      "paragraph_id_format": "hash",
+      "sample_paragraph_ids": [
+        "p_ryPi0",
+        "p_f9OZT",
+        "p_aUtUc",
+        "p_oZdf0",
+        "p_dmhao"
+      ],
+      "has_data_aid": false,
+      "sample_data_aids": [],
+      "has_author_name": true,
+      "has_author_role": true,
+      "author_name_class": "author-name",
+      "speaker_name": "Presented by Jared\u00a0B. Larson",
+      "error": "",
+      "http_status": 200
+    }
+  }
+]

@@ -99,3 +99,55 @@ class CFMLesson(Base):
             f"<CFMLesson(id={self.id}, year={self.year}, "
             f"lesson_id={self.lesson_id}, lang={self.lang})>"
         )
+
+
+class ConferenceParagraph(Base):
+    """Conference talk paragraph model.
+
+    Stores individual paragraphs from General Conference talks with
+    metadata and optional embeddings.
+
+    Attributes:
+        id: Primary key
+        year: Conference year (2014-2025)
+        month: Conference month ("04" or "10")
+        session: Session name (saturday_morning, saturday_afternoon, etc.)
+        talk_uri: Full URI path (e.g., "/general-conference/2024/10/12andersen")
+        talk_title: Talk title
+        speaker_name: Speaker name
+        speaker_role: Speaker calling/role
+        paragraph_num: 1-indexed position in talk
+        text: Paragraph text (HTML stripped)
+        lang: Language code ('en' or 'es')
+        footnotes: JSONB of footnotes referencing this paragraph
+        scripture_refs: Array of scripture references in this paragraph
+        talk_refs: Array of cross-references to other talks
+        context_text: ±2 paragraph context for embedding
+        embedding: Vector embedding (1536 dimensions)
+        created_at: Timestamp of record creation
+    """
+    __tablename__ = "conference_paragraphs"
+
+    id = Column(Integer, primary_key=True)
+    year = Column(Integer, nullable=False, index=True)
+    month = Column(String(2), nullable=False)
+    session = Column(String(50))
+    talk_uri = Column(String(200), nullable=False)
+    talk_title = Column(Text)
+    speaker_name = Column(String(200))
+    speaker_role = Column(String(200))
+    paragraph_num = Column(Integer, nullable=False)
+    text = Column(Text, nullable=False)
+    lang = Column(String(5), nullable=False, index=True)
+    footnotes = Column(JSONB)
+    scripture_refs = Column(ARRAY(Text))
+    talk_refs = Column(ARRAY(Text))
+    context_text = Column(Text)  # NULL until embedding generation
+    embedding = Column(Vector(1536))  # NULL until embedding generation
+    created_at = Column(TIMESTAMP, server_default=sql_text("NOW()"))
+
+    def __repr__(self) -> str:
+        return (
+            f"<ConferenceParagraph(id={self.id}, {self.year}/{self.month} "
+            f"para {self.paragraph_num}, lang={self.lang})>"
+        )

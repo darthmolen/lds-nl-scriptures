@@ -239,6 +239,11 @@ When executing multi-step tasks:
 - Come Follow Me manuals: PDF → Markdown
 - Raw PDFs in `content/raw/`, processed markdown in `content/processed/`
 
+### Data Formats
+
+- **TOON (Token-Oriented Object Notation):** Compact serialization format for 30-60% token savings on tabular data. Used for Claude Project uploads. See [documentation/TOON-FORMAT-SUMMARY.md](documentation/TOON-FORMAT-SUMMARY.md) for details.
+- Pipeline: Source → JSON (`content/processed/`) → TOON (`content/transformed/`)
+
 ### Project Roadmap
 
 See `planning/roadmap.md` for detailed phases.
