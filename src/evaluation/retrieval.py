@@ -572,7 +572,7 @@ def create_direct_search_client(session_factory: Callable) -> SearchClient:
             # Get embedding
             query_embedding = get_single_embedding(query)
 
-            # Execute search
+            # Execute hybrid search (vector + full-text)
             with self.session_factory() as session:
                 results = search_scriptures(
                     session=session,
@@ -581,6 +581,8 @@ def create_direct_search_client(session_factory: Callable) -> SearchClient:
                     limit=limit,
                     volume=filters.get("volume"),
                     book=filters.get("book"),
+                    query_text=query,  # Pass original query for hybrid search
+                    use_hybrid=True,
                 )
 
             return results

@@ -14,7 +14,7 @@ from sqlalchemy import (
     Text,
     text as sql_text,
 )
-from sqlalchemy.dialects.postgresql import JSONB
+from sqlalchemy.dialects.postgresql import JSONB, TSVECTOR
 from sqlalchemy.orm import declarative_base
 
 from pgvector.sqlalchemy import Vector
@@ -53,6 +53,7 @@ class Scripture(Base):
     footnotes = Column(JSONB)
     context_text = Column(Text)  # NULL until Phase 3 embedding generation
     embedding = Column(Vector(1536))  # NULL until Phase 3 embedding generation
+    search_vector = Column(TSVECTOR)  # Full-text search vector (auto-populated by trigger)
     created_at = Column(TIMESTAMP, server_default=sql_text("NOW()"))
 
     def __repr__(self) -> str:
