@@ -38,34 +38,37 @@ This document explains all the configurable variables ("knobs") that affect scri
 
 ---
 
-## 2. IVFFlat Probes (`ivfflat.probes`)
+## 2. HNSW Index Parameters
 
-**What it is:** How many index "buckets" to search when finding similar vectors.
+**What it is:** HNSW (Hierarchical Navigable Small World) is a graph-based index for approximate nearest neighbor search. Unlike IVFFlat (which clusters vectors into buckets), HNSW builds a navigable graph where similar vectors are connected.
 
-**Location:** `src/api/services/search.py:148`
+**Why HNSW over IVFFlat:** We switched from IVFFlat after discovering recall failures. IVFFlat clusters vectors into buckets and only searches nearby buckets at query time. This caused relevant verses (like Alma 37:38 for "liahona") to be missed because they were in different clusters. See [ADR-001](ADR/ADR-001-HNSW-VECTOR-INDEX.md) for full details.
 
-**Current:** 100
+### Build-time Parameters (set during index creation)
 
-**How IVFFlat works:**
+| Parameter | Current | Range | Effect |
+|-----------|---------|-------|--------|
+| **m** | 16 | 4-64 | Connections per node. Higher = better recall, more memory |
+| **ef_construction** | 64 | 16-256 | Search width during build. Higher = better index quality, slower build |
+
+**Location:** `src/db/alembic/versions/005_switch_to_hnsw_indexes.py`
+
+### Query-time Parameter
+
+| Parameter | Default | Range | Effect |
+|-----------|---------|-------|--------|
+| **hnsw.ef_search** | 40 | 10-100+ | Search width at query time. Higher = better recall, slower |
+
+**How to adjust at runtime:**
+```sql
+SET hnsw.ef_search = 100;  -- Higher recall for important queries
 ```
-Vectors clustered into ~nlist buckets (default: sqrt(n) ≈ 200 for 42k vectors)
-Query: Check 'probes' nearest buckets, not all buckets
-```
-
-| Probes | Effect | Speed | Recall |
-|--------|--------|-------|--------|
-| 1 | Check 1 bucket | Very fast | Poor - misses results in other buckets |
-| 10 | Check 10 buckets | Fast | Medium - may miss some |
-| 100 | Check 100 buckets (~50% of index) | Slower | High - finds most relevant |
-| nlist | Check all buckets (exact search) | Slowest | Perfect |
 
 **Effect of changing:**
-- **Higher probes →** Better recall (finds more relevant results), slower queries
-- **Lower probes →** Faster queries, may miss semantically similar results in distant buckets
+- **Higher ef_search →** Better recall (finds more relevant results), slower queries
+- **Lower ef_search →** Faster queries, may miss some results
 
-**Discovery:** We found Alma 37:38 (the liahona verse, similarity 0.54) was missing when probes was low, while D&C 60:4 (similarity 0.36) appeared instead. The liahona verse was in a different cluster.
-
-**Recommendation:** Keep at 100 for evaluation. Can reduce for production if speed matters.
+**Current status:** Using pgvector defaults (m=16, ef_construction=64, ef_search=40). These work well for our ~42K vector dataset. No runtime tuning needed - HNSW provides consistently good recall without adjustment.
 
 ---
 

@@ -36,7 +36,8 @@ src/embeddings/
 └── verify.py         # Verification script
 
 src/db/alembic/versions/
-└── 002_add_vector_index.py
+├── 002_add_vector_indexes.py      # Original IVFFlat (superseded)
+└── 005_switch_to_hnsw_indexes.py  # Current HNSW indexes
 ```
 
 ## Infrastructure
@@ -162,33 +163,35 @@ def main():
 
 ## Vector Index
 
-**IMPORTANT**: IVFFlat indexes require training data to be effective. Run migration 002 **AFTER** embedding generation completes, not before. The index uses the existing embeddings to build its internal clusters.
+**UPDATE (2026-01-13):** We switched from IVFFlat to HNSW indexes. See [ADR-001](../documentation/ADR/ADR-001-HNSW-VECTOR-INDEX.md) for the decision rationale.
 
-### Migration 002_add_vector_index.py
+**Why HNSW:** IVFFlat clusters vectors into buckets and can miss relevant results in other clusters. During evaluation, we found that queries for "liahona" missed Alma 37:38 (the primary liahona verse) because it was in a different cluster. HNSW uses a navigable graph structure that provides consistently high recall without tuning.
+
+### Current Index (Migration 005)
 
 ```python
 def upgrade():
-    # IVFFlat index for approximate nearest neighbor search
-    # lists = sqrt(n) is a good starting point
-    # For ~42K vectors, lists=100 is reasonable
+    # HNSW index for approximate nearest neighbor search
+    # m=16: connections per node (default, good balance)
+    # ef_construction=64: build-time search width
     op.execute("""
         CREATE INDEX idx_scriptures_embedding
         ON scriptures
-        USING ivfflat (embedding vector_cosine_ops)
-        WITH (lists = 100)
+        USING hnsw (embedding vector_cosine_ops)
+        WITH (m = 16, ef_construction = 64)
     """)
 
     op.execute("""
         CREATE INDEX idx_cfm_embedding
         ON cfm_lessons
-        USING ivfflat (embedding vector_cosine_ops)
-        WITH (lists = 50)
+        USING hnsw (embedding vector_cosine_ops)
+        WITH (m = 16, ef_construction = 64)
     """)
-
-def downgrade():
-    op.drop_index("idx_cfm_embedding")
-    op.drop_index("idx_scriptures_embedding")
 ```
+
+### Legacy: Migration 002 (IVFFlat - Superseded)
+
+The original IVFFlat indexes were created in migration 002 and replaced by HNSW in migration 005.
 
 ## Verification
 
@@ -213,7 +216,7 @@ echo "AZURE_OPENAI_EMBEDDING_DEPLOYMENT=text-embedding-3-small" >> .env
 # 3. Generate embeddings (~15-30 min for EN)
 python -m src.embeddings.generate --lang en
 
-# 4. Add vector index (MUST run AFTER step 3 - IVFFlat needs training data)
+# 4. Add vector index (run AFTER embeddings are generated)
 cd src/db && alembic upgrade head
 
 # 5. Verify
