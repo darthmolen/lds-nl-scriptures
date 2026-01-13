@@ -60,10 +60,7 @@ def execute_vector_search(
             filter_params={"volume": "bookofmormon"}
         )
     """
-    # When using filters with IVFFlat index, increase probes to ensure
-    # we find matching results even when filter reduces candidate set
-    if additional_filters:
-        session.execute(sql_text("SET ivfflat.probes = 100"))
+    # Note: With HNSW index, no probes tuning needed (was required for IVFFlat)
 
     # Build the base query
     # Use CAST instead of :: to avoid SQLAlchemy parameter parsing issues
@@ -143,9 +140,7 @@ def execute_hybrid_search(
             limit=10,
         )
     """
-    # Always use high probes for hybrid search to ensure we don't miss good results
-    # IVFFlat with low probes can miss semantically relevant results in different clusters
-    session.execute(sql_text("SET ivfflat.probes = 100"))
+    # Note: With HNSW index, no probes tuning needed (was required for IVFFlat)
 
     # Text weight is complement of vector weight
     text_weight = 1.0 - vector_weight
