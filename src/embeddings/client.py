@@ -14,30 +14,41 @@ def get_embedding_client() -> AzureOpenAI:
         azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
     )
 
+# Dimension settings for embedding models
+# text-embedding-3-small: native 1536
+# text-embedding-3-large: native 3072, but HNSW max is 2000
+EMBEDDING_DIMENSIONS = int(os.getenv("EMBEDDING_DIMENSIONS", "2000"))
+
 @retry(
     stop=stop_after_attempt(3),
     wait=wait_exponential(multiplier=1, min=2, max=10)
 )
 def get_embeddings(
     texts: list[str],
-    deployment_name: Optional[str] = None
+    deployment_name: Optional[str] = None,
+    dimensions: Optional[int] = None
 ) -> list[list[float]]:
     """Get embeddings for a batch of texts.
 
     Args:
         texts: List of text strings to embed
         deployment_name: Azure OpenAI deployment name (defaults to env var)
+        dimensions: Output dimensions (defaults to EMBEDDING_DIMENSIONS env var)
 
     Returns:
-        List of embedding vectors (1536 dimensions each)
+        List of embedding vectors
     """
     if not deployment_name:
         deployment_name = os.getenv("AZURE_OPENAI_EMBEDDING_DEPLOYMENT", "text-embedding-3-small")
 
+    if dimensions is None:
+        dimensions = EMBEDDING_DIMENSIONS
+
     client = get_embedding_client()
     response = client.embeddings.create(
         model=deployment_name,
-        input=texts
+        input=texts,
+        dimensions=dimensions
     )
     return [item.embedding for item in response.data]
 

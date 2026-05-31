@@ -1,0 +1,6 @@
+# vLLM venv - not committed (too large, GPU-specific)
+.venv/
+__pycache__/
+
+# Model cache (downloaded on first run)
+models/

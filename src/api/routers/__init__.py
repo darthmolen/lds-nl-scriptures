@@ -5,4 +5,5 @@ Contains FastAPI routers for:
 - scriptures: Scripture search endpoints
 - cfm: Come Follow Me search endpoints
 - conference: General Conference search endpoints
+- ask: RAG generation endpoint
 """

@@ -1,0 +1,12 @@
+
+Metric	IVFFlat+probes=100	HNSW	Change
+Precision@5	57.2%	55.6%	-1.6%
+Precision@10	48.6%	45.8%	-2.8%
+By category:
+
+Category	Before	After	Change
+cross_volume	65.0%	63.3%	-1.7%
+doctrinal_concept	49.0%	50.0%	+1.0%
+narrative	40.0%	38.8%	-1.2%
+specific_term	63.7%	55.0%	-8.7%
+theological_inference	10.0%	5.0%	-5.0%

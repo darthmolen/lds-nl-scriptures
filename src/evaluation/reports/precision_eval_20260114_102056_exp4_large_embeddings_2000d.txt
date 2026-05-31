@@ -1,0 +1,118 @@
+======================================================================
+RETRIEVAL PRECISION EVALUATION REPORT
+======================================================================
+Timestamp: 2026-01-14 10:20:56
+Experiment: exp4_large_embeddings_2000d
+Total test cases: 18
+
+--- Search Configuration ---
+  vector_weight: 0.5
+  text_weight: 0.5
+  query_expansion: True
+  embedding_model: text-embedding-3-small
+  embedding_dimensions: 1536
+  index_type: HNSW
+  hnsw_m: 16
+  hnsw_ef_construction: 64
+  search_limit_multiplier: 3
+  min_word_length: 3
+  text_ranking_function: ts_rank_cd
+
+--- Overall Metrics ---
+  Precision@5:  60.0% (threshold: 75%) [FAIL]
+  Precision@10: 53.6% (threshold: 70%) [FAIL]
+
+--- By Category ---
+  cross_volume (n=3):
+    Precision@5:  63.3%
+    Precision@10: 58.3%
+  doctrinal_concept (n=5):
+    Precision@5:  66.0%
+    Precision@10: 61.0%
+  narrative (n=4):
+    Precision@5:  50.0%
+    Precision@10: 46.2%
+  specific_term (n=4):
+    Precision@5:  77.5%
+    Precision@10: 66.2%
+  theological_inference (n=2):
+    Precision@5:  25.0%
+    Precision@10: 17.5%
+
+--- Test Case Results ---
+
+  [inference_02] lamb, sacrificial lamb, Jesus as the Lamb of God...
+    Precision@10: 5.0%
+    Relevance: 0 high, 1 partial, 9 not relevant
+
+  [inference_01] How 'I Am' relates to 'The Word'...
+    Precision@10: 30.0%
+    Relevance: 1 high, 4 partial, 5 not relevant
+
+  [narrative_03] Alma the Younger's conversion and repentance...
+    Precision@10: 35.0%
+    Relevance: 1 high, 5 partial, 4 not relevant
+
+  [term_02] Urim and Thummim seer stones interpreters...
+    Precision@10: 40.0%
+    Relevance: 2 high, 4 partial, 4 not relevant
+
+  [doctrinal_04] baptism by water and the Spirit...
+    Precision@10: 45.0%
+    Relevance: 1 high, 7 partial, 2 not relevant
+
+  [narrative_01] Lehi's vision of the tree of life...
+    Precision@10: 45.0%
+    Relevance: 2 high, 5 partial, 3 not relevant
+
+  [doctrinal_03] the atonement of Jesus Christ suffering for sins...
+    Precision@10: 50.0%
+    Relevance: 2 high, 6 partial, 2 not relevant
+
+  [doctrinal_05] prayer and communion with God...
+    Precision@10: 50.0%
+    Relevance: 2 high, 6 partial, 2 not relevant
+
+  [narrative_04] Jesus Christ visiting the Nephites after his resur...
+    Precision@10: 50.0%
+    Relevance: 2 high, 6 partial, 2 not relevant
+
+  [cross_01] armor of God spiritual protection...
+    Precision@10: 50.0%
+    Relevance: 3 high, 4 partial, 3 not relevant
+
+  [narrative_02] Nephi building a ship to cross the ocean...
+    Precision@10: 55.0%
+    Relevance: 3 high, 5 partial, 2 not relevant
+
+  [cross_03] tithing offerings giving a tenth to the Lord...
+    Precision@10: 60.0%
+    Relevance: 4 high, 4 partial, 2 not relevant
+
+  [term_03] priesthood Aaronic Melchizedek ordination...
+    Precision@10: 65.0%
+    Relevance: 3 high, 7 partial, 0 not relevant
+
+  [cross_02] loving your enemies and blessing those who curse y...
+    Precision@10: 65.0%
+    Relevance: 6 high, 1 partial, 3 not relevant
+
+  [term_01] liahona compass director ball of curious workmansh...
+    Precision@10: 70.0%
+    Relevance: 4 high, 6 partial, 0 not relevant
+
+  [doctrinal_01] faith hope charity...
+    Precision@10: 80.0%
+    Relevance: 6 high, 4 partial, 0 not relevant
+
+  [doctrinal_02] repentance and forgiveness of sins...
+    Precision@10: 80.0%
+    Relevance: 7 high, 2 partial, 1 not relevant
+
+  [term_04] celestial terrestrial telestial kingdoms of glory...
+    Precision@10: 90.0%
+    Relevance: 8 high, 2 partial, 0 not relevant
+
+----------------------------------------------------------------------
+Overall Status: [FAIL]
+======================================================================

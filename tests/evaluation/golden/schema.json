@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Scripture RAG Golden Test Case",
+  "type": "object",
+  "required": ["id", "question", "complexity", "expected_citations", "description"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique test case identifier"
+    },
+    "question": {
+      "type": "string",
+      "description": "User question to ask the RAG system"
+    },
+    "complexity": {
+      "type": "string",
+      "enum": ["simple", "medium", "complex"],
+      "description": "Complexity level affecting expected retrieval behavior"
+    },
+    "expected_citations": {
+      "type": "array",
+      "description": "Scripture references that should appear in a good answer",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_themes": {
+      "type": "array",
+      "description": "Key themes/concepts that should appear in the answer",
+      "items": {
+        "type": "string"
+      }
+    },
+    "filters": {
+      "type": "object",
+      "description": "Optional filters to apply (volume, book, etc.)",
+      "properties": {
+        "volume": {"type": "string"},
+        "book": {"type": "string"}
+      }
+    },
+    "description": {
+      "type": "string",
+      "description": "What this test case is checking"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional context for evaluators"
+    }
+  }
+}

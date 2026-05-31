@@ -5,6 +5,8 @@ Models:
 - CFMLesson: Come Follow Me lesson content with embeddings
 """
 
+import os
+
 from sqlalchemy import (
     ARRAY,
     TIMESTAMP,
@@ -14,12 +16,16 @@ from sqlalchemy import (
     Text,
     text as sql_text,
 )
-from sqlalchemy.dialects.postgresql import JSONB
+from sqlalchemy.dialects.postgresql import JSONB, TSVECTOR
 from sqlalchemy.orm import declarative_base
 
 from pgvector.sqlalchemy import Vector
 
 Base = declarative_base()
+
+# Vector dimensions - must match database column and embedding model settings
+# text-embedding-3-small: 1536, text-embedding-3-large: 2000 (HNSW max)
+VECTOR_DIMENSIONS = int(os.getenv("EMBEDDING_DIMENSIONS", "2000"))
 
 
 class Scripture(Base):
@@ -38,7 +44,7 @@ class Scripture(Base):
         lang: Language code ('en', 'es')
         footnotes: JSON object containing footnote references and content
         context_text: Concatenated text from +/-2 verses for embedding context
-        embedding: Vector embedding (1536 dimensions for text-embedding-3-small)
+        embedding: Vector embedding (configurable dimensions for text-embedding-3-small)
         created_at: Timestamp of record creation
     """
     __tablename__ = "scriptures"
@@ -52,7 +58,8 @@ class Scripture(Base):
     lang = Column(String(5), nullable=False, index=True)
     footnotes = Column(JSONB)
     context_text = Column(Text)  # NULL until Phase 3 embedding generation
-    embedding = Column(Vector(1536))  # NULL until Phase 3 embedding generation
+    embedding = Column(Vector(VECTOR_DIMENSIONS))  # NULL until Phase 3 embedding generation
+    search_vector = Column(TSVECTOR)  # Full-text search vector (auto-populated by trigger)
     created_at = Column(TIMESTAMP, server_default=sql_text("NOW()"))
 
     def __repr__(self) -> str:
@@ -77,7 +84,7 @@ class CFMLesson(Base):
         scripture_refs: Array of scripture reference strings
         content: Plain text content of the lesson
         lang: Language code ('en', 'es')
-        embedding: Vector embedding (1536 dimensions)
+        embedding: Vector embedding (configurable dimensions)
         created_at: Timestamp of record creation
     """
     __tablename__ = "cfm_lessons"
@@ -91,7 +98,7 @@ class CFMLesson(Base):
     scripture_refs = Column(ARRAY(Text))
     content = Column(Text)
     lang = Column(String(5), nullable=False, index=True)
-    embedding = Column(Vector(1536))  # NULL until Phase 3 embedding generation
+    embedding = Column(Vector(VECTOR_DIMENSIONS))  # NULL until Phase 3 embedding generation
     created_at = Column(TIMESTAMP, server_default=sql_text("NOW()"))
 
     def __repr__(self) -> str:
@@ -123,7 +130,7 @@ class ConferenceParagraph(Base):
         scripture_refs: Array of scripture references in this paragraph
         talk_refs: Array of cross-references to other talks
         context_text: ±2 paragraph context for embedding
-        embedding: Vector embedding (1536 dimensions)
+        embedding: Vector embedding (configurable dimensions)
         created_at: Timestamp of record creation
     """
     __tablename__ = "conference_paragraphs"
@@ -143,7 +150,7 @@ class ConferenceParagraph(Base):
     scripture_refs = Column(ARRAY(Text))
     talk_refs = Column(ARRAY(Text))
     context_text = Column(Text)  # NULL until embedding generation
-    embedding = Column(Vector(1536))  # NULL until embedding generation
+    embedding = Column(Vector(VECTOR_DIMENSIONS))  # NULL until embedding generation
     created_at = Column(TIMESTAMP, server_default=sql_text("NOW()"))
 
     def __repr__(self) -> str:

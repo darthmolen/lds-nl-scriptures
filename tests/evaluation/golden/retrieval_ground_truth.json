@@ -1,0 +1,138 @@
+{
+  "version": "2.0",
+  "description": "Ground truth test set for measuring retrieval Precision@k using LLM-as-judge",
+  "created": "2026-01-12",
+  "updated": "2026-01-12",
+  "metrics": {
+    "primary": "precision@k",
+    "definition": "Proportion of retrieved verses judged relevant by LLM evaluator"
+  },
+  "test_cases": [
+    {
+      "id": "doctrinal_01",
+      "query": "faith hope charity",
+      "relevance_rubric": "Verse discusses faith, hope, and/or charity as Christian virtues or principles of discipleship",
+      "top_k": 10,
+      "category": "doctrinal_concept"
+    },
+    {
+      "id": "doctrinal_02",
+      "query": "repentance and forgiveness of sins",
+      "relevance_rubric": "Verse addresses repentance, forgiveness of sins, or the process of returning to God after transgression",
+      "top_k": 10,
+      "category": "doctrinal_concept"
+    },
+    {
+      "id": "doctrinal_03",
+      "query": "the atonement of Jesus Christ suffering for sins",
+      "relevance_rubric": "Verse discusses Christ's atonement, his suffering, or the redemption of mankind through his sacrifice",
+      "top_k": 10,
+      "category": "doctrinal_concept"
+    },
+    {
+      "id": "doctrinal_04",
+      "query": "baptism by water and the Spirit",
+      "relevance_rubric": "Verse discusses baptism, being born of water and Spirit, or the ordinance of entering the covenant",
+      "top_k": 10,
+      "category": "doctrinal_concept"
+    },
+    {
+      "id": "doctrinal_05",
+      "query": "prayer and communion with God",
+      "relevance_rubric": "Verse discusses prayer, speaking with God, or instructions on how to approach the Lord",
+      "top_k": 10,
+      "category": "doctrinal_concept"
+    },
+    {
+      "id": "narrative_01",
+      "query": "Lehi's vision of the tree of life",
+      "relevance_rubric": "Verse is from or describes Lehi's dream, the tree of life, the rod of iron, the great and spacious building, or the mists of darkness",
+      "top_k": 10,
+      "category": "narrative"
+    },
+    {
+      "id": "narrative_02",
+      "query": "Nephi building a ship to cross the ocean",
+      "relevance_rubric": "Verse describes Nephi's construction of the ship, the journey to the promised land, or the challenges faced during the voyage",
+      "top_k": 10,
+      "category": "narrative"
+    },
+    {
+      "id": "narrative_03",
+      "query": "Alma the Younger's conversion and repentance",
+      "relevance_rubric": "Verse describes Alma the Younger's rebellion, the angel's visitation, his suffering and repentance, or his subsequent testimony",
+      "top_k": 10,
+      "category": "narrative"
+    },
+    {
+      "id": "narrative_04",
+      "query": "Jesus Christ visiting the Nephites after his resurrection",
+      "relevance_rubric": "Verse describes Christ's appearance to the Nephites in 3 Nephi, his teachings there, or the people's reactions to his coming",
+      "top_k": 10,
+      "category": "narrative"
+    },
+    {
+      "id": "term_01",
+      "query": "liahona compass director ball of curious workmanship",
+      "relevance_rubric": "Verse mentions or describes the Liahona, the ball or compass that guided Lehi's family, or its symbolic meaning",
+      "top_k": 10,
+      "category": "specific_term"
+    },
+    {
+      "id": "term_02",
+      "query": "Urim and Thummim seer stones interpreters",
+      "relevance_rubric": "Verse mentions the Urim and Thummim, seer stones, interpreters, or instruments of translation and revelation",
+      "top_k": 10,
+      "category": "specific_term"
+    },
+    {
+      "id": "term_03",
+      "query": "priesthood Aaronic Melchizedek ordination",
+      "relevance_rubric": "Verse discusses priesthood authority, the Aaronic or Melchizedek priesthood, ordination, or priesthood keys",
+      "top_k": 10,
+      "category": "specific_term"
+    },
+    {
+      "id": "term_04",
+      "query": "celestial terrestrial telestial kingdoms of glory",
+      "relevance_rubric": "Verse discusses degrees of glory, the celestial, terrestrial, or telestial kingdoms, or the judgment and reward of souls",
+      "top_k": 10,
+      "category": "specific_term"
+    },
+    {
+      "id": "cross_01",
+      "query": "armor of God spiritual protection",
+      "relevance_rubric": "Verse uses armor or military metaphor for spiritual protection, mentions shield of faith, sword of the Spirit, or spiritual warfare imagery",
+      "top_k": 10,
+      "category": "cross_volume"
+    },
+    {
+      "id": "cross_02",
+      "query": "loving your enemies and blessing those who curse you",
+      "relevance_rubric": "Verse teaches about loving enemies, blessing persecutors, returning good for evil, or overcoming hate with love",
+      "top_k": 10,
+      "category": "cross_volume"
+    },
+    {
+      "id": "cross_03",
+      "query": "tithing offerings giving a tenth to the Lord",
+      "relevance_rubric": "Verse discusses tithing, giving a tenth, offerings to the Lord, or the blessings promised for faithful giving",
+      "top_k": 10,
+      "category": "cross_volume"
+    },
+    {
+      "id": "inference_01",
+      "query": "How 'I Am' relates to 'The Word'",
+      "relevance_rubric": "Verse discusses Christ's divine identity, uses 'I Am' as a divine name, describes Christ as the Word/Logos, or connects Jehovah with Jesus",
+      "top_k": 10,
+      "category": "theological_inference"
+    },
+    {
+      "id": "inference_02",
+      "query": "lamb, sacrificial lamb, Jesus as the Lamb of God",
+      "relevance_rubric": "Verse references lambs in sacrificial context, prophetic lamb imagery pointing to Christ, or explicitly identifies Jesus/Messiah as the Lamb of God",
+      "top_k": 10,
+      "category": "theological_inference"
+    }
+  ]
+}

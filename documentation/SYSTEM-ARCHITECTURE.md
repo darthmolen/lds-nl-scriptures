@@ -17,7 +17,8 @@ CREATE TABLE scriptures (
     context_text TEXT
 );
 
-CREATE INDEX ON scriptures USING ivfflat (embedding vector_cosine_ops);
+-- HNSW index for consistent high recall (switched from IVFFlat in ADR-001)
+CREATE INDEX ON scriptures USING hnsw (embedding vector_cosine_ops);
 
 CREATE TABLE topical_guide (
     topic VARCHAR(255),

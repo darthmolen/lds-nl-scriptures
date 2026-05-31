@@ -22,8 +22,8 @@ Generate vector embeddings for all scripture verses using OpenAI's text-embeddin
    - Track progress for resumability
 
 4. **Index Creation**
-   - Create IVFFlat index for cosine similarity
-   - Tune index parameters for performance
+   - Create HNSW index for cosine similarity (switched from IVFFlat - see ADR-001)
+   - HNSW provides consistent high recall without parameter tuning
 
 ## Dependencies
 
