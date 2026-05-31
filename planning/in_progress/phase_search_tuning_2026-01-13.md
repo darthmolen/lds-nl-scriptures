@@ -55,14 +55,23 @@ Skipped - adds per-query latency/cost. Proceeding to nuclear option instead.
 
 ---
 
-### Experiment 4: Larger Embedding Model (Nuclear Option) → NEXT
-- [ ] Deploy text-embedding-3-large to Azure
-- [ ] Re-embed all verses (~$0.52)
-- [ ] Update vector column dimensions (1536 → 3072)
-- [ ] Run precision evaluation
-- [ ] Record results
+### Experiment 4: Larger Embedding Model (Nuclear Option) ✓ COMPLETE
 
-**See:** `planning/in_progress/phase_large_embeddings_2026-01-13.md`
+- [x] Deploy text-embedding-3-large to Azure
+- [x] Re-embed all verses (~$0.82)
+- [x] Update vector column dimensions (1536 → 2000; HNSW caps at 2000, not 3072)
+- [x] Run precision evaluation
+- [x] Record results
+- [x] Decision: **KEEP** — modest gain, best config so far, but still short of target
+
+**Results:** P@5: 60.0%, P@10: 53.6% (+3.6%), theological_inference: 17.5%, specific_term: 66.2%
+
+**See:** `planning/completed/phase_large_embeddings_2026-01-13.md`
+
+> ⚠️ The exp4 report config block mislabels dimensions as 1536 / 3-small
+> (hardcoded in `run_precision_eval.py`). Confirm the stored vectors were truly
+> 2000d / 3-large before trusting these numbers — see
+> `planning/backlog/precision_eval_followups_2026-05-31.md`.
 
 ---
 
@@ -75,7 +84,7 @@ Skipped - adds per-query latency/cost. Proceeding to nuclear option instead.
 | Exp 2A: expansion + 0.5 | 54.4% | 50.0% | 12.5% | 60.0% | **KEEP** |
 | Exp 2B: expansion + 0.7 | 56.1% | 46.1% | 10.0% | 55.0% | - |
 | Exp 3: LLM re-rank | - | - | - | - | SKIPPED |
-| Exp 4: large embeddings | | | | | PENDING |
+| Exp 4: large embeddings (2000d) | 60.0% | 53.6% | 17.5% | 66.2% | **KEEP** |
 
 ## Current Best Configuration
 
@@ -83,9 +92,11 @@ Skipped - adds per-query latency/cost. Proceeding to nuclear option instead.
 # src/api/services/search.py
 DEFAULT_VECTOR_WEIGHT = 0.5
 ENABLE_QUERY_EXPANSION = True
+
+# EMBEDDING_DIMENSIONS=2000  (text-embedding-3-large, HNSW max)
 ```
 
-**Current P@10: 50.0%** (target: 70%, gap: 20%)
+**Current P@10: 53.6%** (target: 70%, gap: 16.4%)
 
 ## Success Criteria
 
@@ -98,3 +109,9 @@ ENABLE_QUERY_EXPANSION = True
 - LLM judge has some variability between runs (~5% variance observed)
 - Reports saved to `src/evaluation/reports/`
 - Query expansion helped theological_inference from 5% → 12.5%
+- Large embeddings (Exp 4) pushed theological_inference to 17.5% and specific_term
+  to 66.2%, but overall P@10 still falls 16.4 pts short of the 70% target.
+- All four planned experiments are complete, yet the phase target is unmet — kept
+  in `in_progress/` pending a decision on the next lever (LLM re-rank, chunking,
+  per-category weights, or a domain-tuned retrieval model). See
+  `planning/backlog/precision_eval_followups_2026-05-31.md`.
