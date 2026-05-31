@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "archived": false,
+    "title": "Jesus Christ, Family of",
+    "canonicalUrl": "/scriptures/tg/jesus-christ-family-of?lang=eng",
+    "contentType": "text/html",
+    "pageAttributes": {
+      "data-asset-id": "4def7177b28fe2c3f8cc0a08d32a621479dee9d4",
+      "data-aid": "128477385",
+      "data-aid-version": "3",
+      "data-content-type": "topic",
+      "data-uri": "/scriptures/tg/jesus-christ-family-of",
+      "lang": "eng",
+      "data-bcp47-lang": "en",
+      "data-orig-id": "4def7177b28fe2c3f8cc0a08d32a621479dee9d4",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "scopedClassName": "classic-scripture",
+    "hasChat": false
+  },
+  "content": {
+    "head": {
+      "page-meta-social": {
+        "pageMeta": {
+          "title": "Jesus Christ, Family of",
+          "description": "Jesus Christ, Family of"
+        },
+        "pageSocial": {
+          "title": "Jesus Christ, Family of",
+          "description": "Jesus Christ, Family of"
+        }
+      },
+      "links": [
+        {
+          "type": "array",
+          "rel": "stylesheet",
+          "orig-type": "text/css",
+          "href": "https://ips-cdn-edge.churchofjesuschrist.org/styles/css/style_classic-scripture_scoped.css"
+        }
+      ],
+      "scripts": []
+    },
+    "body": "<header>\n<h1 data-aid=\"128477408\" id=\"title1\"><strong>Jesus Christ, Family of</strong></h1>\n</header>\n<div class=\"body-block\">\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"128477410\" id=\"p1\">his mother and his <span class=\"key-word\">brethren</span> stood without, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/12?lang=eng&amp;id=p46#p46\">Matt. 12:46</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/3?lang=eng&amp;id=p31#p31\">Mark 3:31</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/8?lang=eng&amp;id=p19#p19\">Luke 8:19</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477412\" id=\"p2\">is not his mother called Mary? and his <span class=\"key-word\">brethren</span>, James, and Joses, and Simon, and Judas, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/13?lang=eng&amp;id=p55#p55\">Matt. 13:55</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/6?lang=eng&amp;id=p3#p3\">Mark 6:3</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477414\" id=\"p3\">went down to Capernaum, he, and his mother, and his <span class=\"key-word\">brethren</span>, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/2?lang=eng&amp;id=p12#p12\">John 2:12</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477415\" id=\"p4\">saith he to the disciple, Behold thy <span class=\"key-word\">mother</span>, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/19?lang=eng&amp;id=p27#p27\">John 19:27</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477417\" id=\"p5\">continued with one accord … with … Mary the mother of Jesus, and with his <span class=\"key-word\">brethren</span>, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/1?lang=eng&amp;id=p14#p14\">Acts 1:14</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477419\" id=\"p6\">saw I none, save James the Lord’s <span class=\"key-word\">brother</span>, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/gal/1?lang=eng&amp;id=p19#p19\">Gal. 1:19</a>.</p>\n</li>\n</ul>\n</nav>\n</div>",
+    "footnotes": {}
+  },
+  "pids": [
+    [
+      "128477385",
+      {
+        "key": "128477385"
+      }
+    ],
+    [
+      "128477408",
+      {
+        "key": "128477408"
+      }
+    ],
+    [
+      "128477410",
+      {
+        "key": "128477410"
+      }
+    ],
+    [
+      "128477412",
+      {
+        "key": "128477412"
+      }
+    ],
+    [
+      "128477414",
+      {
+        "key": "128477414"
+      }
+    ],
+    [
+      "128477415",
+      {
+        "key": "128477415"
+      }
+    ],
+    [
+      "128477417",
+      {
+        "key": "128477417"
+      }
+    ],
+    [
+      "128477419",
+      {
+        "key": "128477419"
+      }
+    ]
+  ],
+  "tableOfContentsUri": "/scriptures/tg",
+  "uri": "/scriptures/tg/jesus-christ-family-of",
+  "verified": true,
+  "restricted": 0
+}

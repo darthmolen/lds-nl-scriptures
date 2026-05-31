@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "archived": false,
+    "title": "Jesus Christ, Spirit of",
+    "canonicalUrl": "/scriptures/tg/jesus-christ-spirit-of?lang=eng",
+    "contentType": "text/html",
+    "pageAttributes": {
+      "data-asset-id": "624c44014463f14e689870d937f3792b12098c64",
+      "data-aid": "128477760",
+      "data-aid-version": "3",
+      "data-content-type": "topic",
+      "data-uri": "/scriptures/tg/jesus-christ-spirit-of",
+      "lang": "eng",
+      "data-bcp47-lang": "en",
+      "data-orig-id": "624c44014463f14e689870d937f3792b12098c64",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "scopedClassName": "classic-scripture",
+    "hasChat": false
+  },
+  "content": {
+    "head": {
+      "page-meta-social": {
+        "pageMeta": {
+          "title": "Jesus Christ, Spirit of",
+          "description": "Jesus Christ, Spirit of"
+        },
+        "pageSocial": {
+          "title": "Jesus Christ, Spirit of",
+          "description": "Jesus Christ, Spirit of"
+        }
+      },
+      "links": [
+        {
+          "type": "array",
+          "rel": "stylesheet",
+          "orig-type": "text/css",
+          "href": "https://ips-cdn-edge.churchofjesuschrist.org/styles/css/style_classic-scripture_scoped.css"
+        }
+      ],
+      "scripts": []
+    },
+    "body": "<header>\n<h1 data-aid=\"128477761\" id=\"title1\"><strong>Jesus Christ, Spirit of</strong></h1>\n</header>\n<div class=\"body-block\">\n<nav class=\"index\">\n<ul class=\"reference\">\n<li>\n<p class=\"title\" data-aid=\"128477762\" id=\"title2\"><em>See also</em> <a class=\"scripture-ref\" href=\"/study/scriptures/tg/god-spirit-of?lang=eng\">God, Spirit of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/holy-spirit?lang=eng\">Holy Spirit</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/light-of-christ?lang=eng\">Light of Christ</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/lord-spirit-of?lang=eng\">Lord, Spirit of</a></p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"128477763\" id=\"p1\">salvation through … the supply of the <span class=\"key-word\">Spirit</span> of Jesus, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/philip/1?lang=eng&amp;id=p19#p19\">Philip. 1:19</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"128477765\" id=\"p2\"><span class=\"key-word\">Spirit</span> of Christ is given to every man, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/moro/7?lang=eng&amp;id=p16#p16\">Moro. 7:16</a>.</p>\n</li>\n</ul>\n</nav>\n</div>",
+    "footnotes": {}
+  },
+  "pids": [
+    [
+      "128477760",
+      {
+        "key": "128477760"
+      }
+    ],
+    [
+      "128477761",
+      {
+        "key": "128477761"
+      }
+    ],
+    [
+      "128477762",
+      {
+        "key": "128477762"
+      }
+    ],
+    [
+      "128477763",
+      {
+        "key": "128477763"
+      }
+    ],
+    [
+      "128477765",
+      {
+        "key": "128477765"
+      }
+    ]
+  ],
+  "tableOfContentsUri": "/scriptures/tg",
+  "uri": "/scriptures/tg/jesus-christ-spirit-of",
+  "verified": true,
+  "restricted": 0
+}

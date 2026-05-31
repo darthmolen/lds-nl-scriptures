@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "archived": false,
+    "title": "Jesus Christ",
+    "canonicalUrl": "/scriptures/tg/jesus-christ?lang=eng",
+    "contentType": "text/html",
+    "pageAttributes": {
+      "data-asset-id": "eaeaa42ec46ef12d1172402e1c601c9702aba9bd",
+      "data-aid": "128477065",
+      "data-aid-version": "3",
+      "data-content-type": "topic",
+      "data-uri": "/scriptures/tg/jesus-christ",
+      "lang": "eng",
+      "data-bcp47-lang": "en",
+      "data-orig-id": "eaeaa42ec46ef12d1172402e1c601c9702aba9bd",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "scopedClassName": "classic-scripture",
+    "hasChat": false
+  },
+  "content": {
+    "head": {
+      "page-meta-social": {
+        "pageMeta": {
+          "title": "Jesus Christ",
+          "description": "Jesus Christ"
+        },
+        "pageSocial": {
+          "title": "Jesus Christ",
+          "description": "Jesus Christ"
+        }
+      },
+      "links": [
+        {
+          "type": "array",
+          "rel": "stylesheet",
+          "orig-type": "text/css",
+          "href": "https://ips-cdn-edge.churchofjesuschrist.org/styles/css/style_classic-scripture_scoped.css"
+        }
+      ],
+      "scripts": []
+    },
+    "body": "<header>\n<h1 data-aid=\"128477066\" id=\"title1\"><strong>Jesus Christ</strong></h1>\n</header>\n<div class=\"body-block\">\n<nav class=\"index\">\n<ul class=\"reference\">\n<li>\n<p class=\"title\" data-aid=\"128477067\" id=\"title2\"><em>See also</em> <a class=\"scripture-ref\" href=\"/study/scriptures/tg/bread-of-life?lang=eng\">Bread of Life</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/cornerstone?lang=eng\">Cornerstone</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/god-creator?lang=eng\">God, Creator</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/godhead?lang=eng\">Godhead</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/god-the-father-jehovah?lang=eng\">God the Father, Jehovah</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-advocate?lang=eng\">Jesus Christ, Advocate</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-antemortal-existence-of?lang=eng\">Jesus Christ, Antemortal Existence of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-appearances-antemortal?lang=eng\">Jesus Christ, Appearances, Antemortal</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-appearances-postmortal?lang=eng\">Jesus Christ, Appearances, Postmortal</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-ascension-of?lang=eng\">Jesus Christ, Ascension of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-atonement-through?lang=eng\">Jesus Christ, Atonement through</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-authority-of?lang=eng\">Jesus Christ, Authority of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-baptism-of?lang=eng\">Jesus Christ, Baptism of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-betrayal-of?lang=eng\">Jesus Christ, Betrayal of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-birth-of?lang=eng\">Jesus Christ, Birth of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-condescension-of?lang=eng\">Jesus Christ, Condescension of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-creator?lang=eng\">Jesus Christ, Creator</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-crucifixion-of?lang=eng\">Jesus Christ, Crucifixion of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-davidic-descent-of?lang=eng\">Jesus Christ, Davidic Descent of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-death-of?lang=eng\">Jesus Christ, Death of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-divine-sonship?lang=eng\">Jesus Christ, Divine Sonship</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-exemplar?lang=eng\">Jesus Christ, Exemplar</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-family-of?lang=eng\">Jesus Christ, Family of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-firstborn?lang=eng\">Jesus Christ, Firstborn</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-foreordained?lang=eng\">Jesus Christ, Foreordained</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-glory-of?lang=eng\">Jesus Christ, Glory of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-good-shepherd?lang=eng\">Jesus Christ, Good Shepherd</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-head-of-the-church?lang=eng\">Jesus Christ, Head of the Church</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-jehovah?lang=eng\">Jesus Christ, Jehovah</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-judge?lang=eng\">Jesus Christ, Judge</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-king?lang=eng\">Jesus Christ, King</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-lamb-of-god?lang=eng\">Jesus Christ, Lamb of God</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-light-of-the-world?lang=eng\">Jesus Christ, Light of the World</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-lord?lang=eng\">Jesus Christ, Lord</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-mediator?lang=eng\">Jesus Christ, Mediator</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-messenger-of-the-covenant?lang=eng\">Jesus Christ, Messenger of the Covenant</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-messiah?lang=eng\">Jesus Christ, Messiah</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-millennial-reign?lang=eng\">Jesus Christ, Millennial Reign</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-mission-of?lang=eng\">Jesus Christ, Mission of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-only-begotten-son?lang=eng\">Jesus Christ, Only Begotten Son</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-power-of?lang=eng\">Jesus Christ, Power of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-prophecies-about?lang=eng\">Jesus Christ, Prophecies about</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-redeemer?lang=eng\">Jesus Christ, Redeemer</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-relationships-with-the-father?lang=eng\">Jesus Christ, Relationships with the Father</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-resurrection?lang=eng\">Jesus Christ, Resurrection</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-rock?lang=eng\">Jesus Christ, Rock</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-savior?lang=eng\">Jesus Christ, Savior</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-second-comforter?lang=eng\">Jesus Christ, Second Comforter</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-second-coming?lang=eng\">Jesus Christ, Second Coming</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-son-of-man?lang=eng\">Jesus Christ, Son of Man</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-spirit-of?lang=eng\">Jesus Christ, Spirit of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-taking-the-name-of?lang=eng\">Jesus Christ, Taking the Name of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-teaching-mode-of?lang=eng\">Jesus Christ, Teaching Mode of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-temptation-of?lang=eng\">Jesus Christ, Temptation of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-trials-of?lang=eng\">Jesus Christ, Trials of</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-types-of-in-anticipation?lang=eng\">Jesus Christ, Types of, in Anticipation</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/tg/jesus-christ-types-of-in-memory?lang=eng\">Jesus Christ, Types of, in Memory</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bd/jesus?lang=eng\"><small>BD</small> Jesus</a></p>\n</li>\n</ul>\n</nav>\n<section>\n<nav class=\"index\">\n<section>\n<header>\n<p class=\"title\" data-aid=\"128477068\" id=\"title3\"><span class=\"small-caps\">Summary</span></p>\n</header>\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"128477069\" id=\"p1\">His birth is foretold, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/1?lang=eng&amp;id=p26-p38#p26\">Luke 1:26–38</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477071\" id=\"p2\">is born, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/1?lang=eng&amp;id=p18-p25#p18\">Matt. 1:18–25</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/2?lang=eng&amp;id=p1-p7#p1\">Luke 2:1–7</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477073\" id=\"p3\">is circumcised, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/2?lang=eng&amp;id=p21#p21\">Luke 2:21</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477075\" id=\"p4\">is presented in the temple, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/2?lang=eng&amp;id=p22-p38#p22\">Luke 2:22–38</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477077\" id=\"p5\">is visited by the wise men, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/2?lang=eng&amp;id=p1-p12#p1\">Matt. 2:1–12</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477079\" id=\"p6\">flees to Egypt, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/2?lang=eng&amp;id=p13-p18#p13\">Matt. 2:13–18</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477081\" id=\"p7\">is brought to Nazareth, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/2?lang=eng&amp;id=p19-p23#p19\">Matt. 2:19–23</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/2?lang=eng&amp;id=p39#p39\">Luke 2:39</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477083\" id=\"p8\">visits Jerusalem, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/2?lang=eng&amp;id=p41-p50#p41\">Luke 2:41–50</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477085\" id=\"p9\">brothers and sisters of, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/13?lang=eng&amp;id=p55-p56#p55\">Matt. 13:55–56</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/6?lang=eng&amp;id=p3#p3\">Mark 6:3</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477087\" id=\"p10\">is baptized, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/3?lang=eng&amp;id=p13-p17#p13\">Matt. 3:13–17</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/1?lang=eng&amp;id=p9-p11#p9\">Mark 1:9–11</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/3?lang=eng&amp;id=p21-p23#p21\">Luke 3:21–23</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477089\" id=\"p11\">is tempted by the devil, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/4?lang=eng&amp;id=p1-p11#p1\">Matt. 4:1–11</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/1?lang=eng&amp;id=p12-p13#p12\">Mark 1:12–13</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/4?lang=eng&amp;id=p1-p13#p1\">Luke 4:1–13</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477090\" id=\"p12\">calls His disciples, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/4?lang=eng&amp;id=p18-p22#p18\">Matt. 4:18–22</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/9?lang=eng&amp;id=p9#p9\">9:9</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/1?lang=eng&amp;id=p16-p20#p16\">Mark 1:16–20</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/2?lang=eng&amp;id=p13-p14#p13\">2:13–14</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/5?lang=eng&amp;id=p1-p11%2Cp27-p28#p1\">Luke 5:1–11, 27–28</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/6?lang=eng&amp;id=p12-p16#p12\">6:12–16</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/1?lang=eng&amp;id=p35-p51#p35\">John 1:35–51</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477091\" id=\"p13\">commissions the Twelve, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/10?lang=eng&amp;id=p1-p4#p1\">Matt. 10:1–4</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/3?lang=eng&amp;id=p13-p19#p13\">Mark 3:13–19</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/6?lang=eng&amp;id=p12-p16#p12\">Luke 6:12–16</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477092\" id=\"p14\">Sermon on the Mount, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/5?lang=eng\">Matt. 5–7</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477093\" id=\"p15\">sends disciples forth by twos, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/9?lang=eng&amp;span=9%3A35-11%3A1#p35\">Matt. 9:35–11:1</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/6?lang=eng&amp;id=p7-p13#p7\">Mark 6:7–13</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/9?lang=eng&amp;id=p1-p6#p1\">Luke 9:1–6</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477094\" id=\"p16\">foretells His death and resurrection, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/16?lang=eng&amp;id=p21-p26#p21\">Matt. 16:21–26</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/17?lang=eng&amp;id=p22-p23#p22\">17:22–23</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/20?lang=eng&amp;id=p17-p28#p17\">20:17–28</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/8?lang=eng&amp;id=p31-p37#p31\">Mark 8:31–37</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/9?lang=eng&amp;id=p30-p32#p30\">9:30–32</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/10?lang=eng&amp;id=p32-p45#p32\">10:32–45</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/9?lang=eng&amp;id=p22-p25#p22\">Luke 9:22–25</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/9?lang=eng&amp;id=p43-p45#p43\">9:43–45</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/18?lang=eng&amp;id=p31-p34#p31\">18:31–34</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477095\" id=\"p17\">is transfigured, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/17?lang=eng&amp;id=p1-p8#p1\">Matt. 17:1–8</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/9?lang=eng&amp;id=p2-p8#p2\">Mark 9:2–8</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/9?lang=eng&amp;id=p28-p36#p28\">Luke 9:28–36</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477096\" id=\"p18\">sends forth the seventy, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/10?lang=eng&amp;id=p1-p24#p1\">Luke 10:1–24</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477097\" id=\"p19\">triumphal entry of, into Jerusalem, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/21?lang=eng&amp;id=p1-p11#p1\">Matt. 21:1–11</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/11?lang=eng&amp;id=p1-p11#p1\">Mark 11:1–11</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/19?lang=eng&amp;id=p29-p44#p29\">Luke 19:29–44</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/12?lang=eng&amp;id=p12-p19#p12\">John 12:12–19</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477098\" id=\"p20\">institutes the Lord’s Supper, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/26?lang=eng&amp;id=p26-p29#p26\">Matt. 26:26–29</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/14?lang=eng&amp;id=p22-p25#p22\">Mark 14:22–25</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/22?lang=eng&amp;id=p17-p20#p17\">Luke 22:17–20</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-cor/11?lang=eng&amp;id=p23-p26#p23\">1 Cor. 11:23–26</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477099\" id=\"p21\">is betrayed, arrested, and forsaken, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/26?lang=eng&amp;id=p47-p57#p47\">Matt. 26:47–57</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/14?lang=eng&amp;id=p43-p53#p43\">Mark 14:43–53</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/22?lang=eng&amp;id=p47-p54#p47\">Luke 22:47–54</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/18?lang=eng&amp;id=p2-p13#p2\">John 18:2–13</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477100\" id=\"p22\">is crucified, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/27?lang=eng&amp;id=p31-p56#p31\">Matt. 27:31–56</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/15?lang=eng&amp;id=p20-p41#p20\">Mark 15:20–41</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/23?lang=eng&amp;id=p26-p49#p26\">Luke 23:26–49</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/19?lang=eng&amp;id=p16-p30#p16\">John 19:16–30</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477101\" id=\"p23\">is resurrected, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/28?lang=eng&amp;id=p1-p8#p1\">Matt. 28:1–8</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/16?lang=eng&amp;id=p1-p8#p1\">Mark 16:1–8</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/24?lang=eng&amp;id=p1-p12#p1\">Luke 24:1–12</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/20?lang=eng&amp;id=p1-p10#p1\">John 20:1–10</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477102\" id=\"p24\">appears after His resurrection, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/28?lang=eng&amp;id=p9-p20#p9\">Matt. 28:9–20</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/16?lang=eng&amp;id=p9-p18#p9\">Mark 16:9–18</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/24?lang=eng&amp;id=p13-p50#p13\">Luke 24:13–50</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/20?lang=eng&amp;id=p11-p31#p11\">John 20:11–31</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/1?lang=eng&amp;id=p3-p8#p3\">Acts 1:3–8</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-cor/15?lang=eng&amp;id=p5-p7#p5\">1 Cor. 15:5–7</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477103\" id=\"p25\">ascends to heaven, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/16?lang=eng&amp;id=p19-p20#p19\">Mark 16:19–20</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/24?lang=eng&amp;id=p50-p53#p50\">Luke 24:50–53</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/1?lang=eng&amp;id=p9-p12#p9\">Acts 1:9–12</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477104\" id=\"p26\">appears to the Nephites, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/11?lang=eng&amp;id=p1-p17#p1\">3 Ne. 11:1–17</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/11?lang=eng\">chaps. 11–26</a>).</p>\n</li>\n</ul>\n</section>\n</nav>\n</section>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"128477105\" id=\"p27\">saw the glory of God, and <span class=\"key-word\">Jesus</span> standing on the right hand of God, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/7?lang=eng&amp;id=p55#p55\">Acts 7:55</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477106\" id=\"p28\">I am <span class=\"key-word\">Jesus</span> whom thou persecutest, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/9?lang=eng&amp;id=p5#p5\">Acts 9:5</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/22?lang=eng&amp;id=p8#p8\">22:8</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/26?lang=eng&amp;id=p15#p15\">26:15</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477107\" id=\"p29\">How God anointed <span class=\"key-word\">Jesus</span> of Nazareth, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/10?lang=eng&amp;id=p38#p38\">Acts 10:38</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477108\" id=\"p30\">hath God … raised unto Israel a Saviour, <span class=\"key-word\">Jesus</span>, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/13?lang=eng&amp;id=p23#p23\">Acts 13:23</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477109\" id=\"p31\">testified to the Jews that <span class=\"key-word\">Jesus</span> was Christ, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/18?lang=eng&amp;id=p5#p5\">Acts 18:5</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477110\" id=\"p32\">evil spirit … said, <span class=\"key-word\">Jesus</span> I know, and Paul, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/19?lang=eng&amp;id=p15#p15\">Acts 19:15</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477111\" id=\"p33\">so many of us as were baptized into <span class=\"key-word\">Jesus Christ</span>, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/rom/6?lang=eng&amp;id=p3#p3\">Rom. 6:3</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477112\" id=\"p34\">any thing among you, save <span class=\"key-word\">Jesus Christ</span>, and him crucified, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-cor/2?lang=eng&amp;id=p2#p2\">1 Cor. 2:2</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477113\" id=\"p35\">no man can say that <span class=\"key-word\">Jesus</span> is the Lord, but by the Holy Ghost, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-cor/12?lang=eng&amp;id=p3#p3\">1 Cor. 12:3</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477114\" id=\"p36\"><span class=\"key-word\">Jesus Christ</span> himself being the chief corner stone, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/eph/2?lang=eng&amp;id=p20#p20\">Eph. 2:20</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477115\" id=\"p37\">at the name of <span class=\"key-word\">Jesus</span> every knee should bow, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/philip/2?lang=eng&amp;id=p10#p10\">Philip. 2:10</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477116\" id=\"p38\">every tongue should confess that <span class=\"key-word\">Jesus Christ</span> is Lord, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/philip/2?lang=eng&amp;id=p11#p11\">Philip. 2:11</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477117\" id=\"p39\"><span class=\"key-word\">Jesus Christ</span> of the seed of David, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/2-tim/2?lang=eng&amp;id=p8#p8\">2 Tim. 2:8</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477118\" id=\"p40\"><span class=\"key-word\">Jesus</span>, who was made a little lower than the angels for the suffering of death, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/heb/2?lang=eng&amp;id=p9#p9\">Heb. 2:9</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477119\" id=\"p41\">great high priest … <span class=\"key-word\">Jesus</span> the Son of God, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/heb/4?lang=eng&amp;id=p14#p14\">Heb. 4:14</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477120\" id=\"p42\">Looking unto <span class=\"key-word\">Jesus</span> the author and finisher of our faith, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/heb/12?lang=eng&amp;id=p2#p2\">Heb. 12:2</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477121\" id=\"p43\"><span class=\"key-word\">Jesus Christ</span> the same yesterday, and to day, and for ever, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/heb/13?lang=eng&amp;id=p8#p8\">Heb. 13:8</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"128477122\" id=\"p44\">Messiah … his name shall be <span class=\"key-word\">Jesus Christ</span>, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/25?lang=eng&amp;id=p19#p19\">2 Ne. 25:19</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/mosiah/3?lang=eng&amp;id=p8#p8\">Mosiah 3:8</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477123\" id=\"p45\">I am <span class=\"key-word\">Jesus Christ</span> the Son of God, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/9?lang=eng&amp;id=p15#p15\">3 Ne. 9:15</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/11?lang=eng&amp;id=p10#p10\">11:10</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477124\" id=\"p46\">God of the land, who is <span class=\"key-word\">Jesus Christ</span>, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/ether/2?lang=eng&amp;id=p12#p12\">Ether 2:12</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477125\" id=\"p47\">I am <span class=\"key-word\">Jesus Christ</span> … the Father and the Son, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/ether/3?lang=eng&amp;id=p14#p14\">Ether 3:14</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/ether/3?lang=eng&amp;id=p17-p20#p17\">3:17–20</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"128477126\" id=\"p48\">in the name of <span class=\"key-word\">Jesus Christ</span> thou shalt serve him, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/59?lang=eng&amp;id=p5#p5\">D&amp;C 59:5</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"128477127\" id=\"p49\">mine Only Begotten Son … which is <span class=\"key-word\">Jesus Christ</span>, <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/moses/6?lang=eng&amp;id=p52#p52\">Moses 6:52</a>.</p>\n</li>\n</ul>\n</nav>\n</div>",
+    "footnotes": {}
+  },
+  "pids": [
+    [
+      "128477065",
+      {
+        "key": "128477065"
+      }
+    ],
+    [
+      "128477066",
+      {
+        "key": "128477066"
+      }
+    ],
+    [
+      "128477067",
+      {
+        "key": "128477067"
+      }
+    ],
+    [
+      "128477068",
+      {
+        "key": "128477068"
+      }
+    ],
+    [
+      "128477069",
+      {
+        "key": "128477069"
+      }
+    ],
+    [
+      "128477071",
+      {
+        "key": "128477071"
+      }
+    ],
+    [
+      "128477073",
+      {
+        "key": "128477073"
+      }
+    ],
+    [
+      "128477075",
+      {
+        "key": "128477075"
+      }
+    ],
+    [
+      "128477077",
+      {
+        "key": "128477077"
+      }
+    ],
+    [
+      "128477079",
+      {
+        "key": "128477079"
+      }
+    ],
+    [
+      "128477081",
+      {
+        "key": "128477081"
+      }
+    ],
+    [
+      "128477083",
+      {
+        "key": "128477083"
+      }
+    ],
+    [
+      "128477085",
+      {
+        "key": "128477085"
+      }
+    ],
+    [
+      "128477087",
+      {
+        "key": "128477087"
+      }
+    ],
+    [
+      "128477089",
+      {
+        "key": "128477089"
+      }
+    ],
+    [
+      "128477090",
+      {
+        "key": "128477090"
+      }
+    ],
+    [
+      "128477091",
+      {
+        "key": "128477091"
+      }
+    ],
+    [
+      "128477092",
+      {
+        "key": "128477092"
+      }
+    ],
+    [
+      "128477093",
+      {
+        "key": "128477093"
+      }
+    ],
+    [
+      "128477094",
+      {
+        "key": "128477094"
+      }
+    ],
+    [
+      "128477095",
+      {
+        "key": "128477095"
+      }
+    ],
+    [
+      "128477096",
+      {
+        "key": "128477096"
+      }
+    ],
+    [
+      "128477097",
+      {
+        "key": "128477097"
+      }
+    ],
+    [
+      "128477098",
+      {
+        "key": "128477098"
+      }
+    ],
+    [
+      "128477099",
+      {
+        "key": "128477099"
+      }
+    ],
+    [
+      "128477100",
+      {
+        "key": "128477100"
+      }
+    ],
+    [
+      "128477101",
+      {
+        "key": "128477101"
+      }
+    ],
+    [
+      "128477102",
+      {
+        "key": "128477102"
+      }
+    ],
+    [
+      "128477103",
+      {
+        "key": "128477103"
+      }
+    ],
+    [
+      "128477104",
+      {
+        "key": "128477104"
+      }
+    ],
+    [
+      "128477105",
+      {
+        "key": "128477105"
+      }
+    ],
+    [
+      "128477106",
+      {
+        "key": "128477106"
+      }
+    ],
+    [
+      "128477107",
+      {
+        "key": "128477107"
+      }
+    ],
+    [
+      "128477108",
+      {
+        "key": "128477108"
+      }
+    ],
+    [
+      "128477109",
+      {
+        "key": "128477109"
+      }
+    ],
+    [
+      "128477110",
+      {
+        "key": "128477110"
+      }
+    ],
+    [
+      "128477111",
+      {
+        "key": "128477111"
+      }
+    ],
+    [
+      "128477112",
+      {
+        "key": "128477112"
+      }
+    ],
+    [
+      "128477113",
+      {
+        "key": "128477113"
+      }
+    ],
+    [
+      "128477114",
+      {
+        "key": "128477114"
+      }
+    ],
+    [
+      "128477115",
+      {
+        "key": "128477115"
+      }
+    ],
+    [
+      "128477116",
+      {
+        "key": "128477116"
+      }
+    ],
+    [
+      "128477117",
+      {
+        "key": "128477117"
+      }
+    ],
+    [
+      "128477118",
+      {
+        "key": "128477118"
+      }
+    ],
+    [
+      "128477119",
+      {
+        "key": "128477119"
+      }
+    ],
+    [
+      "128477120",
+      {
+        "key": "128477120"
+      }
+    ],
+    [
+      "128477121",
+      {
+        "key": "128477121"
+      }
+    ],
+    [
+      "128477122",
+      {
+        "key": "128477122"
+      }
+    ],
+    [
+      "128477123",
+      {
+        "key": "128477123"
+      }
+    ],
+    [
+      "128477124",
+      {
+        "key": "128477124"
+      }
+    ],
+    [
+      "128477125",
+      {
+        "key": "128477125"
+      }
+    ],
+    [
+      "128477126",
+      {
+        "key": "128477126"
+      }
+    ],
+    [
+      "128477127",
+      {
+        "key": "128477127"
+      }
+    ]
+  ],
+  "tableOfContentsUri": "/scriptures/tg",
+  "uri": "/scriptures/tg/jesus-christ",
+  "verified": true,
+  "restricted": 0
+}
