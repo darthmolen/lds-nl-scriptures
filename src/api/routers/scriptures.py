@@ -65,7 +65,7 @@ def scripture_search(
             detail=f"Embedding service unavailable: {str(e)}",
         )
 
-    # Perform search
+    # Perform hybrid search (vector + full-text)
     try:
         results = search_scriptures(
             session=db,
@@ -74,6 +74,8 @@ def scripture_search(
             limit=request.limit,
             volume=request.volume.value if request.volume else None,
             book=request.book,
+            query_text=request.query,  # Pass original query for hybrid search
+            use_hybrid=True,
         )
     except Exception as e:
         raise HTTPException(

@@ -5,6 +5,9 @@ param openAIResourceName string
 @description('Deployment name for the embedding model')
 param embeddingDeploymentName string = 'text-embedding-3-small'
 
+@description('Model name to deploy (must match deployment name for embeddings)')
+param modelName string = embeddingDeploymentName
+
 @description('Model capacity in thousands of tokens per minute')
 param capacity int = 120
 
@@ -20,7 +23,7 @@ resource embeddingDeployment 'Microsoft.CognitiveServices/accounts/deployments@2
   properties: {
     model: {
       format: 'OpenAI'
-      name: 'text-embedding-3-small'
+      name: modelName
       version: '1'
     }
   }

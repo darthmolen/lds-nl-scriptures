@@ -2,3 +2,6 @@
 .env
 __pycache__/
 *.pyc
+
+# Database / embedding dumps (too large for git; store off-repo)
+*.dump
