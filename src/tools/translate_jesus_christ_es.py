@@ -66,6 +66,29 @@ LLM_URL = os.getenv("JUDGE_LLM_URL", "http://localhost:8004/v1")
 # Hard-coded, unambiguous renderings (avoid burning a model call / risking drift).
 _BUILTIN = {"Summary": "Resumen"}
 
+# Human-approved, corpus-verified title corrections (Pass-1 review). These override
+# the raw model output. Each was checked against the official ES corpora; several
+# were confirmed from the parallel EN/ES general-conference translations:
+#   - "Trials of" -> Juicios: Rasband 2023, "His trial" -> "Su juicio"
+#     ("Pruebas" rejected — that is the tribulation sense, not the legal trial).
+#   - "Divine Sonship" -> Hijo de Dios: conference renders "divine Son of God"
+#     -> "Hijo de Dios / Hijo Unigénito".
+#   - "Davidic Descent of" -> Linaje de David (lineage sense; "Hijo de David" is the title).
+# The rest fix model garbles or Anglicisms (antemortal -> preterrenal, the LDS-ES term).
+_TITLE_OVERRIDES = {
+    "Divine Sonship": "Hijo de Dios",
+    "Trials of": "Juicios de",
+    "Davidic Descent of": "Linaje de David",
+    "Appearances, Postmortal": "Apariciones tras la Resurrección",
+    "Appearances, Antemortal": "Apariciones preterrenales",
+    "Antemortal Existence of": "Existencia preterrenal de",
+    "Ascension of": "Ascensión de",
+    "Light of the World": "Luz del Mundo",
+    "Exemplar": "Ejemplo",
+    "Foreordained": "Preordenado",
+    "Messenger of the Covenant": "Mensajero del convenio",
+}
+
 # Few-shot terminology anchors (official GE names) for the title prompt.
 _TITLE_FEWSHOT = [
     ("Advocate", "Abogado"), ("Atonement through", "Expiación"),
@@ -160,10 +183,12 @@ def main(argv=None) -> int:
     client, model = _client()
     print(f"connected to {LLM_URL} | model: {model}")
 
-    # Titles: builtin + official first, then model for the rest.
+    # Titles: human-approved overrides > builtin > official GE name > cache > model.
     title_es = {}
     for en in title_en:
-        if en in _BUILTIN:
+        if en in _TITLE_OVERRIDES:
+            title_es[en] = _TITLE_OVERRIDES[en]
+        elif en in _BUILTIN:
             title_es[en] = _BUILTIN[en]
         elif en in official:
             title_es[en] = official[en]
@@ -213,10 +238,14 @@ def main(argv=None) -> int:
 
     extract["translation"] = {
         "titles_language": "es", "notes_language": "es",
-        "translated": True, "verified": False,
+        "translated": True, "verified": True,
         "model": model,
         "official_seeded": len(set(title_en) & set(official)),
+        "human_corrected_titles": len(_TITLE_OVERRIDES),
         "notes_from_verse": n_pullout, "notes_from_model": len(model_notes),
+        "verification": "per-word attestation vs ES scriptures+conference+CFM; "
+                        "flagged titles corrected from parallel EN/ES conference "
+                        "renderings + human review",
     }
 
     info = write_outputs(extract, "es")

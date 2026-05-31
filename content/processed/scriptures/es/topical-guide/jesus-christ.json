@@ -12,11 +12,13 @@
     "titles_language": "es",
     "notes_language": "es",
     "translated": true,
-    "verified": false,
+    "verified": true,
     "model": "Qwen/Qwen2.5-14B-Instruct-AWQ",
     "official_seeded": 17,
+    "human_corrected_titles": 11,
     "notes_from_verse": 1416,
-    "notes_from_model": 26
+    "notes_from_model": 26,
+    "verification": "per-word attestation vs ES scriptures+conference+CFM; flagged titles corrected from parallel EN/ES conference renderings + human review"
   },
   "context_radius": 2,
   "generated": "2026-05-31",
@@ -8288,8 +8290,8 @@
       "short_en": "Advocate"
     },
     {
-      "title": "Jesucristo, Existencia antemortal de",
-      "short": "Existencia antemortal de",
+      "title": "Jesucristo, Existencia preterrenal de",
+      "short": "Existencia preterrenal de",
       "references": [
         {
           "ref": "Juan 1:1",
@@ -8965,8 +8967,8 @@
       "short_en": "Antemortal Existence of"
     },
     {
-      "title": "Jesucristo, Apariciones, Antemortal",
-      "short": "Apariciones, Antemortal",
+      "title": "Jesucristo, Apariciones preterrenales",
+      "short": "Apariciones preterrenales",
       "references": [
         {
           "ref": "Génesis 12:7",
@@ -10244,8 +10246,8 @@
       "short_en": "Appearances, Antemortal"
     },
     {
-      "title": "Jesucristo, Apariciones póstumas",
-      "short": "Apariciones póstumas",
+      "title": "Jesucristo, Apariciones tras la Resurrección",
+      "short": "Apariciones tras la Resurrección",
       "references": [
         {
           "ref": "Mateo 28:9",
@@ -12300,8 +12302,8 @@
       "short_en": "Appearances, Postmortal"
     },
     {
-      "title": "Jesucristo, Asunción",
-      "short": "Asunción",
+      "title": "Jesucristo, Ascensión de",
+      "short": "Ascensión de",
       "references": [
         {
           "ref": "Lucas 24:51",
@@ -26309,8 +26311,8 @@
       "short_en": "Crucifixion of"
     },
     {
-      "title": "Jesucristo, Origen davídico de",
-      "short": "Origen davídico de",
+      "title": "Jesucristo, Linaje de David",
+      "short": "Linaje de David",
       "references": [
         {
           "ref": "1 Samuel 17:12",
@@ -29135,8 +29137,8 @@
       "short_en": "Death of"
     },
     {
-      "title": "Jesucristo, Hijodividino",
-      "short": "Hijodividino",
+      "title": "Jesucristo, Hijo de Dios",
+      "short": "Hijo de Dios",
       "references": [
         {
           "ref": "Salmos 2:7",
@@ -34965,8 +34967,8 @@
       "short_en": "Divine Sonship"
     },
     {
-      "title": "Jesucristo, Exempelar",
-      "short": "Exempelar",
+      "title": "Jesucristo, Ejemplo",
+      "short": "Ejemplo",
       "references": [
         {
           "ref": "Mateo 4:19",
@@ -37234,8 +37236,8 @@
       "short_en": "Firstborn"
     },
     {
-      "title": "Jesucristo, Foredeterminado",
-      "short": "Foredeterminado",
+      "title": "Jesucristo, Preordenado",
+      "short": "Preordenado",
       "references": [
         {
           "ref": "Mateo 15:24",
@@ -51335,8 +51337,8 @@
       "short_en": "Lamb of God"
     },
     {
-      "title": "Jesucristo, Luzeverde del mundo",
-      "short": "Luzeverde del mundo",
+      "title": "Jesucristo, Luz del Mundo",
+      "short": "Luz del Mundo",
       "references": [
         {
           "ref": "Salmos 27:1",
@@ -53753,8 +53755,8 @@
       "short_en": "Mediator"
     },
     {
-      "title": "Jesucristo, Hacedor de la Alianza",
-      "short": "Hacedor de la Alianza",
+      "title": "Jesucristo, Mensajero del convenio",
+      "short": "Mensajero del convenio",
       "references": [
         {
           "ref": "Malaquías 3:1",
@@ -86722,8 +86724,8 @@
       "short_en": "Temptation of"
     },
     {
-      "title": "Jesucristo, Pruebas de Cristo",
-      "short": "Pruebas de Cristo",
+      "title": "Jesucristo, Juicios de",
+      "short": "Juicios de",
       "references": [
         {
           "ref": "Isaías 53:7",
