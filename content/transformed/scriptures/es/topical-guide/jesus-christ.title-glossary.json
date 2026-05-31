@@ -1,0 +1,373 @@
+{
+  "topic": "Jesus Christ",
+  "ge_topics_indexed": 961,
+  "subtopics": 52,
+  "official_coverage": 17,
+  "needs_model": 35,
+  "entries": [
+    {
+      "english_short": "Advocate",
+      "tg_slug": "jesus-christ-advocate",
+      "ge_slug": "advocate",
+      "official_es": "Abogado",
+      "needs_model": false
+    },
+    {
+      "english_short": "Antemortal Existence of",
+      "tg_slug": "jesus-christ-antemortal-existence-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Appearances, Antemortal",
+      "tg_slug": "jesus-christ-appearances-antemortal",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Appearances, Postmortal",
+      "tg_slug": "jesus-christ-appearances-postmortal",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Ascension of",
+      "tg_slug": "jesus-christ-ascension-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Atonement through",
+      "tg_slug": "jesus-christ-atonement-through",
+      "ge_slug": "atone-atonement",
+      "official_es": "Expiación, expiar",
+      "needs_model": false
+    },
+    {
+      "english_short": "Authority of",
+      "tg_slug": "jesus-christ-authority-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Baptism of",
+      "tg_slug": "jesus-christ-baptism-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Betrayal of",
+      "tg_slug": "jesus-christ-betrayal-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Birth of",
+      "tg_slug": "jesus-christ-birth-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Condescension of",
+      "tg_slug": "jesus-christ-condescension-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Creator",
+      "tg_slug": "jesus-christ-creator",
+      "ge_slug": "creator",
+      "official_es": "Creador",
+      "needs_model": false
+    },
+    {
+      "english_short": "Crucifixion of",
+      "tg_slug": "jesus-christ-crucifixion-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Davidic Descent of",
+      "tg_slug": "jesus-christ-davidic-descent-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Death of",
+      "tg_slug": "jesus-christ-death-of",
+      "ge_slug": "death-physical",
+      "official_es": "Muerte física",
+      "needs_model": false
+    },
+    {
+      "english_short": "Divine Sonship",
+      "tg_slug": "jesus-christ-divine-sonship",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Exemplar",
+      "tg_slug": "jesus-christ-exemplar",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Family of",
+      "tg_slug": "jesus-christ-family-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Firstborn",
+      "tg_slug": "jesus-christ-firstborn",
+      "ge_slug": "firstborn",
+      "official_es": "Primogénito",
+      "needs_model": false
+    },
+    {
+      "english_short": "Foreordained",
+      "tg_slug": "jesus-christ-foreordained",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Glory of",
+      "tg_slug": "jesus-christ-glory-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Good Shepherd",
+      "tg_slug": "jesus-christ-good-shepherd",
+      "ge_slug": "good-shepherd",
+      "official_es": "Buen Pastor",
+      "needs_model": false
+    },
+    {
+      "english_short": "Head of the Church",
+      "tg_slug": "jesus-christ-head-of-the-church",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Jehovah",
+      "tg_slug": "jesus-christ-jehovah",
+      "ge_slug": "jehovah",
+      "official_es": "Jehová",
+      "needs_model": false
+    },
+    {
+      "english_short": "Judge",
+      "tg_slug": "jesus-christ-judge",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "King",
+      "tg_slug": "jesus-christ-king",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Lamb of God",
+      "tg_slug": "jesus-christ-lamb-of-god",
+      "ge_slug": "lamb-of-god",
+      "official_es": "Cordero de Dios",
+      "needs_model": false
+    },
+    {
+      "english_short": "Light of the World",
+      "tg_slug": "jesus-christ-light-of-the-world",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Lord",
+      "tg_slug": "jesus-christ-lord",
+      "ge_slug": "lord",
+      "official_es": "Señor",
+      "needs_model": false
+    },
+    {
+      "english_short": "Mediator",
+      "tg_slug": "jesus-christ-mediator",
+      "ge_slug": "mediator",
+      "official_es": "Mediador",
+      "needs_model": false
+    },
+    {
+      "english_short": "Messenger of the Covenant",
+      "tg_slug": "jesus-christ-messenger-of-the-covenant",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Messiah",
+      "tg_slug": "jesus-christ-messiah",
+      "ge_slug": "messiah",
+      "official_es": "Mesías",
+      "needs_model": false
+    },
+    {
+      "english_short": "Millennial Reign",
+      "tg_slug": "jesus-christ-millennial-reign",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Mission of",
+      "tg_slug": "jesus-christ-mission-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Only Begotten Son",
+      "tg_slug": "jesus-christ-only-begotten-son",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Power of",
+      "tg_slug": "jesus-christ-power-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Prophecies about",
+      "tg_slug": "jesus-christ-prophecies-about",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Redeemer",
+      "tg_slug": "jesus-christ-redeemer",
+      "ge_slug": "redeemer",
+      "official_es": "Redentor",
+      "needs_model": false
+    },
+    {
+      "english_short": "Relationships with the Father",
+      "tg_slug": "jesus-christ-relationships-with-the-father",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Resurrection",
+      "tg_slug": "jesus-christ-resurrection",
+      "ge_slug": "resurrection",
+      "official_es": "Resurrección",
+      "needs_model": false
+    },
+    {
+      "english_short": "Rock",
+      "tg_slug": "jesus-christ-rock",
+      "ge_slug": "rock",
+      "official_es": "Roca",
+      "needs_model": false
+    },
+    {
+      "english_short": "Savior",
+      "tg_slug": "jesus-christ-savior",
+      "ge_slug": "savior",
+      "official_es": "Salvador",
+      "needs_model": false
+    },
+    {
+      "english_short": "Second Comforter",
+      "tg_slug": "jesus-christ-second-comforter",
+      "ge_slug": "second-comforter",
+      "official_es": "Segundo Consolador",
+      "needs_model": false
+    },
+    {
+      "english_short": "Second Coming",
+      "tg_slug": "jesus-christ-second-coming",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Son of Man",
+      "tg_slug": "jesus-christ-son-of-man",
+      "ge_slug": "son-of-man",
+      "official_es": "Hijo del Hombre",
+      "needs_model": false
+    },
+    {
+      "english_short": "Spirit of",
+      "tg_slug": "jesus-christ-spirit-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Taking the Name of",
+      "tg_slug": "jesus-christ-taking-the-name-of",
+      "ge_slug": "name",
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Teaching Mode of",
+      "tg_slug": "jesus-christ-teaching-mode-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Temptation of",
+      "tg_slug": "jesus-christ-temptation-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Trials of",
+      "tg_slug": "jesus-christ-trials-of",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Types of, in Anticipation",
+      "tg_slug": "jesus-christ-types-of-in-anticipation",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    },
+    {
+      "english_short": "Types of, in Memory",
+      "tg_slug": "jesus-christ-types-of-in-memory",
+      "ge_slug": null,
+      "official_es": null,
+      "needs_model": true
+    }
+  ]
+}

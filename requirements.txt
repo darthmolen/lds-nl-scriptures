@@ -17,6 +17,7 @@ beautifulsoup4>=4.12
 
 # TOON format (token-efficient serialization)
 toons>=0.1
+tiktoken>=0.5
 
 # API
 fastapi>=0.109

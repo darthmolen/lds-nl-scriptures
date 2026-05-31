@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "archived": false,
+    "title": "Jesus Christ, Second Comforter",
+    "canonicalUrl": "/scriptures/tg/jesus-christ-second-comforter?lang=eng",
+    "contentType": "text/html",
+    "pageAttributes": {
+      "data-asset-id": "3622375558aaa03c6900cccc3d599a46f986d61b",
+      "data-aid": "128477735",
+      "data-aid-version": "3",
+      "data-content-type": "topic",
+      "data-uri": "/scriptures/tg/jesus-christ-second-comforter",
+      "lang": "eng",
+      "data-bcp47-lang": "en",
+      "data-orig-id": "3622375558aaa03c6900cccc3d599a46f986d61b",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "scopedClassName": "classic-scripture",
+    "hasChat": false
+  },
+  "content": {
+    "head": {
+      "page-meta-social": {
+        "pageMeta": {
+          "title": "Jesus Christ, Second Comforter",
+          "description": "Jesus Christ, Second Comforter"
+        },
+        "pageSocial": {
+          "title": "Jesus Christ, Second Comforter",
+          "description": "Jesus Christ, Second Comforter"
+        }
+      },
+      "links": [
+        {
+          "type": "array",
+          "rel": "stylesheet",
+          "orig-type": "text/css",
+          "href": "https://ips-cdn-edge.churchofjesuschrist.org/styles/css/style_classic-scripture_scoped.css"
+        }
+      ],
+      "scripts": []
+    },
+    "body": "<header>\n<h1 data-aid=\"128477736\" id=\"title1\"><strong>Jesus Christ, Second Comforter</strong></h1>\n</header>\n<div class=\"body-block\">\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"128477737\" id=\"p1\"><span class=\"key-word\">I</span> will come to you, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/14?lang=eng&amp;id=p18-p19#p18\">John 14:18–19</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/14?lang=eng&amp;id=p21%2Cp23#p21\">14:21, 23</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"128477738\" id=\"p2\">privilege, and a <span class=\"key-word\">promise</span> … veil shall be rent and you shall see me, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/67?lang=eng&amp;id=p10#p10\">D&amp;C 67:10</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128477739\" id=\"p3\"><span class=\"key-word\">appearing</span> of the Father and the Son … is a personal appearance, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/130?lang=eng&amp;id=p3#p3\">D&amp;C 130:3</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul class=\"reference\">\n<li>\n<p class=\"title\" data-aid=\"128477740\" id=\"title2\"><em>See also</em> <a class=\"scripture-ref\" href=\"/study/scriptures/nt/heb/12?lang=eng&amp;id=p21-p24#p21\">Heb. 12:21–24</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/2-pet/1?lang=eng&amp;id=p10-p11%2Cp19#p10\">2 Pet. 1:10–11, 19</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/31?lang=eng&amp;id=p14-p21#p14\">2 Ne. 31:14–21</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/76?lang=eng&amp;id=p53-p54%2Cp67#p53\">D&amp;C 76:53–54, 67</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/88?lang=eng&amp;id=p3-p4#p3\">88:3–4</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/93?lang=eng&amp;id=p1#p1\">93:1</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/131?lang=eng&amp;id=p5#p5\">131:5</a>.</p>\n</li>\n</ul>\n</nav>\n</div>",
+    "footnotes": {}
+  },
+  "pids": [
+    [
+      "128477735",
+      {
+        "key": "128477735"
+      }
+    ],
+    [
+      "128477736",
+      {
+        "key": "128477736"
+      }
+    ],
+    [
+      "128477737",
+      {
+        "key": "128477737"
+      }
+    ],
+    [
+      "128477738",
+      {
+        "key": "128477738"
+      }
+    ],
+    [
+      "128477739",
+      {
+        "key": "128477739"
+      }
+    ],
+    [
+      "128477740",
+      {
+        "key": "128477740"
+      }
+    ]
+  ],
+  "tableOfContentsUri": "/scriptures/tg",
+  "uri": "/scriptures/tg/jesus-christ-second-comforter",
+  "verified": true,
+  "restricted": 0
+}

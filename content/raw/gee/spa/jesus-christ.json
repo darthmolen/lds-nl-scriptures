@@ -1,0 +1,1114 @@
+{
+  "meta": {
+    "archived": false,
+    "title": "Jesucristo",
+    "canonicalUrl": "/scriptures/gs/jesus-christ?lang=spa",
+    "contentType": "text/html",
+    "pageAttributes": {
+      "data-asset-id": "c19e69f6ff9a5ad465bf336a0d93e069d5cc1b59",
+      "data-aid": "124456818",
+      "data-aid-version": "5",
+      "data-content-type": "topic",
+      "data-uri": "/scriptures/gs/jesus-christ",
+      "lang": "spa",
+      "data-bcp47-lang": "es",
+      "data-orig-id": "d868c7d14fdcb9968eacceda6bf8512106268b52",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "scopedClassName": "classic-scripture",
+    "hasChat": false
+  },
+  "content": {
+    "head": {
+      "page-meta-social": {
+        "pageMeta": {
+          "title": "Jesucristo",
+          "description": "Jesucristo"
+        },
+        "pageSocial": {
+          "title": "Jesucristo",
+          "description": "Jesucristo"
+        }
+      },
+      "links": [
+        {
+          "type": "array",
+          "rel": "stylesheet",
+          "orig-type": "text/css",
+          "href": "https://ips-cdn-edge.churchofjesuschrist.org/styles/css/style_classic-scripture_scoped.css"
+        }
+      ],
+      "scripts": []
+    },
+    "body": "<header>\n<h1 data-aid=\"124457820\" id=\"title1\"><strong>Jesucristo</strong></h1>\n</header>\n<div class=\"body-block\">\n<nav class=\"index\">\n<ul class=\"reference\">\n<li>\n<p class=\"title\" data-aid=\"124457821\" id=\"title2\"><em>Véase también</em> <a class=\"scripture-ref\" href=\"/study/scriptures/gs/advocate?lang=spa\">Abogado</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/living-water?lang=spa\">Agua(s) viva(s)</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/alpha-and-omega?lang=spa\">Alfa y Omega</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/repent-repentance?lang=spa\">Arrepentimiento, arrepentirse</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/ascension?lang=spa\">Ascensión</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/good-shepherd?lang=spa\">Buen Pastor</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/fall-of-adam-and-eve?lang=spa\">Caída de Adán y Eva</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/way?lang=spa\">Camino (vía)</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/conscience?lang=spa\">Conciencia</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/comforter?lang=spa\">Consolador</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/lamb-of-god?lang=spa\">Cordero de Dios</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/create-creation?lang=spa\">Creación, crear</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/crucifixion?lang=spa\">Crucifixión</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/cross?lang=spa\">Cruz</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/immanuel?lang=spa\">Emanuel</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/begotten?lang=spa\">Engendrado, engendrar</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/bridegroom?lang=spa\">Esposo</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/gospels?lang=spa\">Evangelios</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/atone-atonement?lang=spa\">Expiación, expiar</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/faith?lang=spa\">Fe</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/golgotha?lang=spa\">Gólgota</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/grace?lang=spa\">Gracia</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/son-of-man?lang=spa\">Hijo del Hombre</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/jehovah?lang=spa\">Jehová</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/deliverer?lang=spa\">Libertador</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/light-light-of-christ?lang=spa\">Luz, luz de Cristo</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/mary-mother-of-jesus?lang=spa\">María, madre de Jesús</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/mediator?lang=spa\">Mediador</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/messiah?lang=spa\">Mesías</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/bread-of-life?lang=spa\">Pan de Vida</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/cornerstone?lang=spa\">Piedra del ángulo</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/plan-of-redemption?lang=spa\">Plan de redención</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/firstborn?lang=spa\">Primogénito</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/beginning_principle?lang=spa\">Principio</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/redeem-redeemed-redemption?lang=spa\">Redención, redimido, redimir</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/redeemer?lang=spa\">Redentor</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/remission-of-sins?lang=spa\">Remisión de pecados</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/resurrection?lang=spa\">Resurrección</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/rock?lang=spa\">Roca</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/sacrifice?lang=spa\">Sacrificios</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/savior?lang=spa\">Salvador</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/blood?lang=spa\">Sangre</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/sacrament?lang=spa\">Santa Cena</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/second-coming-of-jesus-christ?lang=spa\">Segunda venida de Jesucristo</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/lord?lang=spa\">Señor</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/sermon-on-the-mount?lang=spa\">Sermón del Monte</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/serpent-brazen?lang=spa\">Serpiente de bronce</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/endless?lang=spa\">Sin Fin</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/transfiguration?lang=spa#sec_transfiguration_of_christ\">Transfiguración — La Transfiguración de Cristo</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/god-godhead?lang=spa\">Trinidad</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/anointed-one?lang=spa\">Ungido, el</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/gs/i-am?lang=spa\"><span class=\"deity-name\"><span class=\"uppercase\">Yo Soy</span></span></a></p>\n</li>\n</ul>\n</nav>\n<p data-aid=\"124457822\" id=\"p1\"><span class=\"translit\" lang=\"grc\"><i>Cristo</i></span> (vocablo griego) y <span class=\"translit\" lang=\"heb\"><i>Mesías</i></span> (vocablo hebreo) significan “el ungido”. Jesucristo es el Primogénito del Padre en el espíritu (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/heb/1?lang=spa&amp;id=p6#p6\">Heb. 1:6</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/93?lang=spa&amp;id=p21#p21\">DyC 93:21</a>), y el Unigénito del Padre en la carne (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/1?lang=spa&amp;id=p14#p14\">Juan 1:14</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/3?lang=spa&amp;id=p16#p16\">3:16</a>). Es Jehová (<a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/110?lang=spa&amp;id=p3-p4#p3\">DyC 110:3–4</a>) y fue preordenado a Su importante llamamiento antes que el mundo fuese creado. Bajo la dirección del Padre, Jesús creó la tierra y todo lo que en ella hay (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/1?lang=spa&amp;id=p3%2Cp14#p3\">Juan 1:3, 14</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/moses/1?lang=spa&amp;id=p31-p33#p31\">Moisés 1:31–33</a>). Nació de María en Belén; llevó una vida sin mancha y efectuó la Expiación perfecta en bien de todo el género humano mediante el derramamiento de Su sangre y la muerte sobre la cruz (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/2?lang=spa&amp;id=p1#p1\">Mateo 2:1</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/1-ne/11?lang=spa&amp;id=p13-p33#p13\">1 Ne. 11:13–33</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/27?lang=spa&amp;id=p13-p16#p13\">3 Ne. 27:13–16</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/76?lang=spa&amp;id=p40-p42#p40\">DyC 76:40–42</a>). Se levantó de los muertos, asegurando así la resurrección de todo el género humano. Por medio de la expiación y la resurrección de Cristo, todos los que se arrepientan de sus pecados y obedezcan los mandamientos de Dios podrán vivir eternamente con Jesús y con el Padre (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/9?lang=spa&amp;id=p10-p12#p10\">2 Ne. 9:10–12</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/21?lang=spa\">21–22</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/76?lang=spa&amp;id=p50-p53%2Cp62#p50\">DyC 76:50–53, 62</a>).</p>\n<p data-aid=\"124457823\" id=\"p2\">Jesucristo es el ser supremo de los nacidos en esta tierra. Su vida es el ejemplo perfecto del modo de vida que debe llevar todo el género humano. Toda oración, bendición y ordenanza del sacerdocio debe efectuarse en Su nombre. Es el Señor de señores, el Rey de reyes, el Creador, el Salvador y el Dios de toda la tierra.</p>\n<p data-aid=\"124457824\" id=\"p3\">Volverá en poder y gloria para reinar sobre la tierra durante el Milenio. En el último día, juzgará a toda la humanidad (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/alma/11?lang=spa&amp;id=p40-p41#p40\">Alma 11:40–41</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/js-m/1?lang=spa\">JS—M 1</a>).</p>\n<section id=\"sec1\">\n<header>\n<h2 data-aid=\"124457825\" id=\"title3\">Resumen de Su vida (siguiendo el orden de sucesión de los acontecimientos)</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457826\" id=\"p4\">Se predicen el nacimiento y la misión de Jesús, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/1?lang=spa&amp;id=p26-p38#p26\">Lucas 1:26–38</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/ot/isa/7?lang=spa&amp;id=p14#p14\">Isa. 7:14</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/ot/isa/9?lang=spa&amp;id=p6-p7#p6\">9:6–7</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/1-ne/11?lang=spa\">1 Ne. 11</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457827\" id=\"p5\">Su nacimiento, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/2?lang=spa&amp;id=p1-p7#p1\">Lucas 2:1–7</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/1?lang=spa&amp;id=p18-p25#p18\">Mateo 1:18–25</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457828\" id=\"p6\">Su circuncisión, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/2?lang=spa&amp;id=p21#p21\">Lucas 2:21</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457829\" id=\"p7\">Su presentación en el templo, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/2?lang=spa&amp;id=p22-p38#p22\">Lucas 2:22–38</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457830\" id=\"p8\">La visita de los magos, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/2?lang=spa&amp;id=p1-p12#p1\">Mateo 2:1–12</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457831\" id=\"p9\">José y María huyen con Él a Egipto, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/2?lang=spa&amp;id=p13-p18#p13\">Mateo 2:13–18</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457832\" id=\"p10\">Va a vivir a Nazaret, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/2?lang=spa&amp;id=p19-p23#p19\">Mateo 2:19–23</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457833\" id=\"p11\">Visita el templo a los doce años, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/2?lang=spa&amp;id=p41-p50#p41\">Lucas 2:41–50</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457834\" id=\"p12\">Tuvo hermanos y hermanas, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/13?lang=spa&amp;id=p55-p56#p55\">Mateo 13:55–56</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/6?lang=spa&amp;id=p3#p3\">Mar. 6:3</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457835\" id=\"p13\">Su bautismo, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/3?lang=spa&amp;id=p13-p17#p13\">Mateo 3:13–17</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/1?lang=spa&amp;id=p9-p11#p9\">Mar. 1:9–11</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/3?lang=spa&amp;id=p21-p22#p21\">Lucas 3:21–22</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457836\" id=\"p14\">Lo tienta el diablo, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/4?lang=spa&amp;id=p1-p11#p1\">Mateo 4:1–11</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/1?lang=spa&amp;id=p12-p13#p12\">Mar. 1:12–13</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/4?lang=spa&amp;id=p1-p13#p1\">Lucas 4:1–13</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457837\" id=\"p15\">Llama a sus discípulos, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/4?lang=spa&amp;id=p18-p22#p18\">Mateo 4:18–22</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/9?lang=spa&amp;id=p9#p9\">Mateo 9:9</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/1?lang=spa&amp;id=p16-p20#p16\">Mar. 1:16–20</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/2?lang=spa&amp;id=p13-p14#p13\">2:13–14</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/5?lang=spa&amp;id=p1-p11%2Cp27-p28#p1\">Lucas 5:1–11, 27–28</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/6?lang=spa&amp;id=p12-p16#p12\">6:12–16</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/1?lang=spa&amp;id=p35-p51#p35\">Juan 1:35–51</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457838\" id=\"p16\">Comisiona a los Doce, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/10?lang=spa&amp;id=p1-p4#p1\">Mateo 10:1–4</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/3?lang=spa&amp;id=p13-p19#p13\">Mar. 3:13–19</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/6?lang=spa&amp;id=p12-p16#p12\">Lucas 6:12–16</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457839\" id=\"p17\">Da el Sermón del Monte, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/5?lang=spa\">Mateo 5–7</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457840\" id=\"p18\">Predice su propia muerte y resurrección, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/16?lang=spa&amp;id=p21#p21\">Mateo 16:21</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/17?lang=spa&amp;id=p22-p23#p22\">Mateo 17:22–23</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/20?lang=spa&amp;id=p17-p19#p17\">20:17–19</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/8?lang=spa&amp;id=p31#p31\">Mar. 8:31</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/9?lang=spa&amp;id=p30-p32#p30\">9:30–32</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/10?lang=spa&amp;id=p32-p34#p32\">10:32–34</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/9?lang=spa&amp;id=p22#p22\">Lucas 9:22</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/18?lang=spa&amp;id=p31-p34#p31\">18:31–34</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457841\" id=\"p19\">La Transfiguración, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/17?lang=spa&amp;id=p1-p9#p1\">Mateo 17:1–9</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/9?lang=spa&amp;id=p2-p8#p2\">Mar. 9:2–8</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/9?lang=spa&amp;id=p28-p36#p28\">Lucas 9:28–36</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457842\" id=\"p20\">Envía a los setenta, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/10?lang=spa&amp;id=p1-p20#p1\">Lucas 10:1–20</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457843\" id=\"p21\">Hace su entrada triunfal en Jerusalén, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/21?lang=spa&amp;id=p1-p11#p1\">Mateo 21:1–11</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/11?lang=spa&amp;id=p1-p11#p1\">Mar. 11:1–11</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/19?lang=spa&amp;id=p29-p40#p29\">Lucas 19:29–40</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/12?lang=spa&amp;id=p12-p15#p12\">Juan 12:12–15</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457844\" id=\"p22\">Instituye la Santa Cena, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/26?lang=spa&amp;id=p26-p29#p26\">Mateo 26:26–29</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/14?lang=spa&amp;id=p22-p25#p22\">Mar. 14:22–25</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/22?lang=spa&amp;id=p19-p20#p19\">Lucas 22:19–20</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457845\" id=\"p23\">Padece y ora en Getsemaní, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/26?lang=spa&amp;id=p36-p46#p36\">Mateo 26:36–46</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/14?lang=spa&amp;id=p32-p42#p32\">Mar. 14:32–42</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/22?lang=spa&amp;id=p39-p46#p39\">Lucas 22:39–46</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457846\" id=\"p24\">Es traicionado, arrestado y abandonado, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/26?lang=spa&amp;id=p47-p56#p47\">Mateo 26:47–56</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/14?lang=spa&amp;id=p43-p53#p43\">Mar. 14:43–53</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/22?lang=spa&amp;id=p47-p54#p47\">Lucas 22:47–54</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/18?lang=spa&amp;id=p2-p13#p2\">Juan 18:2–13</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457847\" id=\"p25\">Su crucifixión, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/27?lang=spa&amp;id=p31-p54#p31\">Mateo 27:31–54</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/15?lang=spa&amp;id=p20-p41#p20\">Mar. 15:20–41</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/23?lang=spa&amp;id=p26-p28%2Cp32-p49#p26\">Lucas 23:26–28, 32–49</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/19?lang=spa&amp;id=p16-p30#p16\">Juan 19:16–30</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457848\" id=\"p26\">Su resurrección, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/28?lang=spa&amp;id=p1-p8#p1\">Mateo 28:1–8</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/16?lang=spa&amp;id=p1-p8#p1\">Mar. 16:1–8</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/24?lang=spa&amp;id=p1-p12#p1\">Lucas 24:1–12</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/20?lang=spa&amp;id=p1-p10#p1\">Juan 20:1–10</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457849\" id=\"p27\">Aparece después de Su resurrección, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/28?lang=spa&amp;id=p9-p20#p9\">Mateo 28:9–20</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/16?lang=spa&amp;id=p9-p18#p9\">Mar. 16:9–18</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/24?lang=spa&amp;id=p13-p48#p13\">Lucas 24:13–48</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/20?lang=spa&amp;id=p11-p31#p11\">Juan 20:11–31</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/1?lang=spa&amp;id=p3-p8#p3\">Hech. 1:3–8</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-cor/15?lang=spa&amp;id=p5-p8#p5\">1 Cor. 15:5–8</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457850\" id=\"p28\">Asciende al cielo, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/16?lang=spa&amp;id=p19-p20#p19\">Mar. 16:19–20</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/24?lang=spa&amp;id=p51-p53#p51\">Lucas 24:51–53</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/1?lang=spa&amp;id=p9-p12#p9\">Hech. 1:9–12</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457851\" id=\"p29\">Se aparece a los nefitas, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/11?lang=spa&amp;id=p1-p17#p1\">3 Ne. 11:1–17</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/11?lang=spa\">3 Ne. 11–26</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457852\" id=\"p30\">Se aparece a José Smith, <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/js-h/1?lang=spa&amp;id=p15-p20#p15\">JS—H 1:15–20</a>.</p>\n</li>\n</ul>\n</nav>\n</section>\n<section id=\"sec2\">\n<header>\n<h2 data-aid=\"124457853\" id=\"title4\">El ejemplo de Jesucristo</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457854\" id=\"p31\">Ejemplo os he dado, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/13?lang=spa&amp;id=p15#p15\">Juan 13:15</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457855\" id=\"p32\">Yo soy el camino, y la verdad, y la vida, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/14?lang=spa&amp;id=p6#p6\">Juan 14:6</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457856\" id=\"p33\">Cristo padeció por nosotros, dejándonos el ejemplo, para que sigamos sus pisadas, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-pet/2?lang=spa&amp;id=p21#p21\">1 Pe. 2:21</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457857\" id=\"p34\">A menos que el hombre siga el ejemplo del Hijo del Dios viviente, no puede ser salvo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/31?lang=spa&amp;id=p16#p16\">2 Ne. 31:16</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457858\" id=\"p35\">Quisiera que fueseis perfectos así como yo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/12?lang=spa&amp;id=p48#p48\">3 Ne. 12:48</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457859\" id=\"p36\">Siempre procuraréis hacer esto, tal como yo lo he hecho, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/18?lang=spa&amp;id=p6#p6\">3 Ne. 18:6</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457860\" id=\"p37\">Yo os he dado el ejemplo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/18?lang=spa&amp;id=p16#p16\">3 Ne. 18:16</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457861\" id=\"p38\">Las obras que me habéis visto hacer, esas también las haréis, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/27?lang=spa&amp;id=p21%2Cp27#p21\">3 Ne. 27:21, 27</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457862\" id=\"p39\">Los discípulos verdaderos de Jesucristo deben ser semejantes a él, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/moro/7?lang=spa&amp;id=p48#p48\">Moro. 7:48</a>.</p>\n</li>\n</ul>\n</nav>\n</section>\n<section id=\"sec3\">\n<header>\n<h2 data-aid=\"124457863\" id=\"title5\">El reinado milenario de Cristo</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457864\" id=\"p40\">El principado descansará sobre su hombro, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/isa/9?lang=spa&amp;id=p6#p6\">Isa. 9:6</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/19?lang=spa&amp;id=p6#p6\">2 Ne. 19:6</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457865\" id=\"p41\">Moraré en medio de ti, ha dicho Jehová, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/zech/2?lang=spa&amp;id=p10-p12#p10\">Zac. 2:10–12</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/ot/zech/14?lang=spa&amp;id=p9#p9\">Zac. 14:9</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457866\" id=\"p42\">Dios le dará a Jesús el trono de David su padre, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/1?lang=spa&amp;id=p30-p33#p30\">Lucas 1:30–33</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457867\" id=\"p43\">Cristo reinará por los siglos de los siglos, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/rev/11?lang=spa&amp;id=p15#p15\">Apoc. 11:15</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457868\" id=\"p44\">Los santos reinarán con Cristo mil años, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/rev/20?lang=spa&amp;id=p4#p4\">Apoc. 20:4</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/76?lang=spa&amp;id=p63#p63\">DyC 76:63</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457869\" id=\"p45\">A causa de la rectitud del pueblo, Satanás no tendrá poder, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/1-ne/22?lang=spa&amp;id=p26#p26\">1 Ne. 22:26</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/rev/20?lang=spa&amp;id=p1-p3#p1\">Apoc. 20:1–3</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457870\" id=\"p46\">Moraré en rectitud con los hombres sobre la tierra por mil años, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/29?lang=spa&amp;id=p11#p11\">DyC 29:11</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/43?lang=spa&amp;id=p29-p30#p29\">DyC 43:29–30</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457871\" id=\"p47\">Sujetaos a las potestades existentes, hasta que reine aquel cuyo derecho es reinar, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/58?lang=spa&amp;id=p22#p22\">DyC 58:22</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-cor/15?lang=spa&amp;id=p25#p25\">1 Cor. 15:25</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457872\" id=\"p48\">Cristo reinará personalmente sobre la tierra, <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/a-of-f/1?lang=spa&amp;id=p10#p10\">AdeF 1:10</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/ot/isa/32?lang=spa&amp;id=p1#p1\">Isa. 32:1</a>).</p>\n</li>\n</ul>\n</nav>\n</section>\n<section id=\"sec4\">\n<header>\n<h2 data-aid=\"124457873\" id=\"title6\">El tomar sobre sí el nombre de Jesucristo</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457874\" id=\"p49\">No hay otro nombre en que podamos ser salvos, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/4?lang=spa&amp;id=p12#p12\">Hech. 4:12</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/31?lang=spa&amp;id=p21#p21\">2 Ne. 31:21</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457875\" id=\"p50\">Los Apóstoles se sintieron gozosos de haber sido tenidos por dignos de padecer afrenta por causa del Nombre, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/5?lang=spa&amp;id=p38-p42#p38\">Hech. 5:38–42</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457876\" id=\"p51\">Este es su mandamiento: Que creamos en el nombre de su Hijo Jesucristo, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-jn/3?lang=spa&amp;id=p23#p23\">1 Juan 3:23</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457877\" id=\"p52\">Testificad que estáis dispuestos a tomar sobre vosotros el nombre de Cristo por medio del bautismo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/31?lang=spa&amp;id=p13#p13\">2 Ne. 31:13</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457878\" id=\"p53\">Quisiera que tomaseis sobre vosotros el nombre de Cristo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/mosiah/5?lang=spa&amp;id=p6-p12#p6\">Mos. 5:6–12</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/mosiah/1?lang=spa&amp;id=p11#p11\">Mos. 1:11</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457879\" id=\"p54\">Quienes deseaban tomar sobre sí el nombre de Cristo se unían a la Iglesia de Dios, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/mosiah/25?lang=spa&amp;id=p23#p23\">Mos. 25:23</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457880\" id=\"p55\">Todos los que eran creyentes verdaderos en Cristo tomaron sobre sí el nombre de Cristo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/alma/46?lang=spa&amp;id=p15#p15\">Alma 46:15</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457881\" id=\"p56\">La puerta del cielo está abierta para los que quieran creer en el nombre de Jesucristo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/hel/3?lang=spa&amp;id=p28#p28\">Hel. 3:28</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457882\" id=\"p57\">Bendito es aquel que sea hallado fiel a mi nombre en el postrer día, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/ether/4?lang=spa&amp;id=p19#p19\">Éter 4:19</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457883\" id=\"p58\">Están dispuestos a tomar sobre sí el nombre de tu Hijo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/moro/4?lang=spa&amp;id=p3#p3\">Moro. 4:3</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/20?lang=spa&amp;id=p77#p77\">DyC 20:77</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457884\" id=\"p59\">Tomad sobre vosotros el nombre de Cristo, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/18?lang=spa&amp;id=p21-p25#p21\">DyC 18:21–25</a>.</p>\n</li>\n</ul>\n</nav>\n</section>\n<section id=\"sec5\">\n<header>\n<h2 data-aid=\"124457885\" id=\"title7\">Es cabeza de la Iglesia</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457886\" id=\"p60\">Cristo es cabeza de la iglesia, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/eph/5?lang=spa&amp;id=p23#p23\">Efe. 5:23</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/eph/1?lang=spa&amp;id=p22#p22\">Efe. 1:22</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/eph/4?lang=spa&amp;id=p15#p15\">4:15</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457887\" id=\"p61\">Él es la cabeza del cuerpo que es la iglesia, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/col/1?lang=spa&amp;id=p18#p18\">Col. 1:18</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457888\" id=\"p62\">Esta es mi iglesia, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/mosiah/26?lang=spa&amp;id=p22#p22\">Mos. 26:22</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/mosiah/27?lang=spa&amp;id=p13#p13\">Mos. 27:13</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457889\" id=\"p63\">Cristo era el autor y perfeccionador de su fe, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/moro/6?lang=spa&amp;id=p1-p4#p1\">Moro. 6:1–4</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457890\" id=\"p64\">He establecido esta iglesia, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/33?lang=spa&amp;id=p5#p5\">DyC 33:5</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/27?lang=spa&amp;id=p3-p8#p3\">3 Ne. 27:3–8</a>).</p>\n</li>\n</ul>\n</nav>\n</section>\n<section id=\"sec6\">\n<header>\n<h2 data-aid=\"124457891\" id=\"title8\">Es juez</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457893\" id=\"p65\">Él juzgará al mundo con justicia, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/ps/9?lang=spa&amp;id=p8#p8\">Sal. 9:8</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/27?lang=spa&amp;id=p16#p16\">3 Ne. 27:16</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457894\" id=\"p66\">Jehová viene a juzgar la tierra, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/ps/96?lang=spa&amp;id=p13#p13\">Sal. 96:13</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457895\" id=\"p67\">Al justo y al impío juzgará Dios, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/eccl/3?lang=spa&amp;id=p17#p17\">Ecle. 3:17</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457896\" id=\"p68\">Juzgará entre las naciones, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/isa/2?lang=spa&amp;id=p4#p4\">Isa. 2:4</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/ot/micah/4?lang=spa&amp;id=p3#p3\">Miq. 4:3</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/12?lang=spa&amp;id=p4#p4\">2 Ne. 12:4</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457897\" id=\"p69\">Juzgará con justicia a los pobres, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/isa/11?lang=spa&amp;id=p2-p4#p2\">Isa. 11:2–4</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457898\" id=\"p70\">El Padre todo el juicio dio al Hijo, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/5?lang=spa&amp;id=p22#p22\">Juan 5:22</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457899\" id=\"p71\">Si yo juzgo, mi juicio es verdadero, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/8?lang=spa&amp;id=p16#p16\">Juan 8:16</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457900\" id=\"p72\">Dios lo ha puesto por Juez de vivos y muertos, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/10?lang=spa&amp;id=p42#p42\">Hech. 10:42</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/2-tim/4?lang=spa&amp;id=p1#p1\">2 Tim. 4:1</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457901\" id=\"p73\">Dios juzgará por Jesucristo los secretos de los hombres, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/rom/2?lang=spa&amp;id=p16#p16\">Rom. 2:16</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457902\" id=\"p74\">Todos compareceremos ante el tribunal de Cristo, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/rom/14?lang=spa&amp;id=p10#p10\">Rom. 14:10</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/2-cor/5?lang=spa&amp;id=p10#p10\">2 Cor. 5:10</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/alma/12?lang=spa&amp;id=p12#p12\">Alma 12:12</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/morm/3?lang=spa&amp;id=p20#p20\">Morm. 3:20</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/morm/7?lang=spa&amp;id=p6#p6\">7:6</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/ether/12?lang=spa&amp;id=p38#p38\">Éter 12:38</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/135?lang=spa&amp;id=p5#p5\">DyC 135:5</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457903\" id=\"p75\">Todos los hombres vienen a Dios para que él los juzgue de acuerdo con la verdad y santidad que hay en él, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/2?lang=spa&amp;id=p10#p10\">2 Ne. 2:10</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457457\" id=\"p76\">Presentaos ante Dios para ser juzgados de acuerdo con las obras, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/alma/5?lang=spa&amp;id=p15#p15\">Alma 5:15</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/alma/12?lang=spa&amp;id=p15#p15\">Alma 12:15</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/alma/33?lang=spa&amp;id=p22#p22\">33:22</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/27?lang=spa&amp;id=p14#p14\">3 Ne. 27:14</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457459\" id=\"p77\">Dios y Cristo son los jueces de todo, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/76?lang=spa&amp;id=p68#p68\">DyC 76:68</a>.</p>\n</li>\n</ul>\n</nav>\n</section>\n<section id=\"sec7\">\n<header>\n<h2 data-aid=\"124457461\" id=\"title9\">La existencia premortal de Cristo</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457463\" id=\"p78\">Apareció Jehová a Abram, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/gen/12?lang=spa&amp;id=p7#p7\">Gén. 12:7</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/ot/gen/17?lang=spa&amp;id=p1#p1\">Gén. 17:1</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/ot/gen/18?lang=spa&amp;id=p1#p1\">18:1</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/abr/2?lang=spa&amp;id=p6-p8#p6\">Abr. 2:6–8</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457464\" id=\"p79\">Jehová habló a Moisés cara a cara, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/ex/33?lang=spa&amp;id=p11#p11\">Éx. 33:11</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/ot/deut/34?lang=spa&amp;id=p10#p10\">Deut. 34:10</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/moses/1?lang=spa&amp;id=p1-p2#p1\">Moisés 1:1–2</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457466\" id=\"p80\">Vi al Señor que estaba sobre el altar, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/amos/9?lang=spa&amp;id=p1#p1\">Amós 9:1</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457468\" id=\"p81\">En el principio era el Verbo, y el Verbo era con Dios. Y aquel Verbo fue hecho carne, y habitó entre nosotros, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/1?lang=spa&amp;id=p1%2Cp14#p1\">Juan 1:1, 14</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-jn/1?lang=spa&amp;id=p1-p3#p1\">1 Juan 1:1–3</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457471\" id=\"p82\">Antes que Abraham fuese, yo soy, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/8?lang=spa&amp;id=p58#p58\">Juan 8:58</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457473\" id=\"p83\">Glorifícame tú con aquella gloria que tuve contigo antes que el mundo fuese, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/17?lang=spa&amp;id=p5#p5\">Juan 17:5</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457474\" id=\"p84\">Isaías verdaderamente vio a mi Redentor, tal como yo y mi hermano Jacob lo hemos visto, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/11?lang=spa&amp;id=p2-p3#p2\">2 Ne. 11:2–3</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457476\" id=\"p85\">Mañana vengo al mundo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/1?lang=spa&amp;id=p12-p14#p12\">3 Ne. 1:12–14</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457478\" id=\"p86\">Cristo existía desde antes del principio del mundo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/26?lang=spa&amp;id=p5#p5\">3 Ne. 26:5</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/6?lang=spa&amp;id=p62#p62\">Juan 6:62</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457480\" id=\"p87\">Así como me aparezco a ti en el espíritu, apareceré a mi pueblo en la carne, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/ether/3?lang=spa&amp;id=p14-p17#p14\">Éter 3:14–17</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457482\" id=\"p88\">Enoc vio al Señor y anduvo con él, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/107?lang=spa&amp;id=p48-p49#p48\">DyC 107:48–49</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457485\" id=\"p89\">Mi Hijo Amado, que fue mi Amado y mi Escogido desde el principio, <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/moses/4?lang=spa&amp;id=p2#p2\">Moisés 4:2</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457487\" id=\"p90\">El Señor dijo: ¿A quién enviaré? Y respondió uno semejante al Hijo del Hombre: Heme aquí; envíame, <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/abr/3?lang=spa&amp;id=p27#p27\">Abr. 3:27</a>.</p>\n</li>\n</ul>\n</nav>\n</section>\n<section id=\"sec8\">\n<header>\n<h2 data-aid=\"124457488\" id=\"title10\">La gloria de Jesucristo</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457489\" id=\"p91\">La gloria de Jehová llenó el tabernáculo, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/ex/40?lang=spa&amp;id=p34-p38#p34\">Éx. 40:34–38</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457490\" id=\"p92\">Toda la tierra está llena de su gloria, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/isa/6?lang=spa&amp;id=p3#p3\">Isa. 6:3</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/16?lang=spa&amp;id=p3#p3\">2 Ne. 16:3</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457491\" id=\"p93\">La gloria de Jehová ha nacido sobre ti, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/isa/60?lang=spa&amp;id=p1-p2#p1\">Isa. 60:1–2</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457492\" id=\"p94\">El Hijo del Hombre vendrá en la gloria de su Padre, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/16?lang=spa&amp;id=p27#p27\">Mateo 16:27</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457493\" id=\"p95\">Glorifícame tú con aquella gloria que tuve contigo antes que el mundo fuese, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/17?lang=spa&amp;id=p5#p5\">Juan 17:5</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457494\" id=\"p96\">El Santo de Israel ha de reinar con gran gloria, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/1-ne/22?lang=spa&amp;id=p24#p24\">1 Ne. 22:24</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457495\" id=\"p97\">Teníamos la esperanza de su gloria, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/jacob/4?lang=spa&amp;id=p4#p4\">Jacob 4:4</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457496\" id=\"p98\">El Hijo de Dios viene en su gloria, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/alma/5?lang=spa&amp;id=p50#p50\">Alma 5:50</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457497\" id=\"p99\">Les explicó todas las cosas, desde el principio hasta que él viniera en su gloria, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/26?lang=spa&amp;id=p3#p3\">3 Ne. 26:3</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457498\" id=\"p100\">Mis apóstoles estarán vestidos en gloria igual que yo, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/29?lang=spa&amp;id=p12#p12\">DyC 29:12</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/45?lang=spa&amp;id=p44#p44\">DyC 45:44</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457500\" id=\"p101\">Vimos la gloria del Hijo, a la diestra del Padre, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/76?lang=spa&amp;id=p19-p23#p19\">DyC 76:19–23</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457502\" id=\"p102\">Juan vio la plenitud de mi gloria y dio testimonio de ella, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/93?lang=spa&amp;id=p6#p6\">DyC 93:6</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/1?lang=spa&amp;id=p14#p14\">Juan 1:14</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457504\" id=\"p103\">Su semblante brillaba más que el resplandor del sol, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/110?lang=spa&amp;id=p3#p3\">DyC 110:3</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457506\" id=\"p104\">Su gloria me cubrió, y vi su rostro, <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/moses/1?lang=spa&amp;id=p1-p11#p1\">Moisés 1:1–11</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457507\" id=\"p105\">Esta es mi obra y mi gloria, <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/moses/1?lang=spa&amp;id=p39#p39\">Moisés 1:39</a>.</p>\n</li>\n</ul>\n</nav>\n</section>\n<section id=\"sec9\">\n<header>\n<h2 data-aid=\"124457508\" id=\"title11\">Las apariciones de Cristo después de Su muerte</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457509\" id=\"p106\">Habiendo resucitado Jesús, se le apareció primeramente a María Magdalena, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/16?lang=spa&amp;id=p9#p9\">Mar. 16:9</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/20?lang=spa&amp;id=p11-p18#p11\">Juan 20:11–18</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457510\" id=\"p107\">Jesús caminó y habló con dos de los discípulos en el camino a Emaús, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/24?lang=spa&amp;id=p13-p34#p13\">Lucas 24:13–34</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457511\" id=\"p108\">Jesús se apareció a los Apóstoles, quienes palparon sus manos y sus pies, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/24?lang=spa&amp;id=p36-p43#p36\">Lucas 24:36–43</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/20?lang=spa&amp;id=p19-p20#p19\">Juan 20:19–20</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457512\" id=\"p109\">Jesús se apareció a Tomás, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/20?lang=spa&amp;id=p24-p29#p24\">Juan 20:24–29</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457513\" id=\"p110\">Jesús se aparece a sus discípulos en el mar de Tiberias, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/21?lang=spa&amp;id=p1-p14#p1\">Juan 21:1–14</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457514\" id=\"p111\">Después de Su resurrección, Jesús ministró durante cuarenta días, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/1?lang=spa&amp;id=p2-p3#p2\">Hech. 1:2–3</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457515\" id=\"p112\">Esteban vio a Jesús que estaba a la diestra de Dios, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/7?lang=spa&amp;id=p55-p56#p55\">Hech. 7:55–56</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457516\" id=\"p113\">Jesús se apareció a Saulo, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/9?lang=spa&amp;id=p1-p8#p1\">Hech. 9:1–8</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/jst/jst-acts/9?lang=spa&amp;id=p7#p7\">TJS, Hech. 9:7</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/26?lang=spa&amp;id=p9-p17#p9\">Hech. 26:9–17</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457517\" id=\"p114\">Cristo se apareció a más de quinientas personas, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-cor/15?lang=spa&amp;id=p3-p8#p3\">1 Cor. 15:3–8</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457518\" id=\"p115\">Jesucristo se mostró al pueblo de Nefi, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/11?lang=spa&amp;id=p1-p17#p1\">3 Ne. 11:1–17</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457519\" id=\"p116\">Unas dos mil quinientas personas vieron y oyeron a Jesús, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/17?lang=spa&amp;id=p16-p25#p16\">3 Ne. 17:16–25</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457520\" id=\"p117\">El Señor visitó a Mormón, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/morm/1?lang=spa&amp;id=p15#p15\">Morm. 1:15</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457521\" id=\"p118\">José Smith y Sidney Rigdon vieron a Jesús a la diestra de Dios, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/76?lang=spa&amp;id=p22-p23#p22\">DyC 76:22–23</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457522\" id=\"p119\">José Smith y Oliver Cowdery vieron al Señor en el Templo de Kirtland, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/110?lang=spa&amp;id=p1-p4#p1\">DyC 110:1–4</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457523\" id=\"p120\">José Smith vio a Jesús, <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/js-h/1?lang=spa&amp;id=p15-p17#p15\">JS—H 1:15–17</a>.</p>\n</li>\n</ul>\n</nav>\n</section>\n<section id=\"sec10\">\n<header>\n<h2 data-aid=\"124457524\" id=\"title12\">Profecías acerca de la vida y la muerte de Jesucristo</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457525\" id=\"p121\">La virgen concebirá, y dará a luz un hijo, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/isa/7?lang=spa&amp;id=p14#p14\">Isa. 7:14</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/1-ne/11?lang=spa&amp;id=p13-p20#p13\">1 Ne. 11:13–20</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457526\" id=\"p122\">De Belén saldrá el que será Señor en Israel, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/micah/5?lang=spa&amp;id=p2#p2\">Miq. 5:2</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457527\" id=\"p123\">Samuel el Lamanita profetizó que habría un día y una noche y un día de luz; una estrella nueva; y muchas otras señales, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/hel/14?lang=spa&amp;id=p2-p6#p2\">Hel. 14:2–6</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457528\" id=\"p124\">Samuel el Lamanita profetizó que habría obscuridad, truenos y relámpagos, y temblores en la tierra, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/hel/14?lang=spa&amp;id=p20-p27#p20\">Hel. 14:20–27</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457529\" id=\"p125\">Se cumplieron las señales del nacimiento de Jesús, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/1?lang=spa&amp;id=p15-p21#p15\">3 Ne. 1:15–21</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457530\" id=\"p126\">Se cumplieron las señales de la muerte de Jesús, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/3-ne/8?lang=spa&amp;id=p5-p23#p5\">3 Ne. 8:5–23</a>.</p>\n</li>\n</ul>\n</nav>\n</section>\n<section id=\"sec11\">\n<header>\n<h2 data-aid=\"124457531\" id=\"title13\">Simbolismos o símbolos de Jesucristo</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457532\" id=\"p127\">Abel ofreció de los primogénitos de sus ovejas, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/gen/4?lang=spa&amp;id=p4#p4\">Gén. 4:4</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/pgp/moses/5?lang=spa&amp;id=p20#p20\">Moisés 5:20</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457533\" id=\"p128\">Toma ahora tu hijo único, Isaac, y ofrécelo en holocausto, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/gen/22?lang=spa&amp;id=p1-p13#p1\">Gén. 22:1–13</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/jacob/4?lang=spa&amp;id=p5#p5\">Jacob 4:5</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457534\" id=\"p129\">El Señor mandó a los hijos de Israel ofrecer en sacrificio ovejas sin defecto, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/ex/12?lang=spa&amp;id=p5%2Cp21%2Cp46#p5\">Éx. 12:5, 21, 46</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/ot/num/9?lang=spa&amp;id=p12#p12\">Núm. 9:12</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/1?lang=spa&amp;id=p29#p29\">Juan 1:29</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/19?lang=spa&amp;id=p33#p33\">19:33</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-pet/1?lang=spa&amp;id=p19#p19\">1 Pe. 1:19</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/rev/5?lang=spa&amp;id=p6#p6\">Apoc. 5:6</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457537\" id=\"p130\">Es el pan que Jehová os da para comer, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/ex/16?lang=spa&amp;id=p2-p15#p2\">Éx. 16:2–15</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/6?lang=spa&amp;id=p51#p51\">Juan 6:51</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457539\" id=\"p131\">Golpearás la peña, y saldrán de ella aguas, y beberá el pueblo, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/ex/17?lang=spa&amp;id=p6#p6\">Éx. 17:6</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/4?lang=spa&amp;id=p6-p14#p6\">Juan 4:6–14</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-cor/10?lang=spa&amp;id=p1-p4#p1\">1 Cor. 10:1–4</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457541\" id=\"p132\">El macho cabrío llevará sobre sí todas las iniquidades de ellos, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/lev/16?lang=spa&amp;id=p20-p22#p20\">Lev. 16:20–22</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/ot/isa/53?lang=spa&amp;id=p11#p11\">Isa. 53:11</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/mosiah/14?lang=spa&amp;id=p11#p11\">Mos. 14:11</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/mosiah/15?lang=spa&amp;id=p6-p9#p6\">15:6–9</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457543\" id=\"p133\">Moisés hizo una serpiente de bronce, la puso sobre un asta y la alzó para salvar a los que la miraran, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/num/21?lang=spa&amp;id=p8-p9#p8\">Núm. 21:8–9</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/3?lang=spa&amp;id=p14-p15#p14\">Juan 3:14–15</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/alma/33?lang=spa&amp;id=p19#p19\">Alma 33:19</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/hel/8?lang=spa&amp;id=p14-p15#p14\">Hel. 8:14–15</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457545\" id=\"p134\">Estuvo Jonás en el vientre del pez tres días, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/jonah/1?lang=spa&amp;id=p17#p17\">Jonás 1:17</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/12?lang=spa&amp;id=p40#p40\">Mateo 12:40</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457548\" id=\"p135\">Esto es una semejanza del sacrificio del Unigénito del Padre, <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/moses/5?lang=spa&amp;id=p4-p8#p4\">Moisés 5:4–8</a>.</p>\n</li>\n</ul>\n</nav>\n</section>\n<section id=\"sec12\">\n<header>\n<h2 data-aid=\"124457550\" id=\"title14\">Su autoridad</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457552\" id=\"p136\">El principado sobre su hombro, <a class=\"scripture-ref\" href=\"/study/scriptures/ot/isa/9?lang=spa&amp;id=p6#p6\">Isa. 9:6</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/19?lang=spa&amp;id=p6#p6\">2 Ne. 19:6</a>).</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457555\" id=\"p137\">Jesús enseñaba como quien tiene autoridad, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/7?lang=spa&amp;id=p28-p29#p28\">Mateo 7:28–29</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/1?lang=spa&amp;id=p22#p22\">Mar. 1:22</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457557\" id=\"p138\">El Hijo del Hombre tiene potestad en la tierra para perdonar los pecados, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/9?lang=spa&amp;id=p6#p6\">Mateo 9:6</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457560\" id=\"p139\">Con autoridad Jesús mandó a los espíritus inmundos y le obedecieron, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/1?lang=spa&amp;id=p27#p27\">Mar. 1:27</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/4?lang=spa&amp;id=p33-p36#p33\">Lucas 4:33–36</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457561\" id=\"p140\">Jesús estableció (ordenó) a doce para que tuviesen autoridad, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/3?lang=spa&amp;id=p14-p15#p14\">Mar. 3:14–15</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457562\" id=\"p141\">La palabra de Jesús era con autoridad, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/4?lang=spa&amp;id=p32#p32\">Lucas 4:32</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457565\" id=\"p142\">El Padre todo el juicio dio al Hijo, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/5?lang=spa&amp;id=p22%2Cp27#p22\">Juan 5:22, 27</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457568\" id=\"p143\">Dios ungió a Jesús con el Espíritu Santo y con poder, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/10?lang=spa&amp;id=p38#p38\">Hech. 10:38</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457573\" id=\"p144\">Cristo fue destinado desde antes de la fundación del mundo, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-pet/1?lang=spa&amp;id=p20#p20\">1 Pe. 1:20</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/ether/3?lang=spa&amp;id=p14#p14\">Éter 3:14</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457577\" id=\"p145\">Cristo tiene las llaves de la muerte y del Hades, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/rev/1?lang=spa&amp;id=p18#p18\">Apoc. 1:18</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457581\" id=\"p146\">Todos los hombres quedan sujetos a Cristo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/9?lang=spa&amp;id=p5#p5\">2 Ne. 9:5</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457584\" id=\"p147\">Jesucristo, el Hijo de Dios, es el Padre del cielo y de la tierra, el Creador de todas las cosas desde el principio, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/hel/14?lang=spa&amp;id=p12#p12\">Hel. 14:12</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457589\" id=\"p148\">Cristo vino por la voluntad del Padre para hacer su voluntad, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/19?lang=spa&amp;id=p24#p24\">DyC 19:24</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457593\" id=\"p149\">Jesús recibió la plenitud del Padre; y Jesús recibió todo poder, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/93?lang=spa&amp;id=p3-p4%2Cp16-p17#p3\">DyC 93:3–4, 16–17</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/3?lang=spa&amp;id=p35-p36#p35\">Juan 3:35–36</a>).</p>\n</li>\n</ul>\n</nav>\n</section>\n<section id=\"sec13\">\n<header>\n<h2 data-aid=\"124457598\" id=\"title15\">Testimonios sobre Jesucristo</h2>\n</header>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457603\" id=\"p150\">Pablo testificó que Jesús era el Cristo, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/18?lang=spa&amp;id=p5#p5\">Hech. 18:5</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457608\" id=\"p151\">Aun los espíritus malos testificaron que conocían a Jesús, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/acts/19?lang=spa&amp;id=p15#p15\">Hech. 19:15</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457612\" id=\"p152\">Nadie puede llamar a Jesús Señor, sino por el Espíritu Santo, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/1-cor/12?lang=spa&amp;id=p3#p3\">1 Cor. 12:3</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457616\" id=\"p153\">Se doble toda rodilla y toda lengua confiese que Jesucristo es el Señor, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/philip/2?lang=spa&amp;id=p10-p11#p10\">Filip. 2:10–11</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457619\" id=\"p154\">Hablamos de Cristo, nos regocijamos en Cristo, predicamos de Cristo, profetizamos de Cristo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/25?lang=spa&amp;id=p26#p26\">2 Ne. 25:26</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457622\" id=\"p155\">El Libro de Mormón es para convencer al judío y al gentil de que Jesús es el verdadero Cristo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/26?lang=spa&amp;id=p12#p12\">2 Ne. 26:12</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/bofm/bofm-title?lang=spa\">portada del Libro de Mormón</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457625\" id=\"p156\">Los profetas y las Escrituras testifican de Cristo, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/jacob/7?lang=spa&amp;id=p11%2Cp19#p11\">Jacob 7:11, 19</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457627\" id=\"p157\">Buscad a este Jesús de quien han escrito los profetas y apóstoles, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/ether/12?lang=spa&amp;id=p41#p41\">Éter 12:41</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457629\" id=\"p158\">Lo vimos y oímos la voz testificar que él es el Unigénito, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/76?lang=spa&amp;id=p20-p24#p20\">DyC 76:20–24</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457631\" id=\"p159\">Esto es vidas eternas: Conocer a Dios y a Jesucristo, <a class=\"scripture-ref\" href=\"/study/scriptures/dc-testament/dc/132?lang=spa&amp;id=p24#p24\">DyC 132:24</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"124457633\" id=\"p160\">Nosotros creemos en Dios el Eterno Padre, y en su Hijo Jesucristo, <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/a-of-f/1?lang=spa&amp;id=p1#p1\">AdeF 1:1</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"124457635\" id=\"p161\">Creemos que Cristo reinará personalmente sobre la tierra, <a class=\"scripture-ref\" href=\"/study/scriptures/pgp/a-of-f/1?lang=spa&amp;id=p10#p10\">AdeF 1:10</a>.</p>\n</li>\n</ul>\n</nav>\n</section>\n</div>",
+    "footnotes": {}
+  },
+  "pids": [
+    [
+      "124456818",
+      {
+        "key": "124456818"
+      }
+    ],
+    [
+      "124457820",
+      {
+        "key": "124457820"
+      }
+    ],
+    [
+      "124457821",
+      {
+        "key": "124457821"
+      }
+    ],
+    [
+      "124457822",
+      {
+        "key": "124457822"
+      }
+    ],
+    [
+      "124457823",
+      {
+        "key": "124457823"
+      }
+    ],
+    [
+      "124457824",
+      {
+        "key": "124457824"
+      }
+    ],
+    [
+      "124457825",
+      {
+        "key": "124457825"
+      }
+    ],
+    [
+      "124457826",
+      {
+        "key": "124457826"
+      }
+    ],
+    [
+      "124457827",
+      {
+        "key": "124457827"
+      }
+    ],
+    [
+      "124457828",
+      {
+        "key": "124457828"
+      }
+    ],
+    [
+      "124457829",
+      {
+        "key": "124457829"
+      }
+    ],
+    [
+      "124457830",
+      {
+        "key": "124457830"
+      }
+    ],
+    [
+      "124457831",
+      {
+        "key": "124457831"
+      }
+    ],
+    [
+      "124457832",
+      {
+        "key": "124457832"
+      }
+    ],
+    [
+      "124457833",
+      {
+        "key": "124457833"
+      }
+    ],
+    [
+      "124457834",
+      {
+        "key": "124457834"
+      }
+    ],
+    [
+      "124457835",
+      {
+        "key": "124457835"
+      }
+    ],
+    [
+      "124457836",
+      {
+        "key": "124457836"
+      }
+    ],
+    [
+      "124457837",
+      {
+        "key": "124457837"
+      }
+    ],
+    [
+      "124457838",
+      {
+        "key": "124457838"
+      }
+    ],
+    [
+      "124457839",
+      {
+        "key": "124457839"
+      }
+    ],
+    [
+      "124457840",
+      {
+        "key": "124457840"
+      }
+    ],
+    [
+      "124457841",
+      {
+        "key": "124457841"
+      }
+    ],
+    [
+      "124457842",
+      {
+        "key": "124457842"
+      }
+    ],
+    [
+      "124457843",
+      {
+        "key": "124457843"
+      }
+    ],
+    [
+      "124457844",
+      {
+        "key": "124457844"
+      }
+    ],
+    [
+      "124457845",
+      {
+        "key": "124457845"
+      }
+    ],
+    [
+      "124457846",
+      {
+        "key": "124457846"
+      }
+    ],
+    [
+      "124457847",
+      {
+        "key": "124457847"
+      }
+    ],
+    [
+      "124457848",
+      {
+        "key": "124457848"
+      }
+    ],
+    [
+      "124457849",
+      {
+        "key": "124457849"
+      }
+    ],
+    [
+      "124457850",
+      {
+        "key": "124457850"
+      }
+    ],
+    [
+      "124457851",
+      {
+        "key": "124457851"
+      }
+    ],
+    [
+      "124457852",
+      {
+        "key": "124457852"
+      }
+    ],
+    [
+      "124457853",
+      {
+        "key": "124457853"
+      }
+    ],
+    [
+      "124457854",
+      {
+        "key": "124457854"
+      }
+    ],
+    [
+      "124457855",
+      {
+        "key": "124457855"
+      }
+    ],
+    [
+      "124457856",
+      {
+        "key": "124457856"
+      }
+    ],
+    [
+      "124457857",
+      {
+        "key": "124457857"
+      }
+    ],
+    [
+      "124457858",
+      {
+        "key": "124457858"
+      }
+    ],
+    [
+      "124457859",
+      {
+        "key": "124457859"
+      }
+    ],
+    [
+      "124457860",
+      {
+        "key": "124457860"
+      }
+    ],
+    [
+      "124457861",
+      {
+        "key": "124457861"
+      }
+    ],
+    [
+      "124457862",
+      {
+        "key": "124457862"
+      }
+    ],
+    [
+      "124457863",
+      {
+        "key": "124457863"
+      }
+    ],
+    [
+      "124457864",
+      {
+        "key": "124457864"
+      }
+    ],
+    [
+      "124457865",
+      {
+        "key": "124457865"
+      }
+    ],
+    [
+      "124457866",
+      {
+        "key": "124457866"
+      }
+    ],
+    [
+      "124457867",
+      {
+        "key": "124457867"
+      }
+    ],
+    [
+      "124457868",
+      {
+        "key": "124457868"
+      }
+    ],
+    [
+      "124457869",
+      {
+        "key": "124457869"
+      }
+    ],
+    [
+      "124457870",
+      {
+        "key": "124457870"
+      }
+    ],
+    [
+      "124457871",
+      {
+        "key": "124457871"
+      }
+    ],
+    [
+      "124457872",
+      {
+        "key": "124457872"
+      }
+    ],
+    [
+      "124457873",
+      {
+        "key": "124457873"
+      }
+    ],
+    [
+      "124457874",
+      {
+        "key": "124457874"
+      }
+    ],
+    [
+      "124457875",
+      {
+        "key": "124457875"
+      }
+    ],
+    [
+      "124457876",
+      {
+        "key": "124457876"
+      }
+    ],
+    [
+      "124457877",
+      {
+        "key": "124457877"
+      }
+    ],
+    [
+      "124457878",
+      {
+        "key": "124457878"
+      }
+    ],
+    [
+      "124457879",
+      {
+        "key": "124457879"
+      }
+    ],
+    [
+      "124457880",
+      {
+        "key": "124457880"
+      }
+    ],
+    [
+      "124457881",
+      {
+        "key": "124457881"
+      }
+    ],
+    [
+      "124457882",
+      {
+        "key": "124457882"
+      }
+    ],
+    [
+      "124457883",
+      {
+        "key": "124457883"
+      }
+    ],
+    [
+      "124457884",
+      {
+        "key": "124457884"
+      }
+    ],
+    [
+      "124457885",
+      {
+        "key": "124457885"
+      }
+    ],
+    [
+      "124457886",
+      {
+        "key": "124457886"
+      }
+    ],
+    [
+      "124457887",
+      {
+        "key": "124457887"
+      }
+    ],
+    [
+      "124457888",
+      {
+        "key": "124457888"
+      }
+    ],
+    [
+      "124457889",
+      {
+        "key": "124457889"
+      }
+    ],
+    [
+      "124457890",
+      {
+        "key": "124457890"
+      }
+    ],
+    [
+      "124457891",
+      {
+        "key": "124457891"
+      }
+    ],
+    [
+      "124457893",
+      {
+        "key": "124457893"
+      }
+    ],
+    [
+      "124457894",
+      {
+        "key": "124457894"
+      }
+    ],
+    [
+      "124457895",
+      {
+        "key": "124457895"
+      }
+    ],
+    [
+      "124457896",
+      {
+        "key": "124457896"
+      }
+    ],
+    [
+      "124457897",
+      {
+        "key": "124457897"
+      }
+    ],
+    [
+      "124457898",
+      {
+        "key": "124457898"
+      }
+    ],
+    [
+      "124457899",
+      {
+        "key": "124457899"
+      }
+    ],
+    [
+      "124457900",
+      {
+        "key": "124457900"
+      }
+    ],
+    [
+      "124457901",
+      {
+        "key": "124457901"
+      }
+    ],
+    [
+      "124457902",
+      {
+        "key": "124457902"
+      }
+    ],
+    [
+      "124457903",
+      {
+        "key": "124457903"
+      }
+    ],
+    [
+      "124457457",
+      {
+        "key": "124457457"
+      }
+    ],
+    [
+      "124457459",
+      {
+        "key": "124457459"
+      }
+    ],
+    [
+      "124457461",
+      {
+        "key": "124457461"
+      }
+    ],
+    [
+      "124457463",
+      {
+        "key": "124457463"
+      }
+    ],
+    [
+      "124457464",
+      {
+        "key": "124457464"
+      }
+    ],
+    [
+      "124457466",
+      {
+        "key": "124457466"
+      }
+    ],
+    [
+      "124457468",
+      {
+        "key": "124457468"
+      }
+    ],
+    [
+      "124457471",
+      {
+        "key": "124457471"
+      }
+    ],
+    [
+      "124457473",
+      {
+        "key": "124457473"
+      }
+    ],
+    [
+      "124457474",
+      {
+        "key": "124457474"
+      }
+    ],
+    [
+      "124457476",
+      {
+        "key": "124457476"
+      }
+    ],
+    [
+      "124457478",
+      {
+        "key": "124457478"
+      }
+    ],
+    [
+      "124457480",
+      {
+        "key": "124457480"
+      }
+    ],
+    [
+      "124457482",
+      {
+        "key": "124457482"
+      }
+    ],
+    [
+      "124457485",
+      {
+        "key": "124457485"
+      }
+    ],
+    [
+      "124457487",
+      {
+        "key": "124457487"
+      }
+    ],
+    [
+      "124457488",
+      {
+        "key": "124457488"
+      }
+    ],
+    [
+      "124457489",
+      {
+        "key": "124457489"
+      }
+    ],
+    [
+      "124457490",
+      {
+        "key": "124457490"
+      }
+    ],
+    [
+      "124457491",
+      {
+        "key": "124457491"
+      }
+    ],
+    [
+      "124457492",
+      {
+        "key": "124457492"
+      }
+    ],
+    [
+      "124457493",
+      {
+        "key": "124457493"
+      }
+    ],
+    [
+      "124457494",
+      {
+        "key": "124457494"
+      }
+    ],
+    [
+      "124457495",
+      {
+        "key": "124457495"
+      }
+    ],
+    [
+      "124457496",
+      {
+        "key": "124457496"
+      }
+    ],
+    [
+      "124457497",
+      {
+        "key": "124457497"
+      }
+    ],
+    [
+      "124457498",
+      {
+        "key": "124457498"
+      }
+    ],
+    [
+      "124457500",
+      {
+        "key": "124457500"
+      }
+    ],
+    [
+      "124457502",
+      {
+        "key": "124457502"
+      }
+    ],
+    [
+      "124457504",
+      {
+        "key": "124457504"
+      }
+    ],
+    [
+      "124457506",
+      {
+        "key": "124457506"
+      }
+    ],
+    [
+      "124457507",
+      {
+        "key": "124457507"
+      }
+    ],
+    [
+      "124457508",
+      {
+        "key": "124457508"
+      }
+    ],
+    [
+      "124457509",
+      {
+        "key": "124457509"
+      }
+    ],
+    [
+      "124457510",
+      {
+        "key": "124457510"
+      }
+    ],
+    [
+      "124457511",
+      {
+        "key": "124457511"
+      }
+    ],
+    [
+      "124457512",
+      {
+        "key": "124457512"
+      }
+    ],
+    [
+      "124457513",
+      {
+        "key": "124457513"
+      }
+    ],
+    [
+      "124457514",
+      {
+        "key": "124457514"
+      }
+    ],
+    [
+      "124457515",
+      {
+        "key": "124457515"
+      }
+    ],
+    [
+      "124457516",
+      {
+        "key": "124457516"
+      }
+    ],
+    [
+      "124457517",
+      {
+        "key": "124457517"
+      }
+    ],
+    [
+      "124457518",
+      {
+        "key": "124457518"
+      }
+    ],
+    [
+      "124457519",
+      {
+        "key": "124457519"
+      }
+    ],
+    [
+      "124457520",
+      {
+        "key": "124457520"
+      }
+    ],
+    [
+      "124457521",
+      {
+        "key": "124457521"
+      }
+    ],
+    [
+      "124457522",
+      {
+        "key": "124457522"
+      }
+    ],
+    [
+      "124457523",
+      {
+        "key": "124457523"
+      }
+    ],
+    [
+      "124457524",
+      {
+        "key": "124457524"
+      }
+    ],
+    [
+      "124457525",
+      {
+        "key": "124457525"
+      }
+    ],
+    [
+      "124457526",
+      {
+        "key": "124457526"
+      }
+    ],
+    [
+      "124457527",
+      {
+        "key": "124457527"
+      }
+    ],
+    [
+      "124457528",
+      {
+        "key": "124457528"
+      }
+    ],
+    [
+      "124457529",
+      {
+        "key": "124457529"
+      }
+    ],
+    [
+      "124457530",
+      {
+        "key": "124457530"
+      }
+    ],
+    [
+      "124457531",
+      {
+        "key": "124457531"
+      }
+    ],
+    [
+      "124457532",
+      {
+        "key": "124457532"
+      }
+    ],
+    [
+      "124457533",
+      {
+        "key": "124457533"
+      }
+    ],
+    [
+      "124457534",
+      {
+        "key": "124457534"
+      }
+    ],
+    [
+      "124457537",
+      {
+        "key": "124457537"
+      }
+    ],
+    [
+      "124457539",
+      {
+        "key": "124457539"
+      }
+    ],
+    [
+      "124457541",
+      {
+        "key": "124457541"
+      }
+    ],
+    [
+      "124457543",
+      {
+        "key": "124457543"
+      }
+    ],
+    [
+      "124457545",
+      {
+        "key": "124457545"
+      }
+    ],
+    [
+      "124457548",
+      {
+        "key": "124457548"
+      }
+    ],
+    [
+      "124457550",
+      {
+        "key": "124457550"
+      }
+    ],
+    [
+      "124457552",
+      {
+        "key": "124457552"
+      }
+    ],
+    [
+      "124457555",
+      {
+        "key": "124457555"
+      }
+    ],
+    [
+      "124457557",
+      {
+        "key": "124457557"
+      }
+    ],
+    [
+      "124457560",
+      {
+        "key": "124457560"
+      }
+    ],
+    [
+      "124457561",
+      {
+        "key": "124457561"
+      }
+    ],
+    [
+      "124457562",
+      {
+        "key": "124457562"
+      }
+    ],
+    [
+      "124457565",
+      {
+        "key": "124457565"
+      }
+    ],
+    [
+      "124457568",
+      {
+        "key": "124457568"
+      }
+    ],
+    [
+      "124457573",
+      {
+        "key": "124457573"
+      }
+    ],
+    [
+      "124457577",
+      {
+        "key": "124457577"
+      }
+    ],
+    [
+      "124457581",
+      {
+        "key": "124457581"
+      }
+    ],
+    [
+      "124457584",
+      {
+        "key": "124457584"
+      }
+    ],
+    [
+      "124457589",
+      {
+        "key": "124457589"
+      }
+    ],
+    [
+      "124457593",
+      {
+        "key": "124457593"
+      }
+    ],
+    [
+      "124457598",
+      {
+        "key": "124457598"
+      }
+    ],
+    [
+      "124457603",
+      {
+        "key": "124457603"
+      }
+    ],
+    [
+      "124457608",
+      {
+        "key": "124457608"
+      }
+    ],
+    [
+      "124457612",
+      {
+        "key": "124457612"
+      }
+    ],
+    [
+      "124457616",
+      {
+        "key": "124457616"
+      }
+    ],
+    [
+      "124457619",
+      {
+        "key": "124457619"
+      }
+    ],
+    [
+      "124457622",
+      {
+        "key": "124457622"
+      }
+    ],
+    [
+      "124457625",
+      {
+        "key": "124457625"
+      }
+    ],
+    [
+      "124457627",
+      {
+        "key": "124457627"
+      }
+    ],
+    [
+      "124457629",
+      {
+        "key": "124457629"
+      }
+    ],
+    [
+      "124457631",
+      {
+        "key": "124457631"
+      }
+    ],
+    [
+      "124457633",
+      {
+        "key": "124457633"
+      }
+    ],
+    [
+      "124457635",
+      {
+        "key": "124457635"
+      }
+    ]
+  ],
+  "tableOfContentsUri": "/scriptures/gs",
+  "uri": "/scriptures/gs/jesus-christ",
+  "verified": true,
+  "restricted": 0
+}

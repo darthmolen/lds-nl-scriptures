@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "archived": false,
+    "title": "Jesus Christ, Baptism of",
+    "canonicalUrl": "/scriptures/tg/jesus-christ-baptism-of?lang=eng",
+    "contentType": "text/html",
+    "pageAttributes": {
+      "data-asset-id": "b0fbbfac22abc0d9e83082da6c734e8de3090cc0",
+      "data-aid": "128475634",
+      "data-aid-version": "3",
+      "data-content-type": "topic",
+      "data-uri": "/scriptures/tg/jesus-christ-baptism-of",
+      "lang": "eng",
+      "data-bcp47-lang": "en",
+      "data-orig-id": "b0fbbfac22abc0d9e83082da6c734e8de3090cc0",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "scopedClassName": "classic-scripture",
+    "hasChat": false
+  },
+  "content": {
+    "head": {
+      "page-meta-social": {
+        "pageMeta": {
+          "title": "Jesus Christ, Baptism of",
+          "description": "Jesus Christ, Baptism of"
+        },
+        "pageSocial": {
+          "title": "Jesus Christ, Baptism of",
+          "description": "Jesus Christ, Baptism of"
+        }
+      },
+      "links": [
+        {
+          "type": "array",
+          "rel": "stylesheet",
+          "orig-type": "text/css",
+          "href": "https://ips-cdn-edge.churchofjesuschrist.org/styles/css/style_classic-scripture_scoped.css"
+        }
+      ],
+      "scripts": []
+    },
+    "body": "<header>\n<h1 data-aid=\"128475635\" id=\"title1\"><strong>Jesus Christ, Baptism of</strong></h1>\n</header>\n<div class=\"body-block\">\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"128475636\" id=\"p1\">cometh Jesus … unto John, to be <span class=\"key-word\">baptized</span>, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/matt/3?lang=eng&amp;id=p13#p13\">Matt. 3:13</a> (<a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/1?lang=eng&amp;id=p9#p9\">Mark 1:9</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/nt/luke/3?lang=eng&amp;id=p21#p21\">Luke 3:21</a>; <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/1-ne/11?lang=eng&amp;id=p27#p27\">1 Ne. 11:27</a>).</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128475637\" id=\"p2\">can ye … be <span class=\"key-word\">baptized</span> with the <span class=\"key-word\">baptism</span> that I am <span class=\"key-word\">baptized</span> with, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/mark/10?lang=eng&amp;id=p38#p38\">Mark 10:38</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128475638\" id=\"p3\">I saw the <span class=\"key-word\">Spirit</span> descending … it abode upon him, <a class=\"scripture-ref\" href=\"/study/scriptures/nt/john/1?lang=eng&amp;id=p32#p32\">John 1:32</a>.</p>\n</li>\n</ul>\n</nav>\n<nav class=\"index\">\n<ul>\n<li>\n<p class=\"entry\" data-aid=\"128475639\" id=\"p4\">in Bethabara … he should <span class=\"key-word\">baptize</span> with water, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/1-ne/10?lang=eng&amp;id=p9#p9\">1 Ne. 10:9</a>.</p>\n</li>\n<li>\n<p class=\"entry\" data-aid=\"128475640\" id=\"p5\">if the Lamb of God … should have need to be <span class=\"key-word\">baptized</span>, <a class=\"scripture-ref\" href=\"/study/scriptures/bofm/2-ne/31?lang=eng&amp;id=p5#p5\">2 Ne. 31:5</a>.</p>\n</li>\n</ul>\n</nav>\n</div>",
+    "footnotes": {}
+  },
+  "pids": [
+    [
+      "128475634",
+      {
+        "key": "128475634"
+      }
+    ],
+    [
+      "128475635",
+      {
+        "key": "128475635"
+      }
+    ],
+    [
+      "128475636",
+      {
+        "key": "128475636"
+      }
+    ],
+    [
+      "128475637",
+      {
+        "key": "128475637"
+      }
+    ],
+    [
+      "128475638",
+      {
+        "key": "128475638"
+      }
+    ],
+    [
+      "128475639",
+      {
+        "key": "128475639"
+      }
+    ],
+    [
+      "128475640",
+      {
+        "key": "128475640"
+      }
+    ]
+  ],
+  "tableOfContentsUri": "/scriptures/tg",
+  "uri": "/scriptures/tg/jesus-christ-baptism-of",
+  "verified": true,
+  "restricted": 0
+}
