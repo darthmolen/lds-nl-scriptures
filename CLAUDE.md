@@ -68,6 +68,19 @@ When discovering work outside current scope:
 Phase: planning/completed/phase_[name]_[date].md
 ```
 
+## Branch & Merge Policy
+
+**Nothing goes directly to `main`. Ever.** No direct commits or pushes to `main` — not by
+the agent, not by tooling, no exceptions.
+
+- Do all work on a feature branch (e.g. `feature/<name>` or `claude/<name>`).
+- Open a pull request into `main`.
+- **Only the repository owner (`darthmolen`) approves and merges.** The agent must not merge to
+  `main`; it stops at "PR opened" and reports the PR URL.
+- `main` is protected on GitHub (PR required, enforced on admins, no force-push/deletion). If a
+  push to `main` is rejected, that is expected — branch and open a PR instead.
+- The agent may push **feature branches** and open PRs freely; it may not merge them.
+
 ## Mode Management
 
 ### Planning Mode Triggers
