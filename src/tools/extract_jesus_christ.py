@@ -243,6 +243,9 @@ def _ref_note(anchor) -> str:
         parts.append(node.get_text(" ", strip=True) if hasattr(node, "get_text")
                      else str(node).strip())
     note = " ".join(t for t in parts if t).strip(" ,;:.")
+    # Drop "See also …" cross-reference lead-ins (topic links, not a verse gloss).
+    if re.match(r"(?i)^(see also|véase también|véase)\b", note):
+        return ""
     return note if 0 < len(note) <= 120 else ""
 
 

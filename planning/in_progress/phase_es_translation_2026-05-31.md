@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-31
 **Branch:** `claude/jesus-christ-extract-sBhMV`
-**Status:** Planning → Pass 0 (glossary) in progress
+**Status:** Pass 0 ✅ · Pass 1 ✅ (draft; several titles garbled — Pass 3 will verify) · Pass 2–4 pending
 **Depends on:** completed EN/ES v1 extract (`planning/completed/phase_jesus_christ_extract_2026-05-31.md`)
 
 ## Objective

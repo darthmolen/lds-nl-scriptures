@@ -5,3 +5,5 @@ __pycache__/
 
 # Database / embedding dumps (too large for git; store off-repo)
 *.dump
+# Runtime logs
+logs/

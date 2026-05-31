@@ -4,7 +4,14 @@
   "source": {
     "name": "Topical Guide",
     "api": "https://www.churchofjesuschrist.org/study/api/v3/language-pages/type/content",
-    "uri": "/scriptures/tg/jesus-christ"
+    "uri": "/scriptures/tg/jesus-christ",
+    "structure_language": "en",
+    "text_language": "en"
+  },
+  "translation": {
+    "titles_language": "en",
+    "notes_language": "en",
+    "pending": false
   },
   "context_radius": 2,
   "generated": "2026-05-31",
@@ -8655,8 +8662,7 @@
               "text": "To the praise of the glory of his grace, wherein he hath made us accepted in the beloved.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "2 Tim. 1:9",
@@ -9845,8 +9851,7 @@
               "text": "Peradventure there be fifty righteous within the city: wilt thou also destroy and not spare the place for the fifty righteous that are therein?",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "John 8:56",
@@ -11825,8 +11830,7 @@
               "text": "Write the things which thou hast seen, and the things which are, and the things which shall be hereafter;",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "3:20",
@@ -12484,8 +12488,7 @@
               "text": "And it came to pass that as many as did believe him did go forth to a place which was called Mormon, having received its name from the king, being in the borders of the land having been infested, by times or at seasons, by wild beasts.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "Alma 40:20",
@@ -15139,8 +15142,7 @@
               "text": "And he shall lay his hand upon the head of the sin offering, and slay it for a sin offering in the place where they kill the burnt offering.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "John 19:30",
@@ -17686,8 +17688,7 @@
               "text": "A bruised reed shall he not break, and smoking flax shall he not quench, till he send forth judgment unto victory.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "3 Ne. 9:15",
@@ -18968,8 +18969,7 @@
               "text": "And after he was slain I saw the multitudes of the earth, that they were gathered together to fight against the apostles of the Lamb; for thus were the twelve called by the angel of the Lord.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "2 Ne. 6:9",
@@ -20960,8 +20960,7 @@
               "text": "Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "Mosiah 14:1–3",
@@ -23085,8 +23084,7 @@
               "text": "Lo, these are parts of his ways: but how little a portion is heard of him? but the thunder of his power who can understand?",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "2 Pet. 3:5",
@@ -26281,8 +26279,7 @@
               "text": "And call Jesse to the sacrifice, and I will shew thee what thou shalt do: and thou shalt anoint unto me him whom I name unto thee.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "Ps. 89:27",
@@ -28159,8 +28156,7 @@
               "text": "Now the Lord had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.",
               "target": true
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "Col. 1:22",
@@ -36477,8 +36473,7 @@
               "text": "And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life;",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "Job 19:25",
@@ -38452,8 +38447,7 @@
               "text": "Then they cried out with a loud voice, and stopped their ears, and ran upon him with one accord,",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "D&C 67:12",
@@ -40921,8 +40915,7 @@
               "text": "For they that are such serve not our Lord Jesus Christ, but their own belly; and by good words and fair speeches deceive the hearts of the simple.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "1 Cor. 12:27",
@@ -42892,8 +42885,7 @@
               "text": "But they rebelled, and vexed his holy Spirit: therefore he was turned to be their enemy, and he fought against them.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "John 1:1",
@@ -46569,8 +46561,7 @@
               "text": "Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world:",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         }
       ]
     },
@@ -52131,8 +52122,7 @@
               "text": "Is the law then against the promises of God? God forbid: for if there had been a law given which could have given life, verily righteousness should have been by the law.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         }
       ]
     },
@@ -52662,8 +52652,7 @@
               "text": "And the Lord appeared again in Shiloh: for the Lord revealed himself to Samuel in Shiloh by the word of the Lord.",
               "target": true
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "Isa. 40:8",
@@ -53977,8 +53966,7 @@
               "text": "His eyes shall be red with wine, and his teeth white with milk.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "Isa. 10:27",
@@ -55488,8 +55476,7 @@
               "text": "Who hath directed the Spirit of the Lord, or being his counsellor hath taught him?",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         }
       ]
     },
@@ -57091,8 +57078,7 @@
               "text": "And it shall come to pass, that in all the land, saith the Lord, two parts therein shall be cut off and die; but the third shall be left therein.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "D&C 45:52",
@@ -60545,8 +60531,7 @@
               "text": "He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life; but the wrath of God abideth on him.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "13:3",
@@ -65038,8 +65023,7 @@
               "text": "In that day, saith the Lord of hosts, shall the nail that is fastened in the sure place be removed, and be cut down, and fall; and the burden that was upon it shall be cut off: for the Lord hath spoken it.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "55:4",
@@ -67749,8 +67733,7 @@
               "text": "He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "Acts 13:38",
@@ -71039,8 +71022,7 @@
               "text": "He raiseth up the poor out of the dust, and lifteth up the beggar from the dunghill, to set them among princes, and to make them inherit the throne of glory: for the pillars of the earth are the Lord's, and he hath set the world upon them.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "Ps. 16:10",
@@ -72760,8 +72742,7 @@
               "text": "Then charged he his disciples that they should tell no man that he was Jesus the Christ.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         }
       ]
     },
@@ -74487,8 +74468,7 @@
               "text": "Thou didst walk through the sea with thine horses, through the heap of great waters.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         }
       ]
     },
@@ -74718,8 +74698,7 @@
               "text": "Whose voice then shook the earth: but now he hath promised, saying, Yet once more I shake not the earth only, but also heaven.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "2 Pet. 1:10–11, 19",
@@ -82675,8 +82654,7 @@
               "text": "And there stood up one of them named Agabus, and signified by the Spirit that there should be great dearth throughout all the world: which came to pass in the days of Claudius Cæsar.",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         }
       ]
     },
@@ -83530,8 +83508,7 @@
               "text": "And his sisters, are they not all with us? Whence then hath this man all these things?",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         }
       ]
     },
@@ -84710,8 +84687,7 @@
               "text": "And the eunuch answered Philip, and said, I pray thee, of whom speaketh the prophet this? of himself, or of some other man?",
               "target": false
             }
-          ],
-          "note": "See also"
+          ]
         },
         {
           "ref": "15:6",
