@@ -24,7 +24,7 @@ services:
 
   redis:
     image: redis:7-alpine
-    container_name: ec-redis
+    container_name: nl-redis
     restart: unless-stopped
     ports:
       - "7379:6379"

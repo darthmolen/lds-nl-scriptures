@@ -11,9 +11,15 @@ from typing import Any
 from sqlalchemy import text as sql_text
 from sqlalchemy.orm import Session
 
+from .query_expansion import expand_query
 
-# Default hybrid search weight: 0.7 for vector, 0.3 for text
-DEFAULT_VECTOR_WEIGHT = 0.7
+
+# Default hybrid search weight: 0.5 for vector, 0.5 for text
+# Determined optimal in Experiment 2A (2026-01-13)
+DEFAULT_VECTOR_WEIGHT = 0.5
+
+# Toggle for query expansion (Experiment 2)
+ENABLE_QUERY_EXPANSION = True
 
 
 def execute_vector_search(
@@ -148,13 +154,16 @@ def execute_hybrid_search(
     # Choose text search config based on language
     ts_config = "spanish" if lang == "es" else "english"
 
+    # Expand query with theological synonyms (Experiment 2)
+    expanded_query = expand_query(query_text) if ENABLE_QUERY_EXPANSION else query_text
+
     # Convert query text to OR-based tsquery
     # Split on whitespace and punctuation, filter empty, join with |
     import re
-    words = re.split(r'[\s,;:.!?]+', query_text.lower())
+    words = re.split(r'[\s,;:.!?]+', expanded_query.lower())
     words = [w.strip() for w in words if w.strip() and len(w.strip()) > 2]
     # Create OR query: word1 | word2 | word3
-    or_query = " | ".join(words) if words else query_text
+    or_query = " | ".join(words) if words else expanded_query
 
     # Hybrid search query:
     # 1. Get candidate IDs from both vector search and text search
