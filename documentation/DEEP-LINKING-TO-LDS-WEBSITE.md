@@ -141,7 +141,8 @@ BOOK_CODES = {
     "official declaration": ("dc-testament", "od"), "od": ("dc-testament", "od"),
     # Pearl of Great Price
     "moses": ("pgp", "moses"), "abraham": ("pgp", "abr"),
-    "joseph smith—matthew": ("pgp", "js-m"), "joseph smith—history": ("pgp", "js-h"),
+    "joseph smith—matthew": ("pgp", "js-m"), "joseph smith-matthew": ("pgp", "js-m"),
+    "joseph smith—history": ("pgp", "js-h"), "joseph smith-history": ("pgp", "js-h"),
     "articles of faith": ("pgp", "a-of-f"),
 }
 
