@@ -136,8 +136,9 @@ BOOK_CODES = {
     "alma": ("bofm", "alma"), "helaman": ("bofm", "hel"), "3 nephi": ("bofm", "3-ne"),
     "4 nephi": ("bofm", "4-ne"), "mormon": ("bofm", "morm"), "ether": ("bofm", "ether"),
     "moroni": ("bofm", "moro"),
-    # Doctrine & Covenants (section-based; book segment is "dc")
+    # Doctrine & Covenants (section-based; book segment is "dc"; Official Declarations use "od")
     "doctrine and covenants": ("dc-testament", "dc"), "d&c": ("dc-testament", "dc"),
+    "official declaration": ("dc-testament", "od"), "od": ("dc-testament", "od"),
     # Pearl of Great Price
     "moses": ("pgp", "moses"), "abraham": ("pgp", "abr"),
     "joseph smith—matthew": ("pgp", "js-m"), "joseph smith—history": ("pgp", "js-h"),
