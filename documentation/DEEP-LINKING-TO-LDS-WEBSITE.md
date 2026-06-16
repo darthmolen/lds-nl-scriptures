@@ -67,10 +67,10 @@ The book segment is the **church code** (the short form), not the full English s
 Uses **sections**, not books. The book segment is literally `dc`, and the "chapter"
 is the section number. Official Declarations use `od`.
 
-> The authoritative, machine-readable version of this map lives in the codebase at
+> The authoritative, machine-readable version of these mappings lives in the codebase at
 > [`src/tools/extract_jesus_christ.py`](../src/tools/extract_jesus_christ.py)
-> (`_VOLUME_BOOKS`, reference→`(volume, book-code)`), with the Spanish book titles in
-> [`src/tools/fetch_scriptures.py`](../src/tools/fetch_scriptures.py) (`SPANISH_BOOKS`).
+> (`_VOLUME_BOOKS`: `volume_id -> [(church_code, json_slug)]`; `_URLVOL_TO_VOLUME`: `url_volume -> volume_id`),
+> with the Spanish book titles in [`src/tools/fetch_scriptures.py`](../src/tools/fetch_scriptures.py) (`SPANISH_BOOKS`).
 
 ## Gotchas
 
