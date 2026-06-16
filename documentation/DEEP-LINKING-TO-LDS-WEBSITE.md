@@ -164,6 +164,7 @@ def scripture_url(book, chapter, verse=None, lang="eng"):
 
     Raises:
         KeyError: if the book name is not recognized.
+        ValueError: if `verse` is an empty list/set or an invalid range tuple.
     """
     volume, code = BOOK_CODES[book.strip().lower()]
     url = f"{BASE}/{volume}/{code}/{chapter}?lang={lang}"
@@ -171,14 +172,19 @@ def scripture_url(book, chapter, verse=None, lang="eng"):
     if verse is None:
         return url
 
-    if isinstance(verse, tuple):           # range, e.g. (7, 8) -> p7-p8
-        ids = f"p{verse[0]}-p{verse[1]}"
-        anchor = f"p{verse[0]}"
-    elif isinstance(verse, (list, set)):   # discrete, e.g. [7, 9] -> p7,p9
+    if isinstance(verse, tuple):  # range, e.g. (7, 8) -> p7-p8
+        if len(verse) != 2:
+            raise ValueError("verse range must be a (start, end) tuple")
+        start, end = verse
+        ids = f"p{start}-p{end}"
+        anchor = f"p{start}"
+    elif isinstance(verse, (list, set)):  # discrete, e.g. [7, 9] -> p7,p9
         nums = sorted(verse)
+        if not nums:
+            raise ValueError("verse list must be non-empty")
         ids = ",".join(f"p{v}" for v in nums)
         anchor = f"p{nums[0]}"
-    else:                                  # single int
+    else:  # single int
         ids = anchor = f"p{verse}"
 
     return f"{url}&id={ids}#{anchor}"
